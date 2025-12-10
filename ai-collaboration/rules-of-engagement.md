@@ -6,6 +6,53 @@ This document establishes **rules and guidelines** for AI collaboration sessions
 
 ---
 
+## ⚠️ CRITICAL REQUIREMENT: No Company-Specific References
+
+### Public Repository Requirement
+
+**This repository is published publicly and must contain ZERO company-specific references. This is non-negotiable.**
+
+### Mandatory Requirements
+
+1. **NEVER include company names in any files**
+   - No company names in file contents
+   - No company names in file names
+   - No company names in commit messages
+   - No company names in documentation
+
+2. **Use generic placeholders instead**:
+   - Use `[CompanyName]` or generic terms like "company", "organization", "facility"
+   - Use `[YourCompany]` in templates and examples
+   - Use generic descriptions: "global chemical company", "multi-site organization"
+
+3. **Before committing ANY changes**:
+   - Run verification: `./tools/verify-no-company-refs.sh [CompanyName]`
+   - Check for company email domains
+   - Check for internal paths (OneDrive, company-specific directories)
+   - Verify no company identifiers in variable names, comments, or examples
+
+4. **AI MUST**:
+   - ✅ Use generic terminology in all documentation
+   - ✅ Replace any company names with placeholders before committing
+   - ✅ Run verification script before suggesting commits
+   - ✅ Never hardcode company names in scripts or templates
+   - ✅ Use configurable parameters instead of hardcoded values
+
+5. **AI MUST NOT**:
+   - ❌ Include company names in any file content
+   - ❌ Use company names in examples or templates
+   - ❌ Create files with company names in filenames
+   - ❌ Suggest commit messages with company names
+   - ❌ Include company-specific paths or identifiers
+
+### Verification Tools
+
+- **Before every commit**: Run `./tools/verify-no-company-refs.sh [CompanyName]`
+- **If company references found**: Replace with generic placeholders before committing
+- **History cleaning**: If company references exist in history, use `./tools/clean-git-history.sh [CompanyName]`
+
+---
+
 ## ⚠️ CRITICAL REQUIREMENT: Verified References
 
 ### License to Operate Impact
@@ -76,11 +123,15 @@ This document establishes **rules and guidelines** for AI collaboration sessions
 - ✅ Maintain document organization and structure
 - ✅ Follow established naming conventions
 - ✅ Reference related documents appropriately
+- ✅ **CRITICAL**: Verify no company-specific references before creating/updating files
+- ✅ **CRITICAL**: Use generic placeholders instead of company names
+- ✅ **CRITICAL**: Run verification script before suggesting file changes
 
 **User Should:**
 - ✅ Specify which documents to update
 - ✅ Indicate if new documents are needed
 - ✅ Review AI-suggested changes before accepting
+- ✅ Verify no company references before accepting changes
 
 ### 3. Research Approach
 
@@ -246,6 +297,15 @@ This document establishes **rules and guidelines** for AI collaboration sessions
 - Document corporate framework once
 - Reference in site-specific plans
 
+### 5. Generic Content Requirement
+
+- **CRITICAL**: All content must be generic and reusable
+- Never include company-specific names, paths, or identifiers
+- Use placeholders like `[CompanyName]`, `[YourCompany]`, `[Organization]`
+- Templates and examples must be generic
+- Scripts must accept company name as parameter, never hardcode
+- Documentation must use generic descriptions
+
 ---
 
 ## Session Workflow
@@ -268,8 +328,11 @@ This document establishes **rules and guidelines** for AI collaboration sessions
 
 1. AI documents key outcomes
 2. AI updates relevant documents
-3. User reviews and accepts changes
-4. User notes any follow-up items
+3. **CRITICAL**: AI verifies no company-specific references in all changes
+4. **CRITICAL**: AI runs verification script if files were created/modified
+5. User reviews and accepts changes
+6. User verifies no company references before committing
+7. User notes any follow-up items
 
 ---
 
@@ -290,6 +353,9 @@ This document establishes **rules and guidelines** for AI collaboration sessions
 - ✅ Comprehensive coverage
 - ✅ Actionable recommendations
 - ✅ Consistent formatting
+- ✅ **CRITICAL**: No company-specific references (use generic placeholders)
+- ✅ **CRITICAL**: Generic terminology throughout
+- ✅ **CRITICAL**: Verification script run before committing
 
 ### Implementation Quality
 
@@ -342,7 +408,8 @@ All documents containing recommendations must include:
 
 - **Initial Version**: [Current Date]
 - **Updated**: [Current Date] - Added critical verified references requirement
-- **Purpose**: Establish rules for effective AI collaboration with emphasis on verified references
+- **Updated**: [Current Date] - Added critical requirement: No company-specific references in repository
+- **Purpose**: Establish rules for effective AI collaboration with emphasis on verified references and generic content
 
 ---
 
