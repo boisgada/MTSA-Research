@@ -622,23 +622,39 @@ This guide provides comprehensive guidance on developing, implementing, and main
 
 ## 11. References
 
-### 11.1 MTSA Requirements
+### 11.1 Primary Regulatory Sources
 
-- **33 CFR Part 101**: MTSA Regulations
-- **Final Rule**: "Cybersecurity in the Marine Transportation System"
-- **Complete Implementation Guide**: Detailed requirements
+**MTSA Regulations:**
+- **33 CFR Part 101**: Maritime Transportation Security Act (MTSA) regulations
+  - Source: [eCFR 33 CFR Part 101](https://www.ecfr.gov/current/title-33/chapter-I/subchapter-H/part-101)
+  - Verification: Official Code of Federal Regulations
+  - Relevance: Defines training requirements for IT/OT personnel
 
-### 11.2 Training Resources
+- **Final Rule: "Cybersecurity in the Marine Transportation System"**
+  - Source: Federal Register, 89 FR 48016 (June 3, 2024)
+  - Verification: [Federal Register](https://www.federalregister.gov/documents/2024/06/03/2024-12019/cybersecurity-in-the-marine-transportation-system)
+  - Relevance: Establishes training deadline of January 12, 2026
 
-- **NIST Cybersecurity Framework**: Training alignment
-- **Industry Best Practices**: Training development
-- **Cross-Sector Alignment**: Training approaches
+### 11.2 Training Framework Sources
 
-### 11.3 Related Documents
+**Cybersecurity Frameworks:**
+- **NIST Cybersecurity Framework**: Framework for cybersecurity training alignment
+  - Source: [NIST CSF](https://www.nist.gov/cyberframework)
+  - Verification: NIST official framework
+  - Relevance: Training content alignment with cybersecurity best practices
 
-- **Complete Implementation Guide**: Training requirements
+- **CISA Training Resources**: Cybersecurity training guidance
+  - Source: [CISA Training](https://www.cisa.gov/resources-tools/training)
+  - Verification: Official CISA resources
+  - Relevance: Cybersecurity training best practices
+
+### 11.3 Related Project Documents
+
+**Internal References:**
+- **Complete Implementation Guide**: Detailed training requirements
 - **Common Pitfalls Guide**: Training mistakes to avoid
 - **Gap Analysis Framework**: Training gap identification
+- **Cross-Sector Alignment**: Training approaches from other sectors
 
 ---
 
@@ -659,5 +675,6 @@ This guide provides comprehensive guidance on developing, implementing, and main
 *This document is part of the MTSA Cybersecurity Compliance Research Repository.*
 *For complete MTSA requirements, see the Complete Implementation Guide.*
 *For common training pitfalls, see the Common Pitfalls Guide.*
+*For verified references, see VERIFIED_REFERENCES.md.*
 *Last Updated: [Current Date]*
 

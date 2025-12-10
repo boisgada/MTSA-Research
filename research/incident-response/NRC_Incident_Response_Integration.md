@@ -623,23 +623,45 @@ This guide provides comprehensive guidance on integrating MTSA cybersecurity inc
 
 ## 11. References and Resources
 
-### 11.1 NRC Resources
+### 11.1 Primary Regulatory Sources
 
-- **NRC Website**: Official NRC information
-- **NRC Contact**: 1-800-424-8802 (24/7)
-- **NRC Reporting Guidance**: Official reporting procedures
+**MTSA Regulations:**
+- **33 CFR Part 101**: Maritime Transportation Security Act (MTSA) regulations
+  - Source: [eCFR 33 CFR Part 101](https://www.ecfr.gov/current/title-33/chapter-I/subchapter-H/part-101)
+  - Verification: Official Code of Federal Regulations
+  - Relevance: Defines incident reporting requirements (Section 101.305)
 
-### 11.2 MTSA Resources
+- **Final Rule: "Cybersecurity in the Marine Transportation System"**
+  - Source: Federal Register, 89 FR 48016 (June 3, 2024)
+  - Verification: [Federal Register](https://www.federalregister.gov/documents/2024/06/03/2024-12019/cybersecurity-in-the-marine-transportation-system)
+  - Relevance: Establishes NRC reporting requirement effective July 16, 2025
 
-- **33 CFR Part 101**: MTSA Regulations
-- **Final Rule**: "Cybersecurity in the Marine Transportation System"
-- **Coast Guard Guidance**: Official Coast Guard resources
+**NRC Resources:**
+- **National Response Center (NRC)**: Federal point of contact for incident reporting
+  - Source: [NRC Website](https://www.nrc.uscg.mil/)
+  - Contact: 1-800-424-8802 (24/7) or 202-267-2675
+  - Verification: Official NRC contact information
+  - Relevance: Mandatory reporting channel for cybersecurity incidents
 
-### 11.3 Related Documents
+### 11.2 Supporting Frameworks
 
-- **Complete Implementation Guide**: MTSA requirements
-- **Critical Assets Research**: Critical asset identification
-- **Incident Response Best Practices**: Industry guidance
+**Incident Response Frameworks:**
+- **NIST Cybersecurity Framework**: Incident response guidance
+  - Source: [NIST CSF](https://www.nist.gov/cyberframework)
+  - Verification: NIST official framework
+  - Relevance: Best practices for incident response
+
+- **CISA Incident Response Resources**: Cybersecurity incident response guidance
+  - Source: [CISA Incident Response](https://www.cisa.gov/topics/incident-response)
+  - Verification: Official CISA resources
+  - Relevance: Incident response best practices
+
+### 11.3 Related Project Documents
+
+**Internal References:**
+- **Complete Implementation Guide**: MTSA incident reporting requirements
+- **Critical Assets Research**: Critical asset identification for incident assessment
+- **Coast Guard Engagement Guide**: Coast Guard coordination procedures
 
 ---
 
@@ -660,5 +682,6 @@ This guide provides comprehensive guidance on integrating MTSA cybersecurity inc
 *This document is part of the MTSA Cybersecurity Compliance Research Repository.*
 *For complete MTSA requirements, see the Complete Implementation Guide.*
 *For critical asset identification, see the Critical Assets Research.*
+*For verified references, see VERIFIED_REFERENCES.md.*
 *Last Updated: [Current Date]*
 

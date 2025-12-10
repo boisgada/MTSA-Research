@@ -461,18 +461,52 @@ MTSA Compliance Documentation/
 
 ## 11. References and Resources
 
-### 11.1 Related Documents
+### 11.1 Primary Regulatory Sources
 
-- **Coast Guard Engagement Guide**: Inspection preparation
-- **Complete Implementation Guide**: MTSA requirements
-- **Common Pitfalls Guide**: Mistakes to avoid
+**MTSA Regulations:**
+- **33 CFR Part 101**: Maritime Transportation Security Act (MTSA) regulations
+  - Source: [eCFR 33 CFR Part 101](https://www.ecfr.gov/current/title-33/chapter-I/subchapter-H/part-101)
+  - Verification: Official Code of Federal Regulations
+  - Relevance: Defines documentation and recordkeeping requirements
 
-### 11.2 Audit Resources
+- **Final Rule: "Cybersecurity in the Marine Transportation System"**
+  - Source: Federal Register, 89 FR 48016 (June 3, 2024)
+  - Verification: [Federal Register](https://www.federalregister.gov/documents/2024/06/03/2024-12019/cybersecurity-in-the-marine-transportation-system)
+  - Relevance: Establishes compliance requirements subject to Coast Guard inspection
 
-- Coast Guard inspection guidance
-- Industry best practices
-- Audit preparation resources
-- Documentation standards
+**Coast Guard Resources:**
+- **Coast Guard Inspection Guidance**: Official Coast Guard inspection procedures
+  - Source: Coast Guard District Offices and Sector Offices
+  - Verification: Official Coast Guard guidance
+  - Relevance: Inspection preparation and documentation requirements
+
+### 11.2 Audit Framework Sources
+
+**Audit Best Practices:**
+- **NIST Cybersecurity Framework**: Audit and assessment guidance
+  - Source: [NIST CSF](https://www.nist.gov/cyberframework)
+  - Verification: NIST official framework
+  - Relevance: Documentation and evidence best practices
+
+- **ISO/IEC 27001**: Information security audit practices
+  - Source: [ISO/IEC 27001](https://www.iso.org/standard/27001)
+  - Verification: ISO official standard
+  - Relevance: Audit documentation and evidence practices
+
+### 11.3 Related Project Documents
+
+**Internal References:**
+- **Coast Guard Engagement Guide**: Inspection preparation and procedures
+- **Complete Implementation Guide**: MTSA requirements and documentation needs
+- **Common Pitfalls Guide**: Documentation mistakes to avoid
+
+### 11.4 Audit Resources
+
+**Additional Resources:**
+- Coast Guard inspection guidance (from District/Sector Offices)
+- Industry best practices for compliance audits
+- Audit preparation resources from industry associations
+- Documentation standards from compliance frameworks
 
 ---
 
@@ -491,5 +525,6 @@ MTSA Compliance Documentation/
 *This document is part of the MTSA Cybersecurity Compliance Research Repository.*
 *For Coast Guard engagement strategies, see the Coast Guard Engagement Guide.*
 *For complete MTSA requirements, see the Complete Implementation Guide.*
+*For verified references, see VERIFIED_REFERENCES.md.*
 *Last Updated: [Current Date]*
 

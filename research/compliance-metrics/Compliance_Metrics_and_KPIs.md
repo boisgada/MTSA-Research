@@ -566,18 +566,46 @@ This guide provides frameworks for developing key performance indicators (KPIs) 
 
 ## 11. References
 
-### 11.1 Related Documents
+### 11.1 Primary Regulatory Sources
 
-- **Complete Implementation Guide**: MTSA requirements
-- **Gap Analysis Framework**: Gap identification
-- **Common Pitfalls Guide**: Mistakes to avoid
+**MTSA Regulations:**
+- **33 CFR Part 101**: Maritime Transportation Security Act (MTSA) regulations
+  - Source: [eCFR 33 CFR Part 101](https://www.ecfr.gov/current/title-33/chapter-I/subchapter-H/part-101)
+  - Verification: Official Code of Federal Regulations
+  - Relevance: Defines compliance requirements to be measured
 
-### 11.2 Metrics Resources
+- **Final Rule: "Cybersecurity in the Marine Transportation System"**
+  - Source: Federal Register, 89 FR 48016 (June 3, 2024)
+  - Verification: [Federal Register](https://www.federalregister.gov/documents/2024/06/03/2024-12019/cybersecurity-in-the-marine-transportation-system)
+  - Relevance: Establishes compliance requirements and deadlines
 
-- Industry benchmarks
-- Best practices
-- Framework guidance
-- Tool resources
+### 11.2 Metrics Framework Sources
+
+**Framework Guidance:**
+- **NIST Cybersecurity Framework**: Metrics and measurement guidance
+  - Source: [NIST CSF](https://www.nist.gov/cyberframework)
+  - Verification: NIST official framework
+  - Relevance: Cybersecurity metrics best practices
+
+- **CISA Metrics Resources**: Cybersecurity metrics and KPIs
+  - Source: [CISA](https://www.cisa.gov/)
+  - Verification: Official CISA resources
+  - Relevance: Compliance monitoring best practices
+
+### 11.3 Related Project Documents
+
+**Internal References:**
+- **Complete Implementation Guide**: MTSA requirements for metrics
+- **Gap Analysis Framework**: Gap identification and tracking
+- **Common Pitfalls Guide**: Metrics mistakes to avoid
+
+### 11.4 Metrics Resources
+
+**Additional Resources:**
+- Industry benchmarks (when available from industry associations)
+- Best practices from compliance management frameworks
+- Framework guidance from GRC platforms
+- Tool resources from compliance management vendors
 
 ---
 
@@ -595,5 +623,6 @@ This guide provides frameworks for developing key performance indicators (KPIs) 
 
 *This document is part of the MTSA Cybersecurity Compliance Research Repository.*
 *For complete MTSA requirements, see the Complete Implementation Guide.*
+*For verified references, see VERIFIED_REFERENCES.md.*
 *Last Updated: [Current Date]*
 

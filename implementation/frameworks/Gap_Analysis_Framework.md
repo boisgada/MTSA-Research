@@ -644,24 +644,56 @@ Risks and Mitigation:
 
 ## 10. Resources and References
 
-### 10.1 MTSA Requirements
+### 10.1 Primary Regulatory Sources
 
-- **Complete Implementation Guide**: Detailed MTSA requirements
-- **33 CFR Part 101**: MTSA Regulations
-- **Final Rule**: "Cybersecurity in the Marine Transportation System"
-- **NVIC 01-20**: Guidelines for Addressing Cyber Risks
+**MTSA Regulations:**
+- **33 CFR Part 101**: Maritime Transportation Security Act (MTSA) regulations
+  - Source: [eCFR 33 CFR Part 101](https://www.ecfr.gov/current/title-33/chapter-I/subchapter-H/part-101)
+  - Verification: Official Code of Federal Regulations
+  - Relevance: Defines MTSA requirements for gap analysis
+
+- **Final Rule: "Cybersecurity in the Marine Transportation System"**
+  - Source: Federal Register, 89 FR 48016 (June 3, 2024)
+  - Verification: [Federal Register](https://www.federalregister.gov/documents/2024/06/03/2024-12019/cybersecurity-in-the-marine-transportation-system)
+  - Relevance: Establishes cybersecurity requirements and deadlines
+
+- **NVIC 01-20**: Guidelines for Addressing Cyber Risks at MTSA-Regulated Facilities
+  - Source: U.S. Coast Guard Navigation and Vessel Inspection Circular
+  - Verification: Coast Guard official guidance
+  - Relevance: Provides guidance on implementing cybersecurity measures
 
 ### 10.2 Assessment Frameworks
 
-- **NIST Cybersecurity Framework**: Assessment framework
-- **ISO 27001**: Information security management
-- **CISA Resources**: Cybersecurity assessment tools
+**Cybersecurity Frameworks:**
+- **NIST Cybersecurity Framework (CSF)**: Assessment framework for cybersecurity
+  - Source: [NIST CSF](https://www.nist.gov/cyberframework)
+  - Verification: NIST official framework
+  - Relevance: Provides structured approach to cybersecurity assessment
 
-### 10.3 Related Documents
+- **ISO/IEC 27001**: Information security management system standard
+  - Source: [ISO/IEC 27001](https://www.iso.org/standard/27001)
+  - Verification: ISO official standard
+  - Relevance: Information security management framework
 
-- **Critical Asset Assessment Checklist**: Asset identification
-- **Common Pitfalls Guide**: Mistakes to avoid
-- **Coast Guard Engagement Guide**: Inspection preparation
+- **CISA Resources**: Cybersecurity assessment tools and guidance
+  - Source: [CISA](https://www.cisa.gov/)
+  - Verification: Official CISA resources
+  - Relevance: Cybersecurity assessment methodologies and tools
+
+### 10.3 Related Project Documents
+
+**Internal References:**
+- **Complete Implementation Guide**: Detailed MTSA requirements and implementation guidance
+- **Critical Asset Assessment Checklist**: Asset identification methodology
+- **Common Pitfalls Guide**: Mistakes to avoid in gap analysis
+- **Coast Guard Engagement Guide**: Inspection preparation and gap remediation
+
+### 10.4 Gap Analysis Methodology Sources
+
+**Methodology References:**
+- Gap analysis best practices from regulatory compliance frameworks
+- Industry standards for compliance gap identification
+- Project management methodologies for gap remediation
 
 ---
 
@@ -679,5 +711,6 @@ Risks and Mitigation:
 
 *This framework is part of the MTSA Cybersecurity Compliance Research Repository.*
 *For complete MTSA requirements, see the Complete Implementation Guide.*
+*For verified references, see VERIFIED_REFERENCES.md.*
 *Last Updated: [Current Date]*
 
