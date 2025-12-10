@@ -356,7 +356,7 @@ This document tracks research topics and tasks to enhance the MTSA compliance re
 ---
 
 #### 18. International Considerations
-**Status**: ⏳ Pending  
+**Status**: ✅ Complete  
 **Estimated Effort**: Medium  
 **Dependencies**: Foreign-located systems research
 
@@ -373,7 +373,7 @@ This document tracks research topics and tasks to enhance the MTSA compliance re
 ---
 
 #### 19. Integration with Other Regulations
-**Status**: ⏳ Pending  
+**Status**: ✅ Complete  
 **Estimated Effort**: Medium  
 **Dependencies**: ISO 27001 alignment guide
 
@@ -390,7 +390,7 @@ This document tracks research topics and tasks to enhance the MTSA compliance re
 ---
 
 #### 20. Small Facility Considerations
-**Status**: ⏳ Pending  
+**Status**: ✅ Complete  
 **Estimated Effort**: Medium  
 **Dependencies**: Implementation guide
 
