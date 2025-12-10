@@ -15,7 +15,22 @@
 
 ## Recommended Pre-Publish Checklist
 - Confirm `.gitignore` excludes the paths above.
+- **Run verification script**: `./verify-no-company-refs.sh` to check for company-specific references
 - Re-scan for any residual company identifiers before push: `rg "[CompanyName]" .` (replace with your company name)
 - Verify verified-reference links remain valid.
 - Add a license file appropriate for open sharing (e.g., MIT/Apache-2.0) if desired.
+
+## Verification Script
+
+A verification script (`verify-no-company-refs.sh`) is included to help ensure no company-specific references remain in tracked files. Run it before publishing:
+
+```bash
+./verify-no-company-refs.sh
+```
+
+The script checks:
+- Company name references in tracked files
+- Files with company name in filename
+- Company email domains
+- Internal path references (e.g., OneDrive paths)
 
