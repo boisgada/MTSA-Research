@@ -6,6 +6,18 @@ This document provides research findings on how to define critical assets under 
 
 ---
 
+## Table of Contents
+
+1. [Definition of Critical Assets Under MTSA](#1-definition-of-critical-assets-under-mtsa)
+2. [TSI Definition and Scope](#2-tsi-definition-and-scope)
+3. [Critical Asset Identification Process](#3-critical-asset-identification-process)
+4. [Network Segmentation and Scope Limitation](#4-network-segmentation-and-scope-limitation)
+5. [Foreign-Located Systems](#5-foreign-located-systems)
+6. [Assessment Criteria](#6-assessment-criteria)
+7. [References](#7-references)
+
+---
+
 ## 1. Definition of Critical Assets Under MTSA
 
 ### Regulatory Definition
