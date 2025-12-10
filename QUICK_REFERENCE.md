@@ -13,7 +13,9 @@
 - **TSI conflicts?** → `research/tsi-analysis/TSI_Transportation_Disruption_Analysis.md`
 - **Cross-sector alignment?** → `research/cross-sector-alignment.md` (sector groups and reusable practices)
 - **GitHub tools/resources?** → `research/github-resources.md` (open-source tools for MTSA compliance)
-- **Research queue/priorities?** → `research/RESEARCH_QUEUE.md` (prioritized research topics and roadmap)
+- **Research queue/priorities?** → `research/RESEARCH_QUEUE.md` (prioritized research topics - ✅ 100% complete)
+- **Industry-specific guidance?** → `research/industry-specific/Industry_Specific_Considerations.md`
+- **Advanced topics?** → `research/advanced-topics/Advanced_Topics.md`
 
 ### 🛠️ Implementation Guides
 - **All requirements?** → `implementation/guides/MTSA_Cyber_Requirements_Complete_Implementation_Guide.md`
