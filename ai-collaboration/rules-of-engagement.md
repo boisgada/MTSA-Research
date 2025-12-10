@@ -6,11 +6,13 @@ This document establishes **rules and guidelines** for AI collaboration sessions
 
 ---
 
-## ⚠️ CRITICAL REQUIREMENT: No Company-Specific References
+## ⚠️ CRITICAL REQUIREMENT: Generic Content Only
 
 ### Public Repository Requirement
 
-**This repository is published publicly and must contain ZERO company-specific references. This is non-negotiable.**
+**This repository is published publicly and must contain ZERO organization-specific references. This is non-negotiable.**
+
+**CRITICAL**: Never create scripts, documentation, or commit messages that document what was cleaned or removed. This creates the exact association we're trying to avoid.
 
 ### Mandatory Requirements
 
@@ -23,33 +25,29 @@ This document establishes **rules and guidelines** for AI collaboration sessions
 2. **Use generic placeholders instead**:
    - Use `[CompanyName]` or generic terms like "company", "organization", "facility"
    - Use `[YourCompany]` in templates and examples
-   - Use generic descriptions: "global chemical company", "multi-site organization"
+   - Use generic descriptions: "large organization", "multi-site organization"
 
 3. **Before committing ANY changes**:
-   - Run verification: `./tools/verify-no-company-refs.sh [CompanyName]`
-   - Check for company email domains
-   - Check for internal paths (OneDrive, company-specific directories)
-   - Verify no company identifiers in variable names, comments, or examples
+   - Verify content is generic and reusable
+   - Check for organization-specific email domains
+   - Check for internal paths (OneDrive, organization-specific directories)
+   - Verify no organization identifiers in variable names, comments, or examples
 
 4. **AI MUST**:
    - ✅ Use generic terminology in all documentation
-   - ✅ Replace any company names with placeholders before committing
-   - ✅ Run verification script before suggesting commits
-   - ✅ Never hardcode company names in scripts or templates
+   - ✅ Replace any organization names with placeholders before committing
+   - ✅ Verify content is generic before suggesting commits
+   - ✅ Never hardcode organization names in scripts or templates
    - ✅ Use configurable parameters instead of hardcoded values
+   - ✅ **CRITICAL**: Never create scripts or documentation that document what was cleaned or removed
 
 5. **AI MUST NOT**:
-   - ❌ Include company names in any file content
-   - ❌ Use company names in examples or templates
-   - ❌ Create files with company names in filenames
-   - ❌ Suggest commit messages with company names
-   - ❌ Include company-specific paths or identifiers
-
-### Verification Tools
-
-- **Before every commit**: Run `./tools/verify-no-company-refs.sh [CompanyName]`
-- **If company references found**: Replace with generic placeholders before committing
-- **History cleaning**: If company references exist in history, use `./tools/clean-git-history.sh [CompanyName]`
+   - ❌ Include organization names in any file content
+   - ❌ Use organization names in examples or templates
+   - ❌ Create files with organization names in filenames
+   - ❌ Suggest commit messages with organization names
+   - ❌ Include organization-specific paths or identifiers
+   - ❌ **CRITICAL**: Create cleanup scripts or documentation that document what was removed (this creates the association we're trying to avoid)
 
 ---
 
@@ -123,15 +121,15 @@ This document establishes **rules and guidelines** for AI collaboration sessions
 - ✅ Maintain document organization and structure
 - ✅ Follow established naming conventions
 - ✅ Reference related documents appropriately
-- ✅ **CRITICAL**: Verify no company-specific references before creating/updating files
-- ✅ **CRITICAL**: Use generic placeholders instead of company names
-- ✅ **CRITICAL**: Run verification script before suggesting file changes
+- ✅ **CRITICAL**: Verify content is generic before creating/updating files
+- ✅ **CRITICAL**: Use generic placeholders instead of organization names
+- ✅ **CRITICAL**: Never create scripts/documentation that document what was cleaned
 
 **User Should:**
 - ✅ Specify which documents to update
 - ✅ Indicate if new documents are needed
 - ✅ Review AI-suggested changes before accepting
-- ✅ Verify no company references before accepting changes
+- ✅ Verify content is generic before accepting changes
 
 ### 3. Research Approach
 
@@ -328,10 +326,10 @@ This document establishes **rules and guidelines** for AI collaboration sessions
 
 1. AI documents key outcomes
 2. AI updates relevant documents
-3. **CRITICAL**: AI verifies no company-specific references in all changes
-4. **CRITICAL**: AI runs verification script if files were created/modified
+3. **CRITICAL**: AI verifies all content is generic and reusable
+4. **CRITICAL**: AI ensures no cleanup documentation was created
 5. User reviews and accepts changes
-6. User verifies no company references before committing
+6. User verifies content is generic before committing
 7. User notes any follow-up items
 
 ---
@@ -353,9 +351,9 @@ This document establishes **rules and guidelines** for AI collaboration sessions
 - ✅ Comprehensive coverage
 - ✅ Actionable recommendations
 - ✅ Consistent formatting
-- ✅ **CRITICAL**: No company-specific references (use generic placeholders)
+- ✅ **CRITICAL**: All content is generic and reusable (use generic placeholders)
 - ✅ **CRITICAL**: Generic terminology throughout
-- ✅ **CRITICAL**: Verification script run before committing
+- ✅ **CRITICAL**: No cleanup documentation created
 
 ### Implementation Quality
 
@@ -408,7 +406,7 @@ All documents containing recommendations must include:
 
 - **Initial Version**: [Current Date]
 - **Updated**: [Current Date] - Added critical verified references requirement
-- **Updated**: [Current Date] - Added critical requirement: No company-specific references in repository
+- **Updated**: [Current Date] - Added critical requirement: Generic content only, no cleanup documentation
 - **Purpose**: Establish rules for effective AI collaboration with emphasis on verified references and generic content
 
 ---

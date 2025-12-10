@@ -38,10 +38,7 @@ MTSA/
 │   ├── README.md
 │   └── spreadsheets/          # Excel files and data
 ├── tools/                     # Repository maintenance tools
-│   ├── README.md
-│   ├── verify-no-company-refs.sh
-│   ├── clean-git-history.sh
-│   └── HISTORY_CLEANING.md
+│   └── README.md
 └── awesome-copilot/           # AI prompt library (external resource)
 ```
 
@@ -85,9 +82,7 @@ MTSA/
 
 ### Repository Maintenance Tools (`tools/`)
 
-- **Verification Script** (`tools/verify-no-company-refs.sh`): Verify repository is clean of company-specific references
-- **History Cleaning Script** (`tools/clean-git-history.sh`): Remove company references from git history
-- **History Cleaning Documentation** (`tools/HISTORY_CLEANING.md`): Guide for cleaning git history
+- **Tools** (`tools/`): Repository maintenance utilities
 
 ---
 

@@ -4,7 +4,7 @@
 - Primary assistant: `gpt-5-beast-mode` (tool-enabled, agentic) used for research, drafting, and document updates.
 - Activities: literature/regulatory scans, cross-sector benchmarking, verified reference curation, and markdown/document edits.
 - Sources: Public, authoritative references (e.g., USCG Final Rule, NVIC 01-20, CISA/NIST/ISA resources). Member-only sources are noted and not quoted beyond public summaries.
-- No proprietary company content remains; company-specific branding references were removed before publication.
+- No proprietary content remains; all content is generic and reusable.
 
 ## Do Not Publish (keep internal/private)
 - `ai-collaboration/chat_history_*` (session transcripts and internal notes)
@@ -15,34 +15,7 @@
 
 ## Recommended Pre-Publish Checklist
 - Confirm `.gitignore` excludes the paths above.
-- **Run verification script**: `./tools/verify-no-company-refs.sh [CompanyName]` to check for company-specific references
-- Re-scan for any residual company identifiers before push: `rg "[CompanyName]" .` (replace with your company name)
+- Verify all content is generic and reusable (no organization-specific references).
 - Verify verified-reference links remain valid.
 - Add a license file appropriate for open sharing (e.g., MIT/Apache-2.0) if desired.
-
-## Repository Maintenance Tools
-
-Utility scripts for maintaining repository cleanliness are located in the `tools/` folder:
-
-### Verification Script
-
-A verification script (`tools/verify-no-company-refs.sh`) is included to help ensure no company-specific references remain in tracked files. Run it before publishing:
-
-```bash
-./tools/verify-no-company-refs.sh [CompanyName]
-```
-
-The script checks:
-- Company name references in tracked files
-- Files with company name in filename
-- Company email domains
-- Internal path references (e.g., OneDrive paths)
-
-### History Cleaning Tools
-
-If you need to clean company references from git history, see:
-- `tools/clean-git-history.sh`: Script to rewrite git history
-- `tools/HISTORY_CLEANING.md`: Complete documentation and instructions
-
-See `tools/README.md` for complete documentation of all maintenance tools.
 

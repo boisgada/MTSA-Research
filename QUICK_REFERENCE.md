@@ -29,8 +29,6 @@
 - **Session notes?** → `ai-collaboration/session-notes-template.md`
 
 ### 🔧 Repository Tools
-- **Verify repository is clean?** → `tools/verify-no-company-refs.sh`
-- **Clean git history?** → `tools/clean-git-history.sh` + `tools/HISTORY_CLEANING.md`
 - **Tools documentation?** → `tools/README.md`
 
 ---
