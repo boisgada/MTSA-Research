@@ -2,3 +2,9 @@
 ai-collaboration/chat_history*
 awesome-copilot/
 
+# Exclude asset spreadsheets (use templates instead)
+assets/spreadsheets/*.xlsx
+
+# Exclude IDE/editor workspace files (user-specific)
+*.code-workspace
+

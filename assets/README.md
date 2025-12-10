@@ -18,20 +18,12 @@ assets/
 
 ## Contents
 
-### Spreadsheets
-- Asset inventory spreadsheets
-- Critical asset lists
-- Assessment data
-- Compliance tracking
+### Spreadsheet Templates
+- Critical asset inventory template structure
+- Assessment data templates
+- Compliance tracking templates
 
----
-
-## File Descriptions
-
-- **Critical_IT_System_Service_List_Combined.xlsx**: Original asset inventory attempt
-- **Critical_IT_System_Service_List_Combined_AI.xlsx**: AI-assisted asset inventory attempt
-
-**Note**: These spreadsheets represent early attempts at critical asset identification. Current approach uses research findings and assessment checklists.
+**Note**: Actual facility-specific spreadsheets are excluded from this repository for security and confidentiality reasons. See `spreadsheets/README.md` for template information.
 
 ---
 
