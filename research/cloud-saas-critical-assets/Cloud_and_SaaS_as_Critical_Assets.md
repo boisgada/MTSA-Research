@@ -465,19 +465,47 @@ This guide provides comprehensive guidance on assessing cloud and Software-as-a-
 
 ## 13. References
 
-### 13.1 Related Documents
+### 13.1 Primary Regulatory Sources
 
-- Critical Assets Research
-- Vendor Management Guide
-- Complete Implementation Guide
-- TSI Analysis Research
+**MTSA Regulations:**
+- **33 CFR Part 101**: Maritime Transportation Security Act (MTSA) regulations
+  - Source: [eCFR 33 CFR Part 101](https://www.ecfr.gov/current/title-33/chapter-I/subchapter-H/part-101)
+  - Verification: Official Code of Federal Regulations
+  - Relevance: Defines critical asset assessment criteria (TSI impact)
 
-### 13.2 Industry Resources
+- **Final Rule: "Cybersecurity in the Marine Transportation System"**
+  - Source: Federal Register, 89 FR 48016 (June 3, 2024)
+  - Verification: [Federal Register](https://www.federalregister.gov/documents/2024/06/03/2024-12019/cybersecurity-in-the-marine-transportation-system)
+  - Relevance: Establishes cybersecurity requirements for critical assets
 
-- Cloud security best practices
-- Shared responsibility models
-- Vendor assessment frameworks
-- Compliance guidance
+### 13.2 Framework Sources
+
+**Cloud Security Frameworks:**
+- **CISA Cloud Security Guidance**: Cloud security best practices
+  - Source: [CISA Cloud Security](https://www.cisa.gov/topics/cloud-security)
+  - Verification: Official CISA resources
+  - Relevance: Cloud security assessment and shared responsibility models
+
+- **NIST Cloud Computing Security**: Cloud security standards
+  - Source: [NIST Cloud Computing](https://www.nist.gov/programs-projects/nist-cloud-computing-program-nccp)
+  - Verification: NIST official resources
+  - Relevance: Cloud security frameworks and best practices
+
+### 13.3 Related Project Documents
+
+**Internal References:**
+- **Critical Assets Research**: Critical asset identification methodology
+- **Vendor Management Guide**: Vendor assessment for cloud/SaaS providers
+- **Complete Implementation Guide**: MTSA requirements for critical assets
+- **TSI Analysis Research**: TSI impact assessment guidance
+
+### 13.4 Industry Resources
+
+**Additional Resources:**
+- Cloud security best practices from industry associations
+- Shared responsibility models from cloud providers
+- Vendor assessment frameworks from industry standards
+- Compliance guidance for cloud deployments
 
 ---
 
@@ -498,5 +526,6 @@ This guide provides comprehensive guidance on assessing cloud and Software-as-a-
 *This document is part of the MTSA Cybersecurity Compliance Research Repository.*
 *For critical asset identification, see the Critical Assets Research.*
 *For vendor management, see the Vendor Management Guide.*
+*For verified references, see VERIFIED_REFERENCES.md.*
 *Last Updated: [Current Date]*
 

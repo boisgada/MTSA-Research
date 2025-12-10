@@ -235,19 +235,39 @@ This guide provides simplified, cost-effective approaches for small facilities t
 
 ## 9. References
 
-### 9.1 Related Documents
+### 9.1 Primary Regulatory Sources
 
-- Complete Implementation Guide
-- Cost/ROI Analysis
-- Gap Analysis Framework
-- Documentation Templates
+**MTSA Regulations:**
+- **33 CFR Part 101**: Maritime Transportation Security Act (MTSA) regulations
+  - Source: [eCFR 33 CFR Part 101](https://www.ecfr.gov/current/title-33/chapter-I/subchapter-H/part-101)
+  - Verification: Official Code of Federal Regulations
+  - Relevance: Defines MTSA requirements applicable to all facilities
 
-### 9.2 Resources
+- **Final Rule: "Cybersecurity in the Marine Transportation System"**
+  - Source: Federal Register, 89 FR 48016 (June 3, 2024)
+  - Verification: [Federal Register](https://www.federalregister.gov/documents/2024/06/03/2024-12019/cybersecurity-in-the-marine-transportation-system)
+  - Relevance: Establishes requirements for all facilities regardless of size
 
-- Small business cybersecurity resources
-- Free training materials
-- Government guidance
-- Industry resources
+- **Small Entity Compliance Guide**: Coast Guard guidance for small facilities
+  - Source: [USCG Small Entity Guide](https://www.uscg.mil/Portals/0/Images/cyber/Cyber%20Small%20Entity%20Guide_Facilites_CLEAN_15JAN2025.pdf)
+  - Verification: Official Coast Guard guidance
+  - Relevance: Simplified approaches for small facilities
+
+### 9.2 Related Project Documents
+
+**Internal References:**
+- **Complete Implementation Guide**: All MTSA requirements
+- **Cost/ROI Analysis**: Cost-effective approaches for small facilities
+- **Gap Analysis Framework**: Simplified gap analysis
+- **Documentation Templates**: Simplified templates
+
+### 9.3 Resources
+
+**Additional Resources:**
+- Small business cybersecurity resources from CISA and SBA
+- Free training materials from government sources
+- Government guidance from Coast Guard and CISA
+- Industry resources from industry associations
 
 ---
 
@@ -265,5 +285,6 @@ This guide provides simplified, cost-effective approaches for small facilities t
 
 *This document is part of the MTSA Cybersecurity Compliance Research Repository.*
 *For complete requirements, see the Complete Implementation Guide.*
+*For verified references, see VERIFIED_REFERENCES.md.*
 *Last Updated: [Current Date]*
 

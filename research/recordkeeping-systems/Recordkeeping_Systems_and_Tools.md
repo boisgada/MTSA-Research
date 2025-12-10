@@ -340,17 +340,32 @@ This guide provides comprehensive guidance on establishing recordkeeping systems
 
 ## 10. References
 
-### 10.1 Related Documents
+### 10.1 Primary Regulatory Sources
 
-- Complete Implementation Guide
-- Audit Preparation Guide
-- Common Pitfalls Guide
+**MTSA Regulations:**
+- **33 CFR Part 101**: Maritime Transportation Security Act (MTSA) regulations
+  - Source: [eCFR 33 CFR Part 101](https://www.ecfr.gov/current/title-33/chapter-I/subchapter-H/part-101)
+  - Verification: Official Code of Federal Regulations
+  - Relevance: Defines recordkeeping requirements
 
-### 10.2 Resources
+- **Final Rule: "Cybersecurity in the Marine Transportation System"**
+  - Source: Federal Register, 89 FR 48016 (June 3, 2024)
+  - Verification: [Federal Register](https://www.federalregister.gov/documents/2024/06/03/2024-12019/cybersecurity-in-the-marine-transportation-system)
+  - Relevance: Establishes recordkeeping requirements
 
-- Recordkeeping best practices
-- System selection guidance
-- Compliance frameworks
+### 10.2 Related Project Documents
+
+**Internal References:**
+- **Complete Implementation Guide**: Detailed recordkeeping requirements
+- **Audit Preparation Guide**: Record organization for audits
+- **Common Pitfalls Guide**: Recordkeeping mistakes to avoid
+
+### 10.3 Recordkeeping Resources
+
+**Additional Resources:**
+- Recordkeeping best practices from compliance frameworks
+- System selection guidance from industry best practices
+- Compliance frameworks from regulatory guidance
 
 ---
 
@@ -368,5 +383,6 @@ This guide provides comprehensive guidance on establishing recordkeeping systems
 
 *This document is part of the MTSA Cybersecurity Compliance Research Repository.*
 *For complete MTSA requirements, see the Complete Implementation Guide.*
+*For verified references, see VERIFIED_REFERENCES.md.*
 *Last Updated: [Current Date]*
 

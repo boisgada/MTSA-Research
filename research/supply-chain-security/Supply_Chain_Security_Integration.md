@@ -313,18 +313,46 @@ This guide provides comprehensive guidance on integrating supply chain cybersecu
 
 ## 10. References
 
-### 10.1 Related Documents
+### 10.1 Primary Regulatory Sources
 
-- Vendor Management Guide
-- Critical Assets Research
-- Complete Implementation Guide
-- Incident Response Guide
+**MTSA Regulations:**
+- **33 CFR Part 101**: Maritime Transportation Security Act (MTSA) regulations
+  - Source: [eCFR 33 CFR Part 101](https://www.ecfr.gov/current/title-33/chapter-I/subchapter-H/part-101)
+  - Verification: Official Code of Federal Regulations
+  - Relevance: Defines requirements for vendor systems as critical assets
 
-### 10.2 Industry Resources
+- **Final Rule: "Cybersecurity in the Marine Transportation System"**
+  - Source: Federal Register, 89 FR 48016 (June 3, 2024)
+  - Verification: [Federal Register](https://www.federalregister.gov/documents/2024/06/03/2024-12019/cybersecurity-in-the-marine-transportation-system)
+  - Relevance: Establishes cybersecurity requirements for supply chain
 
-- CISA Supply Chain Risk Management Guide
-- Industry best practices
-- Supply chain security frameworks
+### 10.2 Framework Sources
+
+**Supply Chain Security Frameworks:**
+- **CISA Supply Chain Risk Management Guide**: Supply chain security guidance
+  - Source: [CISA Supply Chain](https://www.cisa.gov/supply-chain-risk-management)
+  - Verification: Official CISA resources
+  - Relevance: Supply chain security best practices and frameworks
+
+- **NIST Cybersecurity Framework**: Supply chain risk management
+  - Source: [NIST CSF](https://www.nist.gov/cyberframework)
+  - Verification: NIST official framework
+  - Relevance: Supply chain cybersecurity guidance
+
+### 10.3 Related Project Documents
+
+**Internal References:**
+- **Vendor Management Guide**: Vendor assessment and management
+- **Critical Assets Research**: Critical asset identification for supply chain
+- **Complete Implementation Guide**: MTSA requirements for supply chain
+- **Incident Response Guide**: Supply chain incident response
+
+### 10.4 Industry Resources
+
+**Additional Resources:**
+- Industry best practices from supply chain security associations
+- Supply chain security frameworks from industry standards
+- Vendor assessment frameworks from industry best practices
 
 ---
 
@@ -343,5 +371,6 @@ This guide provides comprehensive guidance on integrating supply chain cybersecu
 *This document is part of the MTSA Cybersecurity Compliance Research Repository.*
 *For vendor management, see the Vendor Management Guide.*
 *For critical asset identification, see the Critical Assets Research.*
+*For verified references, see VERIFIED_REFERENCES.md.*
 *Last Updated: [Current Date]*
 

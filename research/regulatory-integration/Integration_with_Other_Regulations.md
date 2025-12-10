@@ -186,18 +186,51 @@ This guide provides strategies for integrating MTSA compliance with other regula
 
 ## 8. References
 
-### 8.1 Related Documents
+### 8.1 Primary Regulatory Sources
 
-- ISO 27001 Alignment Guide
-- Complete Implementation Guide
-- Corporate Framework Strategy
+**MTSA Regulations:**
+- **33 CFR Part 101**: Maritime Transportation Security Act (MTSA) regulations
+  - Source: [eCFR 33 CFR Part 101](https://www.ecfr.gov/current/title-33/chapter-I/subchapter-H/part-101)
+  - Verification: Official Code of Federal Regulations
+  - Relevance: MTSA requirements for integration
 
-### 8.2 Resources
+- **Final Rule: "Cybersecurity in the Marine Transportation System"**
+  - Source: Federal Register, 89 FR 48016 (June 3, 2024)
+  - Verification: [Federal Register](https://www.federalregister.gov/documents/2024/06/03/2024-12019/cybersecurity-in-the-marine-transportation-system)
+  - Relevance: Establishes MTSA cybersecurity requirements
 
-- NIST CSF resources
-- CMMC resources
-- ISO 27001 resources
-- Maritime regulations
+### 8.2 Framework Sources
+
+**Cybersecurity Frameworks:**
+- **NIST Cybersecurity Framework (CSF)**: Framework for cybersecurity
+  - Source: [NIST CSF](https://www.nist.gov/cyberframework)
+  - Verification: NIST official framework
+  - Relevance: Integration with MTSA requirements
+
+- **ISO/IEC 27001**: Information security management system
+  - Source: [ISO/IEC 27001](https://www.iso.org/standard/27001)
+  - Verification: ISO official standard
+  - Relevance: Integration with MTSA requirements
+
+- **CMMC (Cybersecurity Maturity Model Certification)**: DoD cybersecurity framework
+  - Source: [CMMC](https://www.cmmcab.org/)
+  - Verification: Official CMMC resources
+  - Relevance: Integration opportunities for DoD contractors
+
+### 8.3 Related Project Documents
+
+**Internal References:**
+- **ISO 27001 Alignment Guide**: Detailed ISO 27001 integration
+- **Complete Implementation Guide**: MTSA requirements for integration
+- **Corporate Framework Strategy**: Multi-framework integration approach
+
+### 8.4 Resources
+
+**Additional Resources:**
+- NIST CSF resources from NIST
+- CMMC resources from CMMC AB
+- ISO 27001 resources from ISO
+- Maritime regulations from Coast Guard and IMO
 
 ---
 
@@ -213,5 +246,6 @@ This guide provides strategies for integrating MTSA compliance with other regula
 
 *This document is part of the MTSA Cybersecurity Compliance Research Repository.*
 *For ISO 27001 alignment, see the ISO 27001 Alignment Guide.*
+*For verified references, see VERIFIED_REFERENCES.md.*
 *Last Updated: [Current Date]*
 

@@ -262,17 +262,37 @@ This guide provides best practices for developing and conducting effective cyber
 
 ## 10. References
 
-### 10.1 Related Documents
+### 10.1 Primary Regulatory Sources
 
-- Complete Implementation Guide
-- Cross-Sector Alignment Guide
-- Documentation Templates
+**MTSA Regulations:**
+- **33 CFR Part 101**: Maritime Transportation Security Act (MTSA) regulations
+  - Source: [eCFR 33 CFR Part 101](https://www.ecfr.gov/current/title-33/chapter-I/subchapter-H/part-101)
+  - Verification: Official Code of Federal Regulations
+  - Relevance: Defines drill and exercise requirements (2 drills + 1 exercise per year)
+
+- **Final Rule: "Cybersecurity in the Marine Transportation System"**
+  - Source: Federal Register, 89 FR 48016 (June 3, 2024)
+  - Verification: [Federal Register](https://www.federalregister.gov/documents/2024/06/03/2024-12019/cybersecurity-in-the-marine-transportation-system)
+  - Relevance: Establishes mandatory drill and exercise requirements
 
 ### 10.2 Industry Resources
 
-- MTS-ISAC best practices
-- Industry exercise models
-- Cross-sector resources
+**Industry Best Practices:**
+- **MTS-ISAC**: Maritime Transportation System Information Sharing and Analysis Center
+  - Source: [MTS-ISAC](https://www.mtsisac.org/)
+  - Verification: Official ISAC for maritime sector
+  - Relevance: Industry best practices and exercise scenarios
+
+- **Cross-Sector Alignment**: Best practices from other regulated sectors
+  - Source: Cross-sector alignment research document
+  - Relevance: Exercise models from aviation, rail, water sectors
+
+### 10.3 Related Project Documents
+
+**Internal References:**
+- **Complete Implementation Guide**: Detailed drill and exercise requirements
+- **Cross-Sector Alignment Guide**: Exercise models from other sectors
+- **Documentation Templates**: Drill and exercise documentation templates
 
 ---
 
@@ -288,5 +308,6 @@ This guide provides best practices for developing and conducting effective cyber
 
 *This document is part of the MTSA Cybersecurity Compliance Research Repository.*
 *For complete MTSA requirements, see the Complete Implementation Guide.*
+*For verified references, see VERIFIED_REFERENCES.md.*
 *Last Updated: [Current Date]*
 

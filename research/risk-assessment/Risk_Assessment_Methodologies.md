@@ -253,17 +253,44 @@ Risk = Likelihood × Impact
 
 ## 9. References
 
-### 9.1 Related Documents
+### 9.1 Primary Regulatory Sources
 
-- Critical Assets Research
-- Complete Implementation Guide
-- Gap Analysis Framework
+**MTSA Regulations:**
+- **33 CFR Part 101**: Maritime Transportation Security Act (MTSA) regulations
+  - Source: [eCFR 33 CFR Part 101](https://www.ecfr.gov/current/title-33/chapter-I/subchapter-H/part-101)
+  - Verification: Official Code of Federal Regulations
+  - Relevance: Defines TSI and risk assessment requirements
 
-### 9.2 Risk Frameworks
+- **Final Rule: "Cybersecurity in the Marine Transportation System"**
+  - Source: Federal Register, 89 FR 48016 (June 3, 2024)
+  - Verification: [Federal Register](https://www.federalregister.gov/documents/2024/06/03/2024-12019/cybersecurity-in-the-marine-transportation-system)
+  - Relevance: Establishes risk assessment requirements
 
-- ISO 27001
-- NIST Cybersecurity Framework
-- Industry best practices
+### 9.2 Risk Framework Sources
+
+**Risk Management Frameworks:**
+- **ISO/IEC 27001**: Information security risk management
+  - Source: [ISO/IEC 27001](https://www.iso.org/standard/27001)
+  - Verification: ISO official standard
+  - Relevance: Risk assessment methodology
+
+- **NIST Cybersecurity Framework**: Cybersecurity risk management
+  - Source: [NIST CSF](https://www.nist.gov/cyberframework)
+  - Verification: NIST official framework
+  - Relevance: Risk assessment and prioritization guidance
+
+- **NIST SP 800-30**: Guide for Conducting Risk Assessments
+  - Source: [NIST SP 800-30](https://csrc.nist.gov/publications/detail/sp/800-30/rev-1/final)
+  - Verification: NIST official publication
+  - Relevance: Risk assessment methodology
+
+### 9.3 Related Project Documents
+
+**Internal References:**
+- **Critical Assets Research**: Critical asset identification for risk assessment
+- **Complete Implementation Guide**: MTSA risk assessment requirements
+- **Gap Analysis Framework**: Risk-based gap prioritization
+- **TSI Analysis Research**: TSI impact assessment for risk evaluation
 
 ---
 
@@ -279,5 +306,6 @@ Risk = Likelihood × Impact
 
 *This document is part of the MTSA Cybersecurity Compliance Research Repository.*
 *For critical asset identification, see the Critical Assets Research.*
+*For verified references, see VERIFIED_REFERENCES.md.*
 *Last Updated: [Current Date]*
 

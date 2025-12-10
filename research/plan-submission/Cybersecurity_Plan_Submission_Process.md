@@ -338,17 +338,31 @@ This guide provides step-by-step procedures for submitting the Cybersecurity Pla
 
 ## 11. References
 
-### 11.1 Related Documents
+### 11.1 Primary Regulatory Sources
 
-- Coast Guard Engagement Guide
-- Complete Implementation Guide
-- Common Pitfalls Guide
+**MTSA Regulations:**
+- **33 CFR Part 101**: Maritime Transportation Security Act (MTSA) regulations
+  - Source: [eCFR 33 CFR Part 101](https://www.ecfr.gov/current/title-33/chapter-I/subchapter-H/part-101)
+  - Verification: Official Code of Federal Regulations
+  - Relevance: Defines Cybersecurity Plan submission requirements
 
-### 11.2 Regulatory Sources
+- **Final Rule: "Cybersecurity in the Marine Transportation System"**
+  - Source: Federal Register, 89 FR 48016 (June 3, 2024)
+  - Verification: [Federal Register](https://www.federalregister.gov/documents/2024/06/03/2024-12019/cybersecurity-in-the-marine-transportation-system)
+  - Relevance: Establishes submission deadline of July 16, 2027
 
-- 33 CFR Part 101
-- Coast Guard Final Rule
-- District Office guidance
+**Coast Guard Resources:**
+- **Coast Guard District Offices**: Submission procedures and contact information
+  - Source: [USCG District Directory](https://www.uscg.mil/About/Organization/)
+  - Verification: Official Coast Guard organizational structure
+  - Relevance: Plan submission procedures vary by District
+
+### 11.2 Related Project Documents
+
+**Internal References:**
+- **Coast Guard Engagement Guide**: Proactive engagement and submission preparation
+- **Complete Implementation Guide**: Detailed plan requirements
+- **Common Pitfalls Guide**: Submission mistakes to avoid
 
 ---
 
@@ -364,5 +378,6 @@ This guide provides step-by-step procedures for submitting the Cybersecurity Pla
 
 *This document is part of the MTSA Cybersecurity Compliance Research Repository.*
 *For Coast Guard engagement, see the Coast Guard Engagement Guide.*
+*For verified references, see VERIFIED_REFERENCES.md.*
 *Last Updated: [Current Date]*
 

@@ -347,18 +347,35 @@ This guide provides strategies and processes for monitoring regulatory changes, 
 
 ## 10. References
 
-### 10.1 Regulatory Sources
+### 10.1 Primary Regulatory Sources
 
-- Federal Register
-- Coast Guard website
-- NVIC publications
-- 33 CFR Part 101
+**Regulatory Monitoring Sources:**
+- **Federal Register**: Official publication of federal regulations
+  - Source: [Federal Register](https://www.federalregister.gov/)
+  - Verification: Official federal publication
+  - Relevance: Monitor for MTSA regulatory changes
 
-### 10.2 Related Documents
+- **33 CFR Part 101**: Maritime Transportation Security Act (MTSA) regulations
+  - Source: [eCFR 33 CFR Part 101](https://www.ecfr.gov/current/title-33/chapter-I/subchapter-H/part-101)
+  - Verification: Official Code of Federal Regulations
+  - Relevance: Current MTSA regulations
 
-- Complete Implementation Guide
-- Coast Guard Engagement Guide
-- Common Pitfalls Guide
+- **Coast Guard Website**: Official Coast Guard resources and updates
+  - Source: [USCG](https://www.uscg.mil/)
+  - Verification: Official Coast Guard website
+  - Relevance: Coast Guard guidance and updates
+
+- **NVIC Publications**: Navigation and Vessel Inspection Circulars
+  - Source: Coast Guard NVIC publications
+  - Verification: Official Coast Guard guidance
+  - Relevance: Coast Guard implementation guidance
+
+### 10.2 Related Project Documents
+
+**Internal References:**
+- **Complete Implementation Guide**: MTSA requirements subject to change
+- **Coast Guard Engagement Guide**: Coast Guard communication for changes
+- **Common Pitfalls Guide**: Change management mistakes to avoid
 
 ---
 
@@ -373,5 +390,6 @@ This guide provides strategies and processes for monitoring regulatory changes, 
 ---
 
 *This document is part of the MTSA Cybersecurity Compliance Research Repository.*
+*For verified references, see VERIFIED_REFERENCES.md.*
 *Last Updated: [Current Date]*
 

@@ -345,17 +345,32 @@ This guide provides frameworks and templates for developing business cases to se
 
 ## 10. References
 
-### 10.1 Related Documents
+### 10.1 Primary Regulatory Sources
 
-- Cost/ROI Analysis Guide
-- Corporate Framework Strategy
-- Complete Implementation Guide
+**MTSA Regulations:**
+- **33 CFR Part 101**: Maritime Transportation Security Act (MTSA) regulations
+  - Source: [eCFR 33 CFR Part 101](https://www.ecfr.gov/current/title-33/chapter-I/subchapter-H/part-101)
+  - Verification: Official Code of Federal Regulations
+  - Relevance: Defines mandatory compliance requirements
 
-### 10.2 Resources
+- **Final Rule: "Cybersecurity in the Marine Transportation System"**
+  - Source: Federal Register, 89 FR 48016 (June 3, 2024)
+  - Verification: [Federal Register](https://www.federalregister.gov/documents/2024/06/03/2024-12019/cybersecurity-in-the-marine-transportation-system)
+  - Relevance: Establishes mandatory deadlines and enforcement risk
 
-- Business case frameworks
-- Presentation best practices
-- ROI calculation tools
+### 10.2 Related Project Documents
+
+**Internal References:**
+- **Cost/ROI Analysis Guide**: Cost estimates and ROI calculations
+- **Corporate Framework Strategy**: Multi-site efficiency and cost savings
+- **Complete Implementation Guide**: Requirements affecting investment
+
+### 10.3 Business Case Resources
+
+**Additional Resources:**
+- Business case frameworks from project management standards
+- Presentation best practices from business communication
+- ROI calculation tools from financial analysis frameworks
 
 ---
 
@@ -371,5 +386,6 @@ This guide provides frameworks and templates for developing business cases to se
 
 *This document is part of the MTSA Cybersecurity Compliance Research Repository.*
 *For cost analysis, see the Cost/ROI Analysis Guide.*
+*For verified references, see VERIFIED_REFERENCES.md.*
 *Last Updated: [Current Date]*
 

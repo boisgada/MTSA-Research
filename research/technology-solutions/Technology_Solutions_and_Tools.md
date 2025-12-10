@@ -415,19 +415,51 @@ This guide provides evaluation frameworks and recommendations for selecting tech
 
 ## 10. References and Resources
 
-### 10.1 Related Documents
+### 10.1 Primary Regulatory Sources
 
-- Complete Implementation Guide
-- Critical Assets Research
-- Vendor Management Guide
-- GitHub Resources
+**MTSA Regulations:**
+- **33 CFR Part 101**: Maritime Transportation Security Act (MTSA) regulations
+  - Source: [eCFR 33 CFR Part 101](https://www.ecfr.gov/current/title-33/chapter-I/subchapter-H/part-101)
+  - Verification: Official Code of Federal Regulations
+  - Relevance: Defines technical cybersecurity measure requirements
 
-### 10.2 Industry Resources
+- **Final Rule: "Cybersecurity in the Marine Transportation System"**
+  - Source: Federal Register, 89 FR 48016 (June 3, 2024)
+  - Verification: [Federal Register](https://www.federalregister.gov/documents/2024/06/03/2024-12019/cybersecurity-in-the-marine-transportation-system)
+  - Relevance: Establishes technical cybersecurity requirements
 
-- NIST Cybersecurity Framework
-- CISA resources
-- Industry best practices
-- Tool vendor resources
+### 10.2 Framework Sources
+
+**Cybersecurity Frameworks:**
+- **NIST Cybersecurity Framework**: Framework for cybersecurity tool selection
+  - Source: [NIST CSF](https://www.nist.gov/cyberframework)
+  - Verification: NIST official framework
+  - Relevance: Tool selection and implementation guidance
+
+- **CISA Resources**: Cybersecurity tools and resources
+  - Source: [CISA](https://www.cisa.gov/)
+  - Verification: Official CISA resources
+  - Relevance: Security tool recommendations and best practices
+
+- **ISA/IEC 62443**: Industrial automation and control systems security
+  - Source: [ISA/IEC 62443](https://www.isa.org/standards-and-publications/isa-standards/isa-iec-62443-series-of-standards)
+  - Verification: ISA/IEC official standards
+  - Relevance: OT/ICS security tool standards
+
+### 10.3 Related Project Documents
+
+**Internal References:**
+- **Complete Implementation Guide**: Technical requirements for tool selection
+- **Critical Assets Research**: Asset identification for tool requirements
+- **Vendor Management Guide**: Vendor tool evaluation
+- **GitHub Resources**: Open-source tool options
+
+### 10.4 Industry Resources
+
+**Additional Resources:**
+- Industry best practices for tool selection
+- Tool vendor resources and evaluations
+- OT/ICS security tool guidance from industry associations
 
 ---
 
@@ -446,5 +478,6 @@ This guide provides evaluation frameworks and recommendations for selecting tech
 *This document is part of the MTSA Cybersecurity Compliance Research Repository.*
 *For complete MTSA requirements, see the Complete Implementation Guide.*
 *For open-source tools, see the GitHub Resources guide.*
+*For verified references, see VERIFIED_REFERENCES.md.*
 *Last Updated: [Current Date]*
 

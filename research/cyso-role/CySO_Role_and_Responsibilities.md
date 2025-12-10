@@ -310,17 +310,25 @@ This guide provides comprehensive guidance on the Cybersecurity Officer (CySO) r
 
 ## 10. References
 
-### 10.1 Related Documents
+### 10.1 Primary Regulatory Sources
 
-- Complete Implementation Guide
-- Coast Guard Engagement Guide
-- Training Program Development Guide
+**MTSA Regulations:**
+- **33 CFR Part 101**: Maritime Transportation Security Act (MTSA) regulations
+  - Source: [eCFR 33 CFR Part 101](https://www.ecfr.gov/current/title-33/chapter-I/subchapter-H/part-101)
+  - Verification: Official Code of Federal Regulations
+  - Relevance: Defines CySO designation requirement
 
-### 10.2 Regulatory Sources
+- **Final Rule: "Cybersecurity in the Marine Transportation System"**
+  - Source: Federal Register, 89 FR 48016 (June 3, 2024)
+  - Verification: [Federal Register](https://www.federalregister.gov/documents/2024/06/03/2024-12019/cybersecurity-in-the-marine-transportation-system)
+  - Relevance: Establishes CySO designation deadline of July 16, 2027
 
-- 33 CFR Part 101
-- Coast Guard Final Rule
-- Coast Guard guidance
+### 10.2 Related Project Documents
+
+**Internal References:**
+- **Complete Implementation Guide**: Detailed CySO requirements
+- **Coast Guard Engagement Guide**: Coast Guard coordination responsibilities
+- **Training Program Development Guide**: CySO training requirements
 
 ---
 
@@ -336,5 +344,6 @@ This guide provides comprehensive guidance on the Cybersecurity Officer (CySO) r
 
 *This document is part of the MTSA Cybersecurity Compliance Research Repository.*
 *For complete MTSA requirements, see the Complete Implementation Guide.*
+*For verified references, see VERIFIED_REFERENCES.md.*
 *Last Updated: [Current Date]*
 

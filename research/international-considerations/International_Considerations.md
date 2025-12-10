@@ -158,18 +158,45 @@ This guide addresses international considerations for MTSA compliance, including
 
 ## 7. References
 
-### 7.1 Related Documents
+### 7.1 Primary Regulatory Sources
 
-- Critical Assets Research
-- Foreign-Located Systems Research
-- Vendor Management Guide
-- Complete Implementation Guide
+**MTSA Regulations:**
+- **33 CFR Part 101**: Maritime Transportation Security Act (MTSA) regulations
+  - Source: [eCFR 33 CFR Part 101](https://www.ecfr.gov/current/title-33/chapter-I/subchapter-H/part-101)
+  - Verification: Official Code of Federal Regulations
+  - Relevance: Defines critical asset assessment based on impact, not location
 
-### 7.2 Resources
+- **Final Rule: "Cybersecurity in the Marine Transportation System"**
+  - Source: Federal Register, 89 FR 48016 (June 3, 2024)
+  - Verification: [Federal Register](https://www.federalregister.gov/documents/2024/06/03/2024-12019/cybersecurity-in-the-marine-transportation-system)
+  - Relevance: Establishes requirements for systems affecting U.S. maritime operations
 
-- International maritime regulations
-- Data protection regulations
-- Cross-border coordination guidance
+### 7.2 International Regulatory Sources
+
+**International Regulations:**
+- **IMO Guidelines**: International Maritime Organization cybersecurity guidelines
+  - Source: [IMO](https://www.imo.org/)
+  - Verification: IMO official resources
+  - Relevance: International maritime cybersecurity standards
+
+- **Data Protection Regulations**: GDPR, national data protection laws
+  - Source: Applicable national and regional regulations
+  - Verification: Official regulatory sources
+  - Relevance: Cross-border data transfer considerations
+
+### 7.3 Related Project Documents
+
+**Internal References:**
+- **Critical Assets Research**: Foreign-located systems assessment
+- **Vendor Management Guide**: International vendor management
+- **Complete Implementation Guide**: MTSA requirements for international systems
+
+### 7.4 Resources
+
+**Additional Resources:**
+- International maritime regulations from IMO and national authorities
+- Data protection regulations from applicable jurisdictions
+- Cross-border coordination guidance from industry associations
 
 ---
 
@@ -185,5 +212,6 @@ This guide addresses international considerations for MTSA compliance, including
 
 *This document is part of the MTSA Cybersecurity Compliance Research Repository.*
 *For foreign-located systems, see the Critical Assets Research.*
+*For verified references, see VERIFIED_REFERENCES.md.*
 *Last Updated: [Current Date]*
 

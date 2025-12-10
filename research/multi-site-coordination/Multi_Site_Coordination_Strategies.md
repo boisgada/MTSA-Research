@@ -336,18 +336,33 @@ This guide provides strategies for coordinating MTSA cybersecurity compliance ac
 
 ## 10. References
 
-### 10.1 Related Documents
+### 10.1 Primary Regulatory Sources
 
-- Corporate Framework Strategy
-- Complete Implementation Guide
-- Gap Analysis Framework
-- Cost/ROI Analysis
+**MTSA Regulations:**
+- **33 CFR Part 101**: Maritime Transportation Security Act (MTSA) regulations
+  - Source: [eCFR 33 CFR Part 101](https://www.ecfr.gov/current/title-33/chapter-I/subchapter-H/part-101)
+  - Verification: Official Code of Federal Regulations
+  - Relevance: Defines MTSA requirements applicable to all facilities
 
-### 10.2 Resources
+- **Final Rule: "Cybersecurity in the Marine Transportation System"**
+  - Source: Federal Register, 89 FR 48016 (June 3, 2024)
+  - Verification: [Federal Register](https://www.federalregister.gov/documents/2024/06/03/2024-12019/cybersecurity-in-the-marine-transportation-system)
+  - Relevance: Establishes requirements for multi-site organizations
 
-- Multi-site management best practices
-- Coordination frameworks
-- Communication protocols
+### 10.2 Related Project Documents
+
+**Internal References:**
+- **Corporate Framework Strategy**: Multi-site efficiency approach
+- **Complete Implementation Guide**: MTSA requirements for coordination
+- **Gap Analysis Framework**: Gap identification across sites
+- **Cost/ROI Analysis**: Multi-site cost optimization
+
+### 10.3 Management Resources
+
+**Additional Resources:**
+- Multi-site management best practices from project management frameworks
+- Coordination frameworks from organizational management
+- Communication protocols from best practices
 
 ---
 
@@ -365,5 +380,6 @@ This guide provides strategies for coordinating MTSA cybersecurity compliance ac
 
 *This document is part of the MTSA Cybersecurity Compliance Research Repository.*
 *For corporate framework approach, see the Corporate Framework Strategy.*
+*For verified references, see VERIFIED_REFERENCES.md.*
 *Last Updated: [Current Date]*
 
