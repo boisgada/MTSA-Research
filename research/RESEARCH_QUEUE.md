@@ -162,7 +162,7 @@ This document tracks research topics and tasks to enhance the MTSA compliance re
 ---
 
 #### 8. Metrics, KPIs, and Compliance Monitoring
-**Status**: ⏳ Pending  
+**Status**: ✅ Complete  
 **Estimated Effort**: Medium  
 **Dependencies**: Implementation guide (for requirements understanding)
 
@@ -181,7 +181,7 @@ This document tracks research topics and tasks to enhance the MTSA compliance re
 ---
 
 #### 9. Audit Preparation and Documentation
-**Status**: ⏳ Pending  
+**Status**: ✅ Complete  
 **Estimated Effort**: Medium  
 **Dependencies**: Coast Guard engagement research
 
