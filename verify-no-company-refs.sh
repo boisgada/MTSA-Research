@@ -1,46 +1,55 @@
 #!/bin/bash
 # Verification script to check for company-specific references in repository
 # Run this before publishing to ensure no sensitive company information is included
+#
+# Usage: ./verify-no-company-refs.sh [CompanyName]
+#        If CompanyName is not provided, script will prompt or use default patterns
 
 set -e
+
+# Get company name from argument or use placeholder
+COMPANY_NAME="${1:-[CompanyName]}"
+COMPANY_NAME_UPPER=$(echo "$COMPANY_NAME" | tr '[:lower:]' '[:upper:]')
+COMPANY_NAME_LOWER=$(echo "$COMPANY_NAME" | tr '[:upper:]' '[:lower:]')
 
 echo "=========================================="
 echo "Company Reference Verification Script"
 echo "=========================================="
+echo "Checking for: $COMPANY_NAME"
 echo ""
 
-# Check for [CompanyName] references in tracked files
-echo "1. Checking tracked files for '[CompanyName]' (case-insensitive)..."
-[CompanyName]_IN_FILES=$(git ls-files | xargs grep -i "[CompanyName]" 2>/dev/null | grep -v "^Binary" || true)
-if [ -z "$[CompanyName]_IN_FILES" ]; then
-    echo "   ✓ No [CompanyName] references found in tracked files"
+# Check for company name references in tracked files
+echo "1. Checking tracked files for '$COMPANY_NAME' (case-insensitive)..."
+COMPANY_IN_FILES=$(git ls-files | xargs grep -i "$COMPANY_NAME_LOWER" 2>/dev/null | grep -v "^Binary" || true)
+if [ -z "$COMPANY_IN_FILES" ]; then
+    echo "   ✓ No $COMPANY_NAME references found in tracked files"
 else
-    echo "   ✗ [CompanyName] references found:"
-    echo "$[CompanyName]_IN_FILES"
+    echo "   ✗ $COMPANY_NAME references found:"
+    echo "$COMPANY_IN_FILES"
     exit 1
 fi
 
-# Check git history for [CompanyName] in file contents (not commit messages)
+# Check git history for company name in file contents (not commit messages)
 echo ""
-echo "2. Checking git history for [CompanyName] in file contents..."
-[CompanyName]_IN_HISTORY=$(git log -p --all -S "[CompanyName]" --source --full-history 2>/dev/null | grep -E "^\+.*[CompanyName]|^\-.*[CompanyName]" | grep -v "^+++\|^---" || true)
-if [ -z "$[CompanyName]_IN_HISTORY" ]; then
-    echo "   ✓ No [CompanyName] in file contents in git history"
+echo "2. Checking git history for $COMPANY_NAME in file contents..."
+COMPANY_IN_HISTORY=$(git log -p --all -S "$COMPANY_NAME_UPPER" --source --full-history 2>/dev/null | grep -E "^\+.*$COMPANY_NAME_UPPER|^\-.*$COMPANY_NAME_UPPER" | grep -v "^+++\|^---" || true)
+if [ -z "$COMPANY_IN_HISTORY" ]; then
+    echo "   ✓ No $COMPANY_NAME in file contents in git history"
 else
-    echo "   ⚠ [CompanyName] found in git history (may be in old commits):"
-    echo "$[CompanyName]_IN_HISTORY" | head -5
-    echo "   (This is normal if you've removed [CompanyName] references in recent commits)"
+    echo "   ⚠ $COMPANY_NAME found in git history (may be in old commits):"
+    echo "$COMPANY_IN_HISTORY" | head -5
+    echo "   (This is normal if you've removed company references in recent commits)"
 fi
 
-# Check for files with [CompanyName] in name
+# Check for files with company name in name
 echo ""
-echo "3. Checking for files with [CompanyName] in name..."
-[CompanyName]_FILES=$(find . -type f \( -iname "*[CompanyName]*" \) 2>/dev/null | grep -v ".git" | grep -v "chat_history" || true)
-if [ -z "$[CompanyName]_FILES" ]; then
-    echo "   ✓ No files with [CompanyName] in name"
+echo "3. Checking for files with $COMPANY_NAME in name..."
+COMPANY_FILES=$(find . -type f \( -iname "*${COMPANY_NAME_LOWER}*" \) 2>/dev/null | grep -v ".git" | grep -v "chat_history" || true)
+if [ -z "$COMPANY_FILES" ]; then
+    echo "   ✓ No files with $COMPANY_NAME in name"
 else
-    echo "   ✗ Files with [CompanyName] in name found:"
-    echo "$[CompanyName]_FILES"
+    echo "   ✗ Files with $COMPANY_NAME in name found:"
+    echo "$COMPANY_FILES"
     exit 1
 fi
 
@@ -50,7 +59,8 @@ echo "4. Checking for other company identifier patterns..."
 echo "   (Email domains, internal paths, etc.)"
 
 # Check for company email domains (adjust pattern as needed)
-COMPANY_EMAILS=$(git ls-files | xargs grep -iE "@[CompanyName]\.|@.*[CompanyName]" 2>/dev/null || true)
+# Replace [CompanyName] with actual company name when using
+COMPANY_EMAILS=$(git ls-files | xargs grep -iE "@${COMPANY_NAME_LOWER}\.|@.*${COMPANY_NAME_LOWER}" 2>/dev/null || true)
 if [ -z "$COMPANY_EMAILS" ]; then
     echo "   ✓ No company email domains found"
 else
@@ -78,5 +88,8 @@ echo "✓ Repository appears clean of company-specific references"
 echo ""
 echo "Note: This script checks tracked files only."
 echo "      Files in .gitignore are excluded by design."
+echo ""
+echo "Usage: Run with company name as argument:"
+echo "       ./verify-no-company-refs.sh [YourCompanyName]"
 echo ""
 
