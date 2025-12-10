@@ -4,7 +4,7 @@
 - Primary assistant: `gpt-5-beast-mode` (tool-enabled, agentic) used for research, drafting, and document updates.
 - Activities: literature/regulatory scans, cross-sector benchmarking, verified reference curation, and markdown/document edits.
 - Sources: Public, authoritative references (e.g., USCG Final Rule, NVIC 01-20, CISA/NIST/ISA resources). Member-only sources are noted and not quoted beyond public summaries.
-- No proprietary [CompanyName] content remains; branding references were removed before publication.
+- No proprietary company content remains; company-specific branding references were removed before publication.
 
 ## Do Not Publish (keep internal/private)
 - `ai-collaboration/chat_history_*` (session transcripts and internal notes)
@@ -15,7 +15,7 @@
 
 ## Recommended Pre-Publish Checklist
 - Confirm `.gitignore` excludes the paths above.
-- Re-scan for any residual company identifiers before push: `rg "[CompanyName]" .`
+- Re-scan for any residual company identifiers before push: `rg "[CompanyName]" .` (replace with your company name)
 - Verify verified-reference links remain valid.
 - Add a license file appropriate for open sharing (e.g., MIT/Apache-2.0) if desired.
 
