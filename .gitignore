@@ -8,3 +8,6 @@ assets/spreadsheets/*.xlsx
 # Exclude IDE/editor workspace files (user-specific)
 *.code-workspace
 
+# Exclude repository maintenance tools (local use only)
+tools/
+
