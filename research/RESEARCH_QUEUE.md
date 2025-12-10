@@ -276,7 +276,7 @@ This document tracks research topics and tasks to enhance the MTSA compliance re
 ---
 
 #### 14. Risk Assessment Methodologies
-**Status**: ⏳ Pending  
+**Status**: ✅ Complete  
 **Estimated Effort**: Medium  
 **Dependencies**: Critical assets research, TSI analysis
 
@@ -294,7 +294,7 @@ This document tracks research topics and tasks to enhance the MTSA compliance re
 ---
 
 #### 15. Documentation Templates and Examples
-**Status**: ⏳ Pending  
+**Status**: ✅ Complete  
 **Estimated Effort**: Medium  
 **Dependencies**: Implementation guide (for requirements)
 
