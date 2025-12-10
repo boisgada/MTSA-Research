@@ -359,5 +359,5 @@ This document maps every recommendation in the MTSA project to its verified sour
 
 *This document must be maintained and updated as new recommendations are made or sources are verified.*
 
-*Last Updated: December 2024*
+*Last Updated: December 2025*
 

@@ -427,10 +427,10 @@ Resources Required:
 - [Resource type]: [Amount/Description]
 
 Timeline:
-- Start Date: December 2024
-- Milestone 1: December 2024 - [Description]
-- Milestone 2: December 2024 - [Description]
-- Completion Date: December 2024
+- Start Date: December 2025
+- Milestone 1: December 2025 - [Description]
+- Milestone 2: December 2025 - [Description]
+- Completion Date: December 2025
 
 Success Criteria:
 - [ ] [Measurable criterion]
@@ -716,5 +716,5 @@ Risks and Mitigation:
 *This framework is part of the MTSA Cybersecurity Compliance Research Repository.*
 *For complete MTSA requirements, see the Complete Implementation Guide.*
 *For verified references, see VERIFIED_REFERENCES.md.*
-*Last Updated: December 2024*
+*Last Updated: December 2025*
 

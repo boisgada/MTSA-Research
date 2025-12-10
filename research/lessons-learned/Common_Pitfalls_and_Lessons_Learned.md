@@ -992,5 +992,5 @@ This document identifies common mistakes, pitfalls, and anti-patterns encountere
 *For complete MTSA requirements, see the Complete Implementation Guide.*
 *For Coast Guard engagement strategies, see the Coast Guard Engagement Guide.*
 *For verified references, see VERIFIED_REFERENCES.md.*
-*Last Updated: December 2024*
+*Last Updated: December 2025*
 

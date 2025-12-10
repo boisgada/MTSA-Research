@@ -267,5 +267,5 @@ This document identifies problem areas, gaps, and future research topics identif
 
 *This document is part of the MTSA Cybersecurity Compliance Research Repository.*
 *For research queue, see RESEARCH_QUEUE.md.*
-*Last Updated: December 2024*
+*Last Updated: December 2025*
 

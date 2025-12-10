@@ -383,5 +383,5 @@ This guide provides step-by-step procedures for submitting the Cybersecurity Pla
 *This document is part of the MTSA Cybersecurity Compliance Research Repository.*
 *For Coast Guard engagement, see the Coast Guard Engagement Guide.*
 *For verified references, see VERIFIED_REFERENCES.md.*
-*Last Updated: December 2024*
+*Last Updated: December 2025*
 

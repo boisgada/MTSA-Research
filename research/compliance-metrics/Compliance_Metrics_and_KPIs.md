@@ -628,5 +628,5 @@ This guide provides frameworks for developing key performance indicators (KPIs) 
 *This document is part of the MTSA Cybersecurity Compliance Research Repository.*
 *For complete MTSA requirements, see the Complete Implementation Guide.*
 *For verified references, see VERIFIED_REFERENCES.md.*
-*Last Updated: December 2024*
+*Last Updated: December 2025*
 

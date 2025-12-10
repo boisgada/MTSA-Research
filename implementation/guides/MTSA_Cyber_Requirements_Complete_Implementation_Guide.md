@@ -1386,6 +1386,6 @@ This comprehensive guide documents all MTSA cybersecurity requirements and provi
 
 ---
 
-*Document prepared: December 2024*
+*Document prepared: December 2025*
 *Based on U.S. Coast Guard Final Rule: "Cybersecurity in the Marine Transportation System"*
 

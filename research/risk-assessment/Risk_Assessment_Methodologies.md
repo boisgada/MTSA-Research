@@ -311,5 +311,5 @@ Risk = Likelihood × Impact
 *This document is part of the MTSA Cybersecurity Compliance Research Repository.*
 *For critical asset identification, see the Critical Assets Research.*
 *For verified references, see VERIFIED_REFERENCES.md.*
-*Last Updated: December 2024*
+*Last Updated: December 2025*
 

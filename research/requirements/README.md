@@ -26,5 +26,5 @@ This folder is reserved for future requirements research documents as needed.
 
 *This folder is part of the MTSA Cybersecurity Compliance Research Repository.*
 *For complete MTSA requirements, see the Complete Implementation Guide.*
-*Last Updated: December 2024*
+*Last Updated: December 2025*
 

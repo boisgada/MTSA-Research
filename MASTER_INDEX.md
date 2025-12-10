@@ -1,6 +1,6 @@
 # Master Index: MTSA Cybersecurity Compliance Repository
 
-> **Last Updated**: December 2024  
+> **Last Updated**: December 2025  
 > **Purpose**: Comprehensive navigation guide to all documents in the repository
 
 ---
@@ -198,5 +198,5 @@
 
 *This master index provides comprehensive navigation to all documents in the MTSA Cybersecurity Compliance Research Repository.*
 *For quick navigation, see [QUICK_REFERENCE.md](QUICK_REFERENCE.md).*
-*Last Updated: December 2024*
+*Last Updated: December 2025*
 

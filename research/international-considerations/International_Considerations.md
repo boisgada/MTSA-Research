@@ -217,5 +217,5 @@ This guide addresses international considerations for MTSA compliance, including
 *This document is part of the MTSA Cybersecurity Compliance Research Repository.*
 *For foreign-located systems, see the Critical Assets Research.*
 *For verified references, see VERIFIED_REFERENCES.md.*
-*Last Updated: December 2024*
+*Last Updated: December 2025*
 

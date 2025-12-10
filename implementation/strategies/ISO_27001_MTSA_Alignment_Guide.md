@@ -816,6 +816,6 @@ You can efficiently achieve MTSA compliance while maintaining your ISO 27001 cer
 
 ---
 
-*Document prepared: December 2024*
+*Document prepared: December 2025*
 *Leveraging ISO 27001 ISMS for MTSA compliance*
 

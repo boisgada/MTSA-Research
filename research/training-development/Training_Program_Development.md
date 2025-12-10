@@ -680,5 +680,5 @@ This guide provides comprehensive guidance on developing, implementing, and main
 *For complete MTSA requirements, see the Complete Implementation Guide.*
 *For common training pitfalls, see the Common Pitfalls Guide.*
 *For verified references, see VERIFIED_REFERENCES.md.*
-*Last Updated: December 2024*
+*Last Updated: December 2025*
 

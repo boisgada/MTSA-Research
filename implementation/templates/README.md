@@ -95,5 +95,5 @@ This folder contains templates and examples for MTSA cybersecurity compliance do
 
 *Templates are part of the MTSA Cybersecurity Compliance Research Repository.*
 *For complete MTSA requirements, see the Complete Implementation Guide.*
-*Last Updated: December 2024*
+*Last Updated: December 2025*
 

@@ -391,5 +391,5 @@ This guide provides frameworks and templates for developing business cases to se
 *This document is part of the MTSA Cybersecurity Compliance Research Repository.*
 *For cost analysis, see the Cost/ROI Analysis Guide.*
 *For verified references, see VERIFIED_REFERENCES.md.*
-*Last Updated: December 2024*
+*Last Updated: December 2025*
 

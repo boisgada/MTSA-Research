@@ -166,5 +166,5 @@ For questions or updates to this repository, refer to the project team.
 
 ---
 
-*Last Updated: December 2024*
+*Last Updated: December 2025*
 *Project: MTSA Cybersecurity Compliance*

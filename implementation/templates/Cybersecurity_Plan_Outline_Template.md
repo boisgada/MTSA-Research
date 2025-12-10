@@ -139,5 +139,5 @@ This template provides a comprehensive outline for developing a Cybersecurity Pl
 
 *This template is part of the MTSA Cybersecurity Compliance Research Repository.*
 *For complete MTSA requirements, see the Complete Implementation Guide.*
-*Last Updated: December 2024*
+*Last Updated: December 2025*
 
