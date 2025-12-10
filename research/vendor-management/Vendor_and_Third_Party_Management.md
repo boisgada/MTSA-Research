@@ -635,25 +635,60 @@ Customer shall have the right, upon reasonable notice, to:
 
 ## 11. References and Resources
 
-### 11.1 Related Documents
+### 11.1 Primary Regulatory Sources
 
-- **Critical Assets Research**: Critical asset identification
-- **Complete Implementation Guide**: MTSA requirements
-- **Gap Analysis Framework**: Assessment methodologies
+**MTSA Regulations:**
+- **33 CFR Part 101**: Maritime Transportation Security Act (MTSA) regulations
+  - Source: [eCFR 33 CFR Part 101](https://www.ecfr.gov/current/title-33/chapter-I/subchapter-H/part-101)
+  - Verification: Official Code of Federal Regulations
+  - Relevance: Defines MTSA requirements applicable to vendor systems
 
-### 11.2 Industry Resources
+- **Final Rule: "Cybersecurity in the Marine Transportation System"**
+  - Source: Federal Register, 89 FR 48016 (June 3, 2024)
+  - Verification: [Federal Register](https://www.federalregister.gov/documents/2024/06/03/2024-12019/cybersecurity-in-the-marine-transportation-system)
+  - Relevance: Establishes cybersecurity requirements for critical assets
 
-- Vendor risk management frameworks
-- Cloud security best practices
-- Third-party risk management standards
-- Contract templates and guidance
+### 11.2 Industry Frameworks and Standards
 
-### 11.3 Regulatory Resources
+**Cybersecurity Frameworks:**
+- **NIST Cybersecurity Framework**: Framework for cybersecurity implementation
+  - Source: [NIST CSF](https://www.nist.gov/cyberframework)
+  - Verification: NIST official framework
+  - Relevance: Best practices for vendor security assessment
 
-- MTSA regulations (33 CFR Part 101)
-- Coast Guard guidance
-- NIST Cybersecurity Framework
-- Industry best practices
+- **CISA Supply Chain Risk Management Guide**: Supply chain security guidance
+  - Source: [CISA Supply Chain Guidance](https://www.cisa.gov/supply-chain-risk-management)
+  - Verification: Official CISA resources
+  - Relevance: Supply chain security best practices
+
+**Industry Standards:**
+- **ISO/IEC 27001**: Information security management
+  - Source: [ISO/IEC 27001](https://www.iso.org/standard/27001)
+  - Verification: ISO official standard
+  - Relevance: Vendor security assessment frameworks
+
+- **SOC 2**: Service Organization Control 2
+  - Source: AICPA SOC 2
+  - Verification: AICPA official standard
+  - Relevance: Vendor security and compliance certifications
+
+### 11.3 Related Project Documents
+
+**Internal References:**
+- **Critical Assets Research**: Critical asset identification methodology
+- **Complete Implementation Guide**: MTSA requirements for vendor systems
+- **Gap Analysis Framework**: Vendor assessment methodologies
+- **Cloud and SaaS as Critical Assets**: Cloud/SaaS assessment guidance
+
+### 11.4 Industry Resources
+
+**Vendor Management:**
+- Vendor risk management frameworks (industry best practices)
+- Cloud security best practices (CISA, NIST guidance)
+- Third-party risk management standards (industry standards)
+- Contract templates and guidance (legal and industry resources)
+
+**Note**: Specific resources should be selected based on organizational needs and industry best practices.
 
 ---
 
@@ -672,5 +707,6 @@ Customer shall have the right, upon reasonable notice, to:
 *This document is part of the MTSA Cybersecurity Compliance Research Repository.*
 *For complete MTSA requirements, see the Complete Implementation Guide.*
 *For critical asset identification, see the Critical Assets Research.*
+*For verified references, see VERIFIED_REFERENCES.md.*
 *Last Updated: [Current Date]*
 
