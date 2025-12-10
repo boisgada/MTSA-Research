@@ -270,7 +270,7 @@ This document establishes **rules and guidelines** for AI collaboration sessions
 
 ### 1. Multi-Site Context
 
-- Always consider 4 MTSA sites out of 300+ global sites
+- Always consider multiple MTSA sites within a larger organization
 - Minimize duplication across sites
 - Leverage corporate framework
 - Consider site-specific maritime operations
@@ -281,7 +281,7 @@ This document establishes **rules and guidelines** for AI collaboration sessions
 - Consolidated corporate requirements framework
 - Best-in-class OT architecture
 - ISO 27001 aligned
-- All plants are manned (no remote operations)
+- Standard operational model
 
 ### 3. Key Research Findings
 

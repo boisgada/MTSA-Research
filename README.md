@@ -4,7 +4,7 @@
 
 This repository contains research, analysis, and implementation guidance for achieving compliance with the Maritime Transportation Security Act (MTSA) cybersecurity requirements for Coast Guard-regulated chemical facilities.
 
-**Project Scope**: Four MTSA-regulated sites within a global chemical company with 300+ sites.
+**Project Scope**: Multiple MTSA-regulated sites within a large global organization.
 
 **Key Dates**:
 

@@ -2,11 +2,11 @@
 
 ## Executive Summary
 
-This strategy document provides a **corporate-level approach** to MTSA compliance that leverages your existing mature cybersecurity program (IT/OT), consolidated corporate requirements framework, and best-in-class OT architecture to **minimize duplication** across your four MTSA-regulated sites.
+This strategy document provides a **corporate-level approach** to MTSA compliance that leverages your existing mature cybersecurity program (IT/OT), consolidated corporate requirements framework, and best-in-class OT architecture to **minimize duplication** across your MTSA-regulated sites.
 
 **Key Principle**: Document corporate controls once, reference in site-specific plans, add only site-specific elements.
 
-**Goal**: Achieve MTSA compliance for 4 sites with minimal duplication, leveraging existing corporate cybersecurity investments.
+**Goal**: Achieve MTSA compliance for multiple sites with minimal duplication, leveraging existing corporate cybersecurity investments.
 
 ---
 
@@ -34,7 +34,7 @@ This strategy document provides a **corporate-level approach** to MTSA complianc
 
 ### 1.2 Benefits
 
-- **Minimize Duplication**: Document corporate controls once, reference in all 4 site plans
+- **Minimize Duplication**: Document corporate controls once, reference in all site plans
 - **Leverage Existing Work**: Use existing corporate cybersecurity framework
 - **Consistency**: Ensure consistent security approach across sites
 - **Efficiency**: Reduce effort by 70-80% compared to site-by-site approach
@@ -293,8 +293,8 @@ Each site plan should follow this structure:
 - **Corporate Training Content**: IT/OT cybersecurity training
 
 #### Site-Specific Additions
-- Maritime-specific training module (develop once, use at all 4 sites)
-- NRC reporting training module (develop once, use at all 4 sites)
+- Maritime-specific training module (develop once, use at all sites)
+- NRC reporting training module (develop once, use at all sites)
 - Site-specific training records (site-specific completion tracking)
 
 #### Implementation Approach
@@ -334,12 +334,12 @@ Each site plan should follow this structure:
 #### Site-Specific Additions
 - Maritime-specific drill scenarios (develop once, use at all sites)
 - Maritime-specific exercise scenarios (develop once, use at all sites)
-- Site-specific drill/exercise execution (4 sites, using corporate framework)
+- Site-specific drill/exercise execution (all sites, using corporate framework)
 
 #### Implementation Approach
 1. **Develop Maritime Scenarios** (develop once, use at all sites)
-2. **Conduct Site-Specific Drills** (4 sites, 2 drills each per year)
-3. **Conduct Site-Specific Exercises** (4 sites, 1 exercise each per year)
+2. **Conduct Site-Specific Drills** (all sites, 2 drills each per year)
+3. **Conduct Site-Specific Exercises** (all sites, 1 exercise each per year)
 4. **Document Results** (using corporate framework)
 
 **Effort Reduction**: ~65% compared to independent site drill/exercise programs
@@ -358,8 +358,8 @@ Each site plan should follow this structure:
 
 #### Implementation Approach
 1. **Extend Corporate Incident Response** (add NRC reporting - once)
-2. **Train Site Personnel** (4 sites, using corporate training)
-3. **Implement Site-Specific Reporting** (4 sites, using corporate procedures)
+2. **Train Site Personnel** (all sites, using corporate training)
+3. **Implement Site-Specific Reporting** (all sites, using corporate procedures)
 
 **Effort Reduction**: ~75% compared to independent site incident response programs
 
@@ -378,7 +378,7 @@ Each site plan should follow this structure:
 #### Implementation Approach
 1. **Document Corporate Controls** (once, in corporate framework document)
 2. **Reference in Site Plans** (4 site plans, reference corporate framework)
-3. **Document Site-Specific Critical Assets** (4 sites, minimal effort)
+3. **Document Site-Specific Critical Assets** (all sites, minimal effort)
 
 **Effort Reduction**: ~90% compared to implementing controls site-by-site
 
@@ -396,7 +396,7 @@ Each site plan should follow this structure:
 
 #### Implementation Approach
 1. **Use Corporate Recordkeeping System** (all sites use same system)
-2. **Maintain Site-Specific Records** (4 sites, using corporate system)
+2. **Maintain Site-Specific Records** (all sites, using corporate system)
 3. **Report as Needed** (using corporate system)
 
 **Effort Reduction**: ~85% compared to independent site recordkeeping systems
@@ -438,7 +438,7 @@ Each site plan should follow this structure:
 ### 6.2 Site-Level Work (Do Per Site)
 
 #### Phase 4: Site-Specific Development (Months 8-10)
-For each of 4 sites:
+For each site:
 1. Conduct site-specific maritime operations assessment
 2. Identify site-specific critical assets
 3. Conduct site-specific TSI pathway analysis
@@ -452,7 +452,7 @@ For each of 4 sites:
 
 #### Independent Site-by-Site Approach
 - **Per Site**: ~6-8 months, 1-2 FTE
-- **4 Sites**: ~24-32 months, 4-8 FTE
+- **Multiple Sites**: ~24-32 months, 4-8 FTE (varies by number of sites)
 - **Total Effort**: ~24-32 person-months
 
 #### Corporate Framework Approach
@@ -679,7 +679,7 @@ This corporate framework strategy enables you to:
 1. **Leverage Existing Investments**: Maximize use of existing corporate cybersecurity framework
 2. **Minimize Duplication**: Document corporate controls once, reference in all site plans
 3. **Achieve Efficiency**: Reduce total effort by 65-70%
-4. **Ensure Consistency**: Consistent approach across all 4 sites
+4. **Ensure Consistency**: Consistent approach across all sites
 5. **Maintain Quality**: Maintain high-quality security while reducing effort
 
 **Key Principle**: Document corporate capabilities once, reference in site plans, add only site-specific maritime elements.

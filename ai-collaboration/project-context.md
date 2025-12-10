@@ -9,10 +9,10 @@ This document provides **essential context** for AI collaboration sessions on th
 ## Project Overview
 
 ### Organization
-- **Company**: Large global chemical company
-- **Total Sites**: 300+ sites globally
-- **MTSA-Regulated Sites**: 4 sites (Coast Guard regulated)
-- **Industry**: Chemical manufacturing with shipping operations
+- **Company**: Large global organization
+- **Total Sites**: Multiple sites globally
+- **MTSA-Regulated Sites**: Multiple sites (Coast Guard regulated)
+- **Industry**: Manufacturing with shipping operations
 
 ### Cybersecurity Maturity
 - **IT Security**: Mature cybersecurity program
@@ -20,7 +20,7 @@ This document provides **essential context** for AI collaboration sessions on th
 - **Framework**: Consolidated corporate requirements framework (IT/OT)
 - **Architecture**: Best-in-class OT architecture design implementations
 - **Standards**: ISO 27001 aligned
-- **Operations**: All plants are manned (no remote operations)
+- **Operations**: Standard operational model
 
 ---
 
@@ -36,10 +36,10 @@ This document provides **essential context** for AI collaboration sessions on th
 - ✅ Corporate recordkeeping systems
 
 ### Site Characteristics
-- 4 sites with Coast Guard-regulated shipping operations
+- Multiple sites with Coast Guard-regulated shipping operations
 - Sites isolated from other operations (similar to TWIC physical isolation)
 - Maritime operations at each site
-- Foreign-located logistics systems (e.g., SAP in different country)
+- Foreign-located logistics systems (e.g., ERP systems in different country)
 
 ### Strategic Approach
 - **Goal**: Achieve MTSA compliance with minimal duplication
@@ -64,12 +64,12 @@ This document provides **essential context** for AI collaboration sessions on th
 ### 3. Network Segmentation
 - **Approach**: Can limit scope similar to physical TWIC isolation
 - **Principle**: Prove non-shipping systems don't affect trade/commerce
-- **Challenge**: Foreign-located systems (e.g., SAP) may still be critical if affecting trade/commerce
+- **Challenge**: Foreign-located systems (e.g., ERP systems) may still be critical if affecting trade/commerce
 
 ### 4. Foreign-Located Systems
 - **Principle**: Location doesn't determine criticality
 - **Assessment**: Based on trade/commerce impact, not location
-- **Example**: SAP logistics system assessed by trade/commerce impact, not location
+- **Example**: ERP logistics system assessed by trade/commerce impact, not location
 
 ### 5. Corporate Framework Leverage
 - **ISO 27001**: Can satisfy most MTSA technical requirements
@@ -166,7 +166,7 @@ This document provides **essential context** for AI collaboration sessions on th
 ## Common Questions and Answers
 
 ### Q: How do we assess foreign-located systems?
-**A**: Assess by trade/commerce impact, not location. If SAP affects trade/commerce, it's critical regardless of location.
+**A**: Assess by trade/commerce impact, not location. If an ERP system affects trade/commerce, it's critical regardless of location.
 
 ### Q: Can we limit scope through network segmentation?
 **A**: Yes, if you can prove non-shipping systems don't affect trade/commerce. Similar to TWIC physical isolation.
@@ -177,7 +177,7 @@ This document provides **essential context** for AI collaboration sessions on th
 ### Q: What's the difference between mandatory deadlines and recommendations?
 **A**: Mandatory deadlines are Coast Guard regulatory requirements (3 dates). Recommendations are suggested start dates to ensure readiness.
 
-### Q: How do we handle the 4 sites efficiently?
+### Q: How do we handle multiple sites efficiently?
 **A**: Document corporate framework once, create site plan template, develop site plans using template with minimal site-specific additions.
 
 ---
@@ -197,11 +197,11 @@ This document provides **essential context** for AI collaboration sessions on th
 
 ## Important Notes
 
-1. **All plants are manned**: No remote operations considerations needed
+1. **Standard operations**: Standard operational model considerations
 2. **Best-in-class OT architecture**: OT security is mature and well-designed
 3. **Corporate framework exists**: Leverage existing corporate cybersecurity framework
 4. **ISO 27001 aligned**: Use ISO 27001 alignment guide for compliance
-5. **4 sites out of 300+**: Focus on efficiency and minimal duplication
+5. **Multiple sites**: Focus on efficiency and minimal duplication
 
 ### Working Mode for Public-Source Refresh
 
