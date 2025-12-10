@@ -10,6 +10,21 @@ This document tracks research topics and tasks to enhance the MTSA compliance re
 
 ---
 
+## Queue Item Numbering Scheme
+
+### Format: `RQ-XXX`
+- **RQ**: Research Queue prefix (to distinguish from other queues)
+- **XXX**: Sequential number (001, 002, 003...) assigned when item is first added
+- **Persistent**: ID never changes, even if item is re-prioritized, re-categorized, or moved
+
+### Benefits:
+- ✅ Track items across priority/category changes
+- ✅ Link output documents to specific queue items
+- ✅ Avoid confusion with other queues (e.g., Implementation Queue, Template Queue)
+- ✅ Maintain history of item changes
+
+---
+
 ## Priority Levels
 
 - 🔴 **P0 - Critical**: Foundation for compliance success, high impact
@@ -19,12 +34,23 @@ This document tracks research topics and tasks to enhance the MTSA compliance re
 
 ---
 
+## Status Legend
+
+- ⏳ **Pending**: Not yet started
+- 🔄 **In Progress**: Currently being worked on
+- ✅ **Complete**: Finished successfully
+- ⏸️ **On Hold**: Temporarily paused
+- ❌ **Cancelled**: No longer needed
+
+---
+
 ## Research Queue
 
 ### 🔴 P0 - Critical Priority
 
-#### 1. Coast Guard Engagement and Inspection Readiness
+#### RQ-001: Coast Guard Engagement and Inspection Readiness
 **Status**: ✅ Complete  
+**Priority**: 🔴 P0  
 **Estimated Effort**: Medium  
 **Dependencies**: None
 
@@ -39,12 +65,17 @@ This document tracks research topics and tasks to enhance the MTSA compliance re
 
 **Value**: Critical for successful compliance and avoiding enforcement actions
 
-**Output**: `research/coast-guard-engagement/` folder with comprehensive guide
+**Output**: `research/coast-guard-engagement/Coast_Guard_Engagement_and_Inspection_Readiness.md`
+
+**History**:
+- Created: Initial queue
+- Completed: [Date]
 
 ---
 
-#### 2. Common Pitfalls and Lessons Learned
+#### RQ-002: Common Pitfalls and Lessons Learned
 **Status**: ✅ Complete  
+**Priority**: 🔴 P0  
 **Estimated Effort**: Medium  
 **Dependencies**: None (can gather from public sources, industry discussions)
 
@@ -59,12 +90,17 @@ This document tracks research topics and tasks to enhance the MTSA compliance re
 
 **Value**: Helps organizations avoid costly mistakes
 
-**Output**: `research/lessons-learned/` folder with pitfalls guide
+**Output**: `research/lessons-learned/Common_Pitfalls_and_Lessons_Learned.md`
+
+**History**:
+- Created: Initial queue
+- Completed: [Date]
 
 ---
 
-#### 3. Gap Analysis Frameworks
+#### RQ-003: Gap Analysis Frameworks
 **Status**: ✅ Complete  
+**Priority**: 🔴 P0  
 **Estimated Effort**: Medium  
 **Dependencies**: Implementation guide (for gap identification)
 
@@ -80,10 +116,15 @@ This document tracks research topics and tasks to enhance the MTSA compliance re
 
 **Output**: `implementation/frameworks/Gap_Analysis_Framework.md`
 
+**History**:
+- Created: Initial queue
+- Completed: [Date]
+
 ---
 
-#### 4. Cost/ROI Analysis and Resource Planning
+#### RQ-004: Cost/ROI Analysis and Resource Planning
 **Status**: ✅ Complete  
+**Priority**: 🔴 P0  
 **Estimated Effort**: High  
 **Dependencies**: Implementation guide (for scope understanding)
 
@@ -93,18 +134,23 @@ This document tracks research topics and tasks to enhance the MTSA compliance re
 - Cost-benefit analysis of corporate framework approach
 - Budget planning templates
 - ROI calculation for leveraging existing frameworks
-- Hidden costs and considerations
+- Funding sources and grants (if applicable)
 
-**Value**: Essential for planning and executive buy-in
+**Value**: Essential for budget justification, resource allocation, and demonstrating value to leadership
 
-**Output**: `research/cost-analysis/` folder with planning guides
+**Output**: `research/cost-analysis/Cost_ROI_Analysis_and_Resource_Planning.md`
+
+**History**:
+- Created: Initial queue
+- Completed: [Date]
 
 ---
 
 ### 🟠 P1 - High Priority
 
-#### 5. Vendor and Third-Party Management
+#### RQ-005: Vendor and Third-Party Management
 **Status**: ✅ Complete  
+**Priority**: 🟠 P1  
 **Estimated Effort**: Medium  
 **Dependencies**: Critical assets research (for scope)
 
@@ -118,149 +164,184 @@ This document tracks research topics and tasks to enhance the MTSA compliance re
 
 **Value**: Many organizations rely on vendors for critical systems
 
-**Output**: `research/vendor-management/` folder with assessment guides
+**Output**: `research/vendor-management/Vendor_and_Third_Party_Management.md`
+
+**History**:
+- Created: Initial queue
+- Completed: [Date]
 
 ---
 
-#### 6. Incident Response Integration with NRC
+#### RQ-006: Incident Response Integration with NRC
 **Status**: ✅ Complete  
+**Priority**: 🟠 P1  
 **Estimated Effort**: Medium  
 **Dependencies**: Implementation guide (incident reporting section)
 
 **Research Areas**:
-- NRC reporting procedures and workflows
-- Integration with existing incident response
-- Coordination between IT/OT/security teams
+- NRC reporting procedures and workflows (33 CFR Part 101.305)
+- Integration with existing incident response plans (IT/OT)
+- Coordination between IT, OT, security, and legal teams
 - Documentation requirements for NRC reports
-- Post-incident follow-up requirements
-- NRC contact information and procedures
+- Post-incident follow-up requirements and best practices
+- Tabletop exercise scenarios for NRC reporting
 
-**Value**: Mandatory requirement, complex integration needed
+**Value**: Ensures timely and compliant incident reporting, minimizing penalties
 
-**Output**: `research/incident-response/` folder with NRC integration guide
+**Output**: `research/incident-response/NRC_Incident_Response_Integration.md`
+
+**History**:
+- Created: Initial queue
+- Completed: [Date]
 
 ---
 
-#### 7. Training Program Development
+#### RQ-007: Training Program Development
 **Status**: ✅ Complete  
+**Priority**: 🟠 P1  
 **Estimated Effort**: Medium  
-**Dependencies**: Implementation guide (training requirements)
+**Dependencies**: Cybersecurity Training (existing implementation guide section)
 
 **Research Areas**:
-- Training content development guidelines
-- Role-based training curricula
-- Training delivery methods (in-person vs. online)
-- Training effectiveness measurement
-- Refresher training schedules
-- Training recordkeeping best practices
-- Training vendor evaluation
+- Training content development guidelines (role-based, awareness, technical)
+- Role-based training curricula for IT, OT, and maritime personnel
+- Training delivery methods (in-person, online, simulations)
+- Training effectiveness measurement and evaluation
+- Refresher training schedules and content updates
+- Training recordkeeping best practices and tools
 
-**Value**: Mandatory requirement, needs practical guidance
+**Value**: Ensures personnel are adequately prepared to address cyber threats and meet regulatory requirements
 
-**Output**: `research/training-development/` folder with training guides
+**Output**: `research/training-development/Training_Program_Development.md`
+
+**History**:
+- Created: Initial queue
+- Completed: [Date]
 
 ---
 
-#### 8. Metrics, KPIs, and Compliance Monitoring
+#### RQ-008: Metrics, KPIs, and Compliance Monitoring
 **Status**: ✅ Complete  
+**Priority**: 🟠 P1  
 **Estimated Effort**: Medium  
-**Dependencies**: Implementation guide (for requirements understanding)
+**Dependencies**: Gap Analysis Frameworks (RQ-003), Cybersecurity Assessment (existing implementation guide section)
 
 **Research Areas**:
-- Key metrics for MTSA compliance
-- Dashboard templates
-- Compliance monitoring frameworks
-- Trend analysis approaches
-- Reporting to management
-- Leading vs. lagging indicators
+- Key metrics for MTSA compliance (e.g., assessment completion, training rates, incident response times)
+- Dashboard templates for reporting compliance status to management
+- Compliance monitoring frameworks and tools
+- Trend analysis approaches for continuous improvement
+- Reporting to management and regulatory bodies
+- Integration with existing GRC (Governance, Risk, and Compliance) platforms
 
-**Value**: Enables continuous improvement and management visibility
+**Value**: Provides visibility into compliance status, drives continuous improvement, and supports management reporting
 
-**Output**: `research/compliance-metrics/` folder with metrics framework
+**Output**: `research/compliance-metrics/Compliance_Metrics_and_KPIs.md`
+
+**History**:
+- Created: Initial queue
+- Completed: [Date]
 
 ---
 
-#### 9. Audit Preparation and Documentation
+#### RQ-009: Audit Preparation and Documentation
 **Status**: ✅ Complete  
+**Priority**: 🟠 P1  
 **Estimated Effort**: Medium  
-**Dependencies**: Coast Guard engagement research
+**Dependencies**: Coast Guard Engagement (RQ-001), Recordkeeping (existing implementation guide section)
 
 **Research Areas**:
-- Documentation organization strategies
-- Evidence collection and retention
-- Audit trail requirements
-- Self-assessment methodologies
-- Continuous improvement processes
-- Documentation templates
+- Documentation organization strategies for audits
+- Evidence collection and retention best practices
+- Audit trail requirements for cybersecurity activities
+- Self-assessment methodologies for audit readiness
+- Continuous improvement processes based on audit findings
+- Mock audit scenarios and preparation tips
 
-**Value**: Critical for passing inspections
+**Value**: Ensures readiness for internal and external audits, streamlining the verification process
 
-**Output**: `research/audit-preparation/` folder with audit readiness guide
+**Output**: `research/audit-preparation/Audit_Preparation_and_Documentation.md`
+
+**History**:
+- Created: Initial queue
+- Completed: [Date]
 
 ---
 
-### 🟡 P2 - Medium Priority
-
-#### 10. Regulatory Change Management
+#### RQ-010: Cybersecurity Plan Submission Process
 **Status**: ✅ Complete  
+**Priority**: 🟠 P1  
 **Estimated Effort**: Low-Medium  
 **Dependencies**: None
 
 **Research Areas**:
-- How to monitor regulatory changes
-- Process for updating Cybersecurity Plans
-- Version control for compliance documentation
-- Change impact assessment
-- Communication strategies for updates
-- Regulatory monitoring tools and sources
+- Step-by-step submission process
+- Required documentation
+- Coast Guard review timelines
+- Resubmission procedures
+- Approval criteria
 
-**Value**: Ensures ongoing compliance as regulations evolve
+**Value**: Critical for meeting July 2027 deadline
 
-**Output**: `research/regulatory-change/` folder with change management guide
+**Output**: `research/plan-submission/Cybersecurity_Plan_Submission_Process.md`
+
+**History**:
+- Created: Initial queue
+- Completed: [Date]
 
 ---
 
-#### 11. Technology Solutions and Tools
+#### RQ-011: CySO Role and Responsibilities
 **Status**: ✅ Complete  
-**Estimated Effort**: High  
-**Dependencies**: Technical requirements understanding
+**Priority**: 🟠 P1  
+**Estimated Effort**: Low  
+**Dependencies**: None
 
 **Research Areas**:
-- OT/ICS security tools evaluation
-- Network segmentation tools
-- Monitoring and detection solutions
-- Compliance management platforms
-- Vendor evaluation criteria
-- Tool comparison matrices
+- Detailed CySO responsibilities
+- Qualifications and skills needed
+- Reporting structure recommendations
+- CySO training requirements
+- Backup CySO considerations
 
-**Value**: Helps organizations select appropriate technology
+**Value**: Mandatory requirement, needs clarity
 
-**Output**: `research/technology-solutions/` folder with tool evaluation guides
+**Output**: `research/cyso-role/CySO_Role_and_Responsibilities.md`
+
+**History**:
+- Created: Initial queue
+- Completed: [Date]
 
 ---
 
-#### 12. Business Case Development
+#### RQ-012: Drill and Exercise Best Practices
 **Status**: ✅ Complete  
-**Estimated Effort**: Low-Medium  
-**Dependencies**: Cost/ROI analysis
+**Priority**: 🟠 P1  
+**Estimated Effort**: Medium  
+**Dependencies**: None
 
 **Research Areas**:
-- Executive presentation templates
-- Business justification frameworks
-- Stakeholder communication strategies
-- Budget approval processes
-- Risk-based arguments
+- Effective drill scenarios
+- Exercise planning methodologies
+- After-action review processes
+- Drill documentation requirements
+- Integration with physical security drills
 
-**Value**: Helps secure funding and executive support
+**Value**: Mandatory requirement, needs practical guidance
 
-**Output**: `research/business-case/` folder with templates and guides
+**Output**: `research/drill-exercise-best-practices/Drill_and_Exercise_Best_Practices.md`
+
+**History**:
+- Created: Initial queue
+- Completed: [Date]
 
 ---
 
-#### 13. Cloud and SaaS as Critical Assets
+#### RQ-013: Cloud and SaaS as Critical Assets
 **Status**: ✅ Complete  
+**Priority**: 🟠 P1  
 **Estimated Effort**: Medium-High  
-**Dependencies**: Critical Assets Research, Vendor Management (P1-6)
+**Dependencies**: Critical Assets Research, Vendor Management (RQ-005)
 
 **Research Areas**:
 - Cloud/SaaS systems as critical assets under MTSA
@@ -274,14 +355,92 @@ This document tracks research topics and tasks to enhance the MTSA compliance re
 - Network segmentation considerations for cloud services
 - Foreign-located cloud services and MTSA scope
 
-**Value**: Many organizations rely heavily on cloud/SaaS for critical operations; understanding critical asset classification and compliance ramifications is essential
+**Value**: Many organizations rely on cloud/SaaS for critical operations; understanding critical asset classification and compliance ramifications is essential.
 
-**Output**: `research/cloud-saas-critical-assets/` folder with assessment guide and compliance framework
+**Output**: `research/cloud-saas-critical-assets/Cloud_and_SaaS_as_Critical_Assets.md`
+
+**History**:
+- Created: Initial queue
+- Completed: [Date]
 
 ---
 
-#### 14. Multi-Site Coordination Strategies
+### 🟡 P2 - Medium Priority
+
+#### RQ-014: Regulatory Change Management
 **Status**: ✅ Complete  
+**Priority**: 🟡 P2  
+**Estimated Effort**: Low-Medium  
+**Dependencies**: None
+
+**Research Areas**:
+- How to monitor regulatory changes
+- Process for updating Cybersecurity Plans
+- Version control for compliance documentation
+- Change impact assessment
+- Communication strategies for updates
+- Regulatory monitoring tools and sources
+
+**Value**: Ensures ongoing compliance as regulations evolve
+
+**Output**: `research/regulatory-change/Regulatory_Change_Management.md`
+
+**History**:
+- Created: Initial queue
+- Completed: [Date]
+
+---
+
+#### RQ-015: Technology Solutions and Tools
+**Status**: ✅ Complete  
+**Priority**: 🟡 P2  
+**Estimated Effort**: High  
+**Dependencies**: Technical requirements understanding
+
+**Research Areas**:
+- OT/ICS security tools evaluation
+- Network segmentation tools
+- Monitoring and detection solutions
+- Compliance management platforms
+- Vendor evaluation criteria
+- Tool comparison matrices
+
+**Value**: Helps organizations select appropriate technology
+
+**Output**: `research/technology-solutions/Technology_Solutions_and_Tools.md`
+
+**History**:
+- Created: Initial queue
+- Completed: [Date]
+
+---
+
+#### RQ-016: Business Case Development
+**Status**: ✅ Complete  
+**Priority**: 🟡 P2  
+**Estimated Effort**: Low-Medium  
+**Dependencies**: Cost/ROI analysis (RQ-004)
+
+**Research Areas**:
+- Executive presentation templates
+- Business justification frameworks
+- Stakeholder communication strategies
+- Budget approval processes
+- Risk-based arguments
+
+**Value**: Helps secure funding and executive support
+
+**Output**: `research/business-case/Business_Case_Development.md`
+
+**History**:
+- Created: Initial queue
+- Completed: [Date]
+
+---
+
+#### RQ-017: Multi-Site Coordination Strategies
+**Status**: ✅ Complete  
+**Priority**: 🟡 P2  
 **Estimated Effort**: Medium  
 **Dependencies**: Corporate framework strategy
 
@@ -294,12 +453,17 @@ This document tracks research topics and tasks to enhance the MTSA compliance re
 
 **Value**: Important for organizations with multiple sites
 
-**Output**: `research/multi-site-coordination/` folder with coordination strategies
+**Output**: `research/multi-site-coordination/Multi_Site_Coordination_Strategies.md`
+
+**History**:
+- Created: Initial queue
+- Completed: [Date]
 
 ---
 
-#### 15. Risk Assessment Methodologies
+#### RQ-018: Risk Assessment Methodologies
 **Status**: ✅ Complete  
+**Priority**: 🟡 P2  
 **Estimated Effort**: Medium  
 **Dependencies**: Critical assets research, TSI analysis
 
@@ -312,12 +476,17 @@ This document tracks research topics and tasks to enhance the MTSA compliance re
 
 **Value**: Supports critical asset identification and prioritization
 
-**Output**: `research/risk-assessment/` folder with methodology guides
+**Output**: `research/risk-assessment/Risk_Assessment_Methodologies.md`
+
+**History**:
+- Created: Initial queue
+- Completed: [Date]
 
 ---
 
-#### 16. Documentation Templates and Examples
+#### RQ-019: Documentation Templates and Examples
 **Status**: ✅ Complete  
+**Priority**: 🟡 P2  
 **Estimated Effort**: Medium  
 **Dependencies**: Implementation guide (for requirements)
 
@@ -333,12 +502,62 @@ This document tracks research topics and tasks to enhance the MTSA compliance re
 
 **Output**: `implementation/templates/` folder with document templates
 
+**History**:
+- Created: Initial queue
+- Completed: [Date]
+
+---
+
+#### RQ-020: Recordkeeping Systems and Tools
+**Status**: ✅ Complete  
+**Priority**: 🟡 P2  
+**Estimated Effort**: Medium  
+**Dependencies**: None
+
+**Research Areas**:
+- Recordkeeping requirements summary
+- System selection criteria
+- Integration with existing systems
+- Retention policies
+- Audit trail requirements
+
+**Value**: Mandatory requirement, practical implementation needed
+
+**Output**: `research/recordkeeping-systems/Recordkeeping_Systems_and_Tools.md`
+
+**History**:
+- Created: Initial queue
+- Completed: [Date]
+
+---
+
+#### RQ-021: Supply Chain Security Integration
+**Status**: ✅ Complete  
+**Priority**: 🟡 P2  
+**Estimated Effort**: Medium  
+**Dependencies**: Vendor and Third-Party Management (RQ-005)
+
+**Research Areas**:
+- Supply chain risk assessment
+- Vendor security requirements
+- Supply chain incident response
+- Integration with MTSA requirements
+
+**Value**: Important for organizations with complex supply chains
+
+**Output**: `research/supply-chain-security/Supply_Chain_Security_Integration.md`
+
+**History**:
+- Created: Initial queue
+- Completed: [Date]
+
 ---
 
 ### 🟢 P3 - Low Priority / Future Considerations
 
-#### 17. Industry-Specific Considerations
+#### RQ-022: Industry-Specific Considerations
 **Status**: ⏳ Pending  
+**Priority**: 🟢 P3  
 **Estimated Effort**: High  
 **Dependencies**: Cross-sector alignment research
 
@@ -353,10 +572,14 @@ This document tracks research topics and tasks to enhance the MTSA compliance re
 
 **Output**: `research/industry-specific/` folder with industry guides
 
+**History**:
+- Created: Initial queue
+
 ---
 
-#### 18. International Considerations
+#### RQ-023: International Considerations
 **Status**: ✅ Complete  
+**Priority**: 🟢 P3  
 **Estimated Effort**: Medium  
 **Dependencies**: Foreign-located systems research
 
@@ -368,12 +591,17 @@ This document tracks research topics and tasks to enhance the MTSA compliance re
 
 **Value**: Important for global organizations
 
-**Output**: `research/international-considerations/` folder
+**Output**: `research/international-considerations/International_Considerations.md`
+
+**History**:
+- Created: Initial queue
+- Completed: [Date]
 
 ---
 
-#### 19. Integration with Other Regulations
+#### RQ-024: Integration with Other Regulations
 **Status**: ✅ Complete  
+**Priority**: 🟢 P3  
 **Estimated Effort**: Medium  
 **Dependencies**: ISO 27001 alignment guide
 
@@ -382,32 +610,44 @@ This document tracks research topics and tasks to enhance the MTSA compliance re
 - Integration with CMMC
 - Integration with other maritime regulations
 - Regulatory overlap management
+- Best practices for harmonizing compliance efforts
 
-**Value**: Helps organizations with multiple compliance requirements
+**Value**: Streamlines compliance for organizations subject to multiple regulations
 
-**Output**: `research/regulatory-integration/` folder
+**Output**: `research/regulatory-integration/Integration_with_Other_Regulations.md`
+
+**History**:
+- Created: Initial queue
+- Completed: [Date]
 
 ---
 
-#### 20. Small Facility Considerations
+#### RQ-025: Small Facility Considerations
 **Status**: ✅ Complete  
+**Priority**: 🟢 P3  
 **Estimated Effort**: Medium  
 **Dependencies**: Implementation guide
 
 **Research Areas**:
-- Simplified approaches for small facilities
-- Resource-constrained implementation
-- Cost-effective solutions
-- Small facility templates
+- Simplified approaches for smaller facilities
+- Resource-constrained implementation approaches
+- Cost-effective security solutions
+- Leveraging shared services
+- Simplified documentation templates
 
-**Value**: Makes compliance accessible to smaller organizations
+**Value**: Provides tailored guidance for smaller organizations
 
-**Output**: `research/small-facilities/` folder
+**Output**: `research/small-facilities/Small_Facility_Considerations.md`
+
+**History**:
+- Created: Initial queue
+- Completed: [Date]
 
 ---
 
-#### 21. Advanced Topics
+#### RQ-026: Advanced Topics
 **Status**: ⏳ Pending  
+**Priority**: 🟢 P3  
 **Estimated Effort**: High  
 **Dependencies**: Multiple foundational research areas
 
@@ -421,9 +661,14 @@ This document tracks research topics and tasks to enhance the MTSA compliance re
 
 **Output**: `research/advanced-topics/` folder
 
+**History**:
+- Created: Initial queue
+
 ---
 
-#### 22. Comprehensive Template Creation
+### 🟠 P1 - High Priority (Additional Items)
+
+#### RQ-027: Comprehensive Template Creation
 **Status**: ✅ Complete  
 **Priority**: 🟠 P1  
 **Estimated Effort**: Medium-High  
@@ -453,12 +698,16 @@ This document tracks research topics and tasks to enhance the MTSA compliance re
 
 **Value**: Templates are referenced throughout but many don't exist yet; critical for practical implementation
 
-**Output**: `implementation/templates/` folder with comprehensive template library
+**Output**: `implementation/templates/` folder with comprehensive template library (14 templates created)
+
+**History**:
+- Created: User request
+- Completed: [Date]
 
 ---
 
-#### 23. Research Document Review and Enhancement
-**Status**: ⏳ Pending  
+#### RQ-028: Research Document Review and Enhancement
+**Status**: ✅ Complete  
 **Priority**: 🟠 P1  
 **Estimated Effort**: High  
 **Dependencies**: All research documents
@@ -477,15 +726,21 @@ This document tracks research topics and tasks to enhance the MTSA compliance re
 
 **Value**: Ensures research documents meet quality standards with verified references and comprehensive content
 
-**Output**: Enhanced research documents with citations, verified references, and identified gaps
+**Output**: Enhanced research documents with citations, verified references, and identified gaps (23 documents enhanced)
+
+**History**:
+- Created: User request
+- Completed: [Date]
 
 ---
 
-#### 24. Problem Areas and Future Research Identification
+### 🟡 P2 - Medium Priority (Additional Items)
+
+#### RQ-029: Problem Areas and Future Research Identification
 **Status**: ✅ Complete  
 **Priority**: 🟡 P2  
 **Estimated Effort**: Medium  
-**Dependencies**: Research document review (item 23)
+**Dependencies**: Research document review (RQ-028)
 
 **Research Areas**:
 - Document problem areas identified during research
@@ -498,117 +753,55 @@ This document tracks research topics and tasks to enhance the MTSA compliance re
 
 **Value**: Ensures continuous improvement and identifies areas for future research
 
-**Output**: Documented problem areas and future research priorities in research queue
+**Output**: `research/problem-areas/Problem_Areas_and_Future_Research.md`
 
----
-
-## Additional Research Topics
-
-### 21. Cybersecurity Plan Submission Process
-**Status**: ✅ Complete  
-**Priority**: 🟠 P1  
-**Estimated Effort**: Low-Medium
-
-**Research Areas**:
-- Step-by-step submission process
-- Required documentation
-- Coast Guard review timelines
-- Resubmission procedures
-- Approval criteria
-
-**Value**: Critical for meeting July 2027 deadline
-
----
-
-### 22. CySO Role and Responsibilities
-**Status**: ✅ Complete  
-**Priority**: 🟠 P1  
-**Estimated Effort**: Low
-
-**Research Areas**:
-- Detailed CySO responsibilities
-- Qualifications and skills needed
-- Reporting structure recommendations
-- CySO training requirements
-- Backup CySO considerations
-
-**Value**: Mandatory requirement, needs clarity
-
----
-
-### 23. Drill and Exercise Best Practices
-**Status**: ✅ Complete  
-**Priority**: 🟠 P1  
-**Estimated Effort**: Medium
-
-**Research Areas**:
-- Effective drill scenarios
-- Exercise planning methodologies
-- After-action review processes
-- Drill documentation requirements
-- Integration with physical security drills
-
-**Value**: Mandatory requirement, needs practical guidance
-
----
-
-### 24. Recordkeeping Systems and Tools
-**Status**: ✅ Complete  
-**Priority**: 🟡 P2  
-**Estimated Effort**: Medium
-
-**Research Areas**:
-- Recordkeeping requirements summary
-- System selection criteria
-- Integration with existing systems
-- Retention policies
-- Audit trail requirements
-
-**Value**: Mandatory requirement, practical implementation needed
-
----
-
-### 25. Supply Chain Security Integration
-**Status**: ✅ Complete  
-**Priority**: 🟡 P2  
-**Estimated Effort**: Medium
-
-**Research Areas**:
-- Supply chain risk assessment
-- Vendor security requirements
-- Supply chain incident response
-- Integration with MTSA requirements
-
-**Value**: Important for organizations with complex supply chains
+**History**:
+- Created: User request
+- Completed: [Date]
 
 ---
 
 ## Research Progress Tracking
 
-### Completed Research
-- ✅ Critical Assets Research
-- ✅ TSI Analysis (Trade/Commerce and Transportation Disruption)
-- ✅ Cross-Sector Alignment
-- ✅ GitHub Resources
-- ✅ Complete Implementation Guide
-- ✅ Corporate Framework Strategy
-- ✅ ISO 27001 Alignment Guide
-- ✅ Coast Guard Engagement and Inspection Readiness
-- ✅ Common Pitfalls and Lessons Learned
-- ✅ Gap Analysis Frameworks
-- ✅ Cost/ROI Analysis and Resource Planning
+### Completed Research (25 items)
+- ✅ RQ-001: Coast Guard Engagement and Inspection Readiness
+- ✅ RQ-002: Common Pitfalls and Lessons Learned
+- ✅ RQ-003: Gap Analysis Frameworks
+- ✅ RQ-004: Cost/ROI Analysis and Resource Planning
+- ✅ RQ-005: Vendor and Third-Party Management
+- ✅ RQ-006: Incident Response Integration with NRC
+- ✅ RQ-007: Training Program Development
+- ✅ RQ-008: Metrics, KPIs, and Compliance Monitoring
+- ✅ RQ-009: Audit Preparation and Documentation
+- ✅ RQ-010: Cybersecurity Plan Submission Process
+- ✅ RQ-011: CySO Role and Responsibilities
+- ✅ RQ-012: Drill and Exercise Best Practices
+- ✅ RQ-013: Cloud and SaaS as Critical Assets
+- ✅ RQ-014: Regulatory Change Management
+- ✅ RQ-015: Technology Solutions and Tools
+- ✅ RQ-016: Business Case Development
+- ✅ RQ-017: Multi-Site Coordination Strategies
+- ✅ RQ-018: Risk Assessment Methodologies
+- ✅ RQ-019: Documentation Templates and Examples
+- ✅ RQ-020: Recordkeeping Systems and Tools
+- ✅ RQ-021: Supply Chain Security Integration
+- ✅ RQ-023: International Considerations
+- ✅ RQ-024: Integration with Other Regulations
+- ✅ RQ-025: Small Facility Considerations
+- ✅ RQ-027: Comprehensive Template Creation
+- ✅ RQ-028: Research Document Review and Enhancement
+- ✅ RQ-029: Problem Areas and Future Research Identification
 
 ### In Progress
 - ⏳ None currently
 
+### Pending (2 items)
+- ⏳ RQ-022: Industry-Specific Considerations (P3)
+- ⏳ RQ-026: Advanced Topics (P3)
+
 ### Next Up (Recommended Order)
-1. Coast Guard Engagement and Inspection Readiness (P0)
-2. Common Pitfalls and Lessons Learned (P0)
-3. Gap Analysis Frameworks (P0)
-4. Cost/ROI Analysis and Resource Planning (P0)
-5. Vendor and Third-Party Management (P1)
-6. Incident Response Integration with NRC (P1)
-7. Training Program Development (P1)
+1. RQ-022: Industry-Specific Considerations (P3)
+2. RQ-026: Advanced Topics (P3)
 
 ---
 
@@ -628,9 +821,15 @@ This document tracks research topics and tasks to enhance the MTSA compliance re
 
 - **Dependencies**: Some research builds on existing work; dependencies should be considered when prioritizing
 
+- **Queue Item IDs**: Use persistent RQ-XXX format. IDs never change even if items are re-prioritized or re-categorized.
+
+- **Output Linking**: Each queue item includes an "Output" field linking to the document(s) it produced.
+
+- **History Tracking**: Each item includes a "History" section to track status changes and updates.
+
 ---
 
 *Last Updated: [Current Date]*
-*Total Research Items: 26*
-*Priority Breakdown: P0 (4), P1 (10), P2 (7), P3 (5)*
-
+*Total Research Items: 29*
+*Priority Breakdown: P0 (4), P1 (10), P2 (7), P3 (6)*
+*Completed: 27, Pending: 2*
