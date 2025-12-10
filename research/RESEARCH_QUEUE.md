@@ -257,6 +257,29 @@ This document tracks research topics and tasks to enhance the MTSA compliance re
 
 ---
 
+#### 13. Cloud and SaaS as Critical Assets
+**Status**: ⏳ Pending  
+**Estimated Effort**: Medium-High  
+**Dependencies**: Critical Assets Research, Vendor Management (P1-6)
+
+**Research Areas**:
+- Cloud/SaaS systems as critical assets under MTSA
+- Assessment criteria for cloud/SaaS criticality (TSI impact)
+- Ramifications of classifying cloud/SaaS as critical assets
+- Enterprise-wide standardized services (ERP, logistics, etc.) in international organizations
+- Multi-site/multi-facility cloud service dependencies
+- Shared responsibility models for cloud/SaaS compliance
+- Assessment challenges for standardized IT services
+- Compliance implications for global cloud deployments
+- Network segmentation considerations for cloud services
+- Foreign-located cloud services and MTSA scope
+
+**Value**: Many organizations rely heavily on cloud/SaaS for critical operations; understanding critical asset classification and compliance ramifications is essential
+
+**Output**: `research/cloud-saas-critical-assets/` folder with assessment guide and compliance framework
+
+---
+
 #### 14. Multi-Site Coordination Strategies
 **Status**: ⏳ Pending  
 **Estimated Effort**: Medium  
@@ -314,7 +337,7 @@ This document tracks research topics and tasks to enhance the MTSA compliance re
 
 ### 🟢 P3 - Low Priority / Future Considerations
 
-#### 16. Industry-Specific Considerations
+#### 17. Industry-Specific Considerations
 **Status**: ⏳ Pending  
 **Estimated Effort**: High  
 **Dependencies**: Cross-sector alignment research
@@ -332,7 +355,7 @@ This document tracks research topics and tasks to enhance the MTSA compliance re
 
 ---
 
-#### 17. International Considerations
+#### 18. International Considerations
 **Status**: ⏳ Pending  
 **Estimated Effort**: Medium  
 **Dependencies**: Foreign-located systems research
@@ -349,7 +372,7 @@ This document tracks research topics and tasks to enhance the MTSA compliance re
 
 ---
 
-#### 18. Integration with Other Regulations
+#### 19. Integration with Other Regulations
 **Status**: ⏳ Pending  
 **Estimated Effort**: Medium  
 **Dependencies**: ISO 27001 alignment guide
@@ -366,7 +389,7 @@ This document tracks research topics and tasks to enhance the MTSA compliance re
 
 ---
 
-#### 19. Small Facility Considerations
+#### 20. Small Facility Considerations
 **Status**: ⏳ Pending  
 **Estimated Effort**: Medium  
 **Dependencies**: Implementation guide
@@ -383,7 +406,7 @@ This document tracks research topics and tasks to enhance the MTSA compliance re
 
 ---
 
-#### 20. Advanced Topics
+#### 21. Advanced Topics
 **Status**: ⏳ Pending  
 **Estimated Effort**: High  
 **Dependencies**: Multiple foundational research areas
