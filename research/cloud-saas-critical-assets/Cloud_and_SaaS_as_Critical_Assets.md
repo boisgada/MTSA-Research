@@ -531,5 +531,5 @@ This guide provides comprehensive guidance on assessing cloud and Software-as-a-
 *For critical asset identification, see the Critical Assets Research.*
 *For vendor management, see the Vendor Management Guide.*
 *For verified references, see VERIFIED_REFERENCES.md.*
-*Last Updated: [Current Date]*
+*Last Updated: December 2024*
 

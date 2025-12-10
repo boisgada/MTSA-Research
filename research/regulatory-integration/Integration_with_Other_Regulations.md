@@ -251,5 +251,5 @@ This guide provides strategies for integrating MTSA compliance with other regula
 *This document is part of the MTSA Cybersecurity Compliance Research Repository.*
 *For ISO 27001 alignment, see the ISO 27001 Alignment Guide.*
 *For verified references, see VERIFIED_REFERENCES.md.*
-*Last Updated: [Current Date]*
+*Last Updated: December 2024*
 

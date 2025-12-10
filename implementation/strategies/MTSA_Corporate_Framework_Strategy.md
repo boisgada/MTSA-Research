@@ -723,6 +723,6 @@ This corporate framework strategy enables you to:
 
 ---
 
-*Document prepared: [Current Date]*
+*Document prepared: December 2024*
 *Corporate framework strategy for multi-site MTSA compliance*
 

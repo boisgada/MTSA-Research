@@ -767,5 +767,5 @@ The U.S. Coast Guard is organized into **nine districts** covering different geo
 
 *This document is part of the MTSA Cybersecurity Compliance Research Repository.*
 *For complete MTSA requirements, see the Complete Implementation Guide.*
-*Last Updated: [Current Date]*
+*Last Updated: December 2024*
 

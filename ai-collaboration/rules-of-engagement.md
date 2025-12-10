@@ -404,9 +404,9 @@ All documents containing recommendations must include:
 
 ## Revision History
 
-- **Initial Version**: [Current Date]
-- **Updated**: [Current Date] - Added critical verified references requirement
-- **Updated**: [Current Date] - Added critical requirement: Generic content only, no cleanup documentation
+- **Initial Version**: December 2024
+- **Updated**: December 2024 - Added critical verified references requirement
+- **Updated**: December 2024 - Added critical requirement: Generic content only, no cleanup documentation
 - **Purpose**: Establish rules for effective AI collaboration with emphasis on verified references and generic content
 
 ---

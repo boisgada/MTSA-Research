@@ -71,5 +71,5 @@ This template provides a structure for managing regulatory changes and updating 
 ---
 
 *This template is part of the MTSA Cybersecurity Compliance Research Repository.*
-*Last Updated: [Current Date]*
+*Last Updated: December 2024*
 

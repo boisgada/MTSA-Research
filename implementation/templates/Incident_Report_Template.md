@@ -85,5 +85,5 @@ This template provides structure for documenting cybersecurity incidents and NRC
 ---
 
 *This template is part of the MTSA Cybersecurity Compliance Research Repository.*
-*Last Updated: [Current Date]*
+*Last Updated: December 2024*
 

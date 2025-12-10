@@ -395,5 +395,5 @@ This guide provides strategies and processes for monitoring regulatory changes, 
 
 *This document is part of the MTSA Cybersecurity Compliance Research Repository.*
 *For verified references, see VERIFIED_REFERENCES.md.*
-*Last Updated: [Current Date]*
+*Last Updated: December 2024*
 

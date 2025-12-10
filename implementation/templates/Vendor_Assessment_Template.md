@@ -79,5 +79,5 @@ This template provides a structure for assessing vendor systems that may be crit
 ---
 
 *This template is part of the MTSA Cybersecurity Compliance Research Repository.*
-*Last Updated: [Current Date]*
+*Last Updated: December 2024*
 

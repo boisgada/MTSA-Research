@@ -85,5 +85,5 @@ This template provides a structure for creating compliance status reports for ma
 ---
 
 *This template is part of the MTSA Cybersecurity Compliance Research Repository.*
-*Last Updated: [Current Date]*
+*Last Updated: December 2024*
 

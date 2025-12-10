@@ -80,5 +80,5 @@ This template provides a structure for conducting self-assessments to evaluate M
 ---
 
 *This template is part of the MTSA Cybersecurity Compliance Research Repository.*
-*Last Updated: [Current Date]*
+*Last Updated: December 2024*
 
