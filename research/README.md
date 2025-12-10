@@ -55,6 +55,16 @@ research/
   - Documentation requirements
   - Common findings and response strategies
 
+### Lessons Learned
+- **Common Pitfalls and Lessons Learned** (`lessons-learned/`): Comprehensive guide identifying common mistakes and anti-patterns in MTSA compliance
+  - Critical asset identification mistakes
+  - TSI interpretation errors
+  - Documentation gaps
+  - Training program pitfalls
+  - Assessment methodology errors
+  - Implementation anti-patterns
+  - Best practices to avoid pitfalls
+
 ### Research Queue
 - **Research Queue** (`RESEARCH_QUEUE.md`): Prioritized list of research topics and tasks
   - 25 research topics organized by priority (P0-P3)
