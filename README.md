@@ -70,6 +70,13 @@ MTSA/
 - **GitHub Resources** (`research/github-resources.md`): Open-source tools and frameworks for MTSA compliance support
   - NIST CSF implementation tools, CISA security tools, maritime security repositories, OT/ICS monitoring tools
 
+### Research Queue (`research/`)
+
+- **Research Queue** (`research/RESEARCH_QUEUE.md`): Prioritized list of research topics and tasks
+  - 25 research topics organized by priority (P0-P3)
+  - Status tracking and recommended research order
+  - Estimated effort and dependencies for each topic
+
 ### Assets (`assets/`)
 
 - **Asset Inventory Spreadsheets** (`assets/spreadsheets/`): Current asset inventory attempts

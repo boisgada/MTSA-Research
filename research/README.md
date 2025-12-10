@@ -48,6 +48,13 @@ research/
 - Industry best practices
 - Coast Guard guidance
 
+### Research Queue
+- **Research Queue** (`RESEARCH_QUEUE.md`): Prioritized list of research topics and tasks
+  - 25 research topics organized by priority (P0-P3)
+  - Status tracking for each research item
+  - Recommended research order
+  - Estimated effort and dependencies
+
 ---
 
 ## Key Documents
@@ -57,6 +64,7 @@ research/
 - **TSI Transportation Disruption Analysis**: Analysis of transportation disruption conflict
 - **Cross-Sector Alignment**: Industry groups and best practices for MTSA efficiency
 - **GitHub Resources**: Open-source tools and frameworks for MTSA compliance support
+- **Research Queue**: Prioritized research topics and implementation roadmap
 
 ---
 
