@@ -1,5 +1,9 @@
 # Incident Response Integration with National Response Center (NRC)
 
+> **Queue Item**: [RQ-006](../RESEARCH_QUEUE.md#rq-006-incident-response-integration-with-nrc)  
+> **Status**: ✅ Complete  
+> **Priority**: 🟠 P1 - High
+
 ## Purpose
 
 This guide provides comprehensive guidance on integrating MTSA cybersecurity incident reporting requirements with the National Response Center (NRC) and existing incident response procedures. It addresses NRC reporting procedures, coordination between IT/OT/security teams, and documentation requirements.

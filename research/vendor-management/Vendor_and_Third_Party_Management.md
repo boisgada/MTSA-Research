@@ -1,5 +1,9 @@
 # Vendor and Third-Party Management for MTSA Compliance
 
+> **Queue Item**: [RQ-005](../RESEARCH_QUEUE.md#rq-005-vendor-and-third-party-management)  
+> **Status**: ✅ Complete  
+> **Priority**: 🟠 P1 - High
+
 ## Purpose
 
 This guide addresses how to assess, manage, and ensure compliance of vendor systems and third-party services that may be critical assets under MTSA. It provides frameworks for vendor assessment, contract language, and ongoing management.

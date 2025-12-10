@@ -1,5 +1,9 @@
 # Supply Chain Security Integration for MTSA Compliance
 
+> **Queue Item**: [RQ-021](../RESEARCH_QUEUE.md#rq-021-supply-chain-security-integration)  
+> **Status**: ✅ Complete  
+> **Priority**: 🟡 P2 - Medium
+
 ## Purpose
 
 This guide provides comprehensive guidance on integrating supply chain cybersecurity considerations with MTSA compliance requirements. It addresses supply chain risk assessment, vendor security requirements, supply chain incident response, and integration with overall MTSA compliance.

@@ -1,5 +1,9 @@
 # MTSA-Specific Risk Assessment Methodologies
 
+> **Queue Item**: [RQ-018](../RESEARCH_QUEUE.md#rq-018-risk-assessment-methodologies)  
+> **Status**: ✅ Complete  
+> **Priority**: 🟡 P2 - Medium
+
 ## Purpose
 
 This guide provides risk assessment methodologies specifically tailored for MTSA cybersecurity compliance. It addresses MTSA-specific risk considerations, integration with existing risk frameworks, and risk prioritization for critical assets.

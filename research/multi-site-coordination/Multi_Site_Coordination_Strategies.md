@@ -1,5 +1,9 @@
 # Multi-Site Coordination Strategies for MTSA Compliance
 
+> **Queue Item**: [RQ-017](../RESEARCH_QUEUE.md#rq-017-multi-site-coordination-strategies)  
+> **Status**: ✅ Complete  
+> **Priority**: 🟡 P2 - Medium
+
 ## Purpose
 
 This guide provides strategies for coordinating MTSA cybersecurity compliance across multiple facilities, building on the corporate framework approach. It addresses site-specific considerations, communication protocols, shared resource management, and balancing consistency with customization.

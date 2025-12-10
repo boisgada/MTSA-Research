@@ -1,5 +1,9 @@
 # Regulatory Change Management for MTSA Compliance
 
+> **Queue Item**: [RQ-014](../RESEARCH_QUEUE.md#rq-014-regulatory-change-management)  
+> **Status**: ✅ Complete  
+> **Priority**: 🟡 P2 - Medium
+
 ## Purpose
 
 This guide provides strategies and processes for monitoring regulatory changes, updating Cybersecurity Plans, managing documentation versions, and ensuring ongoing compliance as MTSA regulations evolve.

@@ -1,5 +1,9 @@
 # Drill and Exercise Best Practices for MTSA Compliance
 
+> **Queue Item**: [RQ-012](../RESEARCH_QUEUE.md#rq-012-drill-and-exercise-best-practices)  
+> **Status**: ✅ Complete  
+> **Priority**: 🟠 P1 - High
+
 ## Purpose
 
 This guide provides best practices for developing and conducting effective cybersecurity drills and exercises required under MTSA. It addresses drill scenarios, exercise planning, after-action reviews, documentation, and integration with physical security drills.

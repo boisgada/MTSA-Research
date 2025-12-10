@@ -1,5 +1,9 @@
 # Integration with Other Regulations for MTSA Compliance
 
+> **Queue Item**: [RQ-024](../RESEARCH_QUEUE.md#rq-024-integration-with-other-regulations)  
+> **Status**: ✅ Complete  
+> **Priority**: 🟢 P3 - Low
+
 ## Purpose
 
 This guide provides strategies for integrating MTSA compliance with other regulatory frameworks, including NIST CSF, CMMC, ISO 27001, and other maritime regulations, to minimize duplication and maximize efficiency.

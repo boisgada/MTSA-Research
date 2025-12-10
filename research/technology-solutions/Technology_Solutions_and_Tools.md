@@ -1,5 +1,9 @@
 # Technology Solutions and Tools for MTSA Compliance
 
+> **Queue Item**: [RQ-015](../RESEARCH_QUEUE.md#rq-015-technology-solutions-and-tools)  
+> **Status**: ✅ Complete  
+> **Priority**: 🟡 P2 - Medium
+
 ## Purpose
 
 This guide provides evaluation frameworks and recommendations for selecting technology solutions and tools to support MTSA cybersecurity compliance. It covers OT/ICS security tools, network segmentation tools, monitoring solutions, compliance management platforms, and vendor evaluation criteria.

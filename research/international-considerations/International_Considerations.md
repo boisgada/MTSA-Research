@@ -1,5 +1,9 @@
 # International Considerations for MTSA Compliance
 
+> **Queue Item**: [RQ-023](../RESEARCH_QUEUE.md#rq-023-international-considerations)  
+> **Status**: ✅ Complete  
+> **Priority**: 🟢 P3 - Low
+
 ## Purpose
 
 This guide addresses international considerations for MTSA compliance, including foreign-located systems, international data transfer, cross-border coordination, and international regulatory alignment for global organizations.

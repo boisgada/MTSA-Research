@@ -1,5 +1,9 @@
 # Common Pitfalls and Lessons Learned: MTSA Cybersecurity Compliance
 
+> **Queue Item**: [RQ-002](../RESEARCH_QUEUE.md#rq-002-common-pitfalls-and-lessons-learned)  
+> **Status**: ✅ Complete  
+> **Priority**: 🔴 P0 - Critical
+
 ## Purpose
 
 This document identifies common mistakes, pitfalls, and anti-patterns encountered during MTSA cybersecurity compliance implementation. Learning from these mistakes helps organizations avoid costly errors, delays, and compliance issues.

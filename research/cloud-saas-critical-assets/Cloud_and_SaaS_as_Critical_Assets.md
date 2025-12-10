@@ -1,5 +1,9 @@
 # Cloud and SaaS as Critical Assets: Assessment and Compliance Framework
 
+> **Queue Item**: [RQ-013](../RESEARCH_QUEUE.md#rq-013-cloud-and-saas-as-critical-assets)  
+> **Status**: ✅ Complete  
+> **Priority**: 🟠 P1 - High
+
 ## Purpose
 
 This guide provides comprehensive guidance on assessing cloud and Software-as-a-Service (SaaS) systems as critical assets under MTSA, understanding the ramifications of this classification, and managing compliance for enterprise-wide standardized services in international organizations.

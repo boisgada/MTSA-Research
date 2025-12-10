@@ -1,5 +1,9 @@
 # Recordkeeping Systems and Tools for MTSA Compliance
 
+> **Queue Item**: [RQ-020](../RESEARCH_QUEUE.md#rq-020-recordkeeping-systems-and-tools)  
+> **Status**: ✅ Complete  
+> **Priority**: 🟡 P2 - Medium
+
 ## Purpose
 
 This guide provides comprehensive guidance on establishing recordkeeping systems for MTSA cybersecurity compliance, including system selection criteria, integration approaches, retention policies, and audit trail requirements.

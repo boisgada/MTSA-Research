@@ -1,5 +1,9 @@
 # Cybersecurity Plan Submission Process Guide
 
+> **Queue Item**: [RQ-010](../RESEARCH_QUEUE.md#rq-010-cybersecurity-plan-submission-process)  
+> **Status**: ✅ Complete  
+> **Priority**: 🟠 P1 - High
+
 ## Purpose
 
 This guide provides step-by-step procedures for submitting the Cybersecurity Plan to the Coast Guard, including required documentation, review timelines, resubmission procedures, and approval criteria.

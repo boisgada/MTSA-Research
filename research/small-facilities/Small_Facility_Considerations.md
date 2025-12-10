@@ -1,5 +1,9 @@
 # Small Facility Considerations for MTSA Compliance
 
+> **Queue Item**: [RQ-025](../RESEARCH_QUEUE.md#rq-025-small-facility-considerations)  
+> **Status**: ✅ Complete  
+> **Priority**: 🟢 P3 - Low
+
 ## Purpose
 
 This guide provides simplified, cost-effective approaches for small facilities to achieve MTSA cybersecurity compliance. It addresses resource-constrained implementation, simplified methodologies, and practical solutions tailored for smaller organizations.

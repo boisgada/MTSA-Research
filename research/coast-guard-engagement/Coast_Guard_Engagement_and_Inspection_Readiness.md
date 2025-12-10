@@ -1,5 +1,9 @@
 # Coast Guard Engagement and Inspection Readiness Guide
 
+> **Queue Item**: [RQ-001](../RESEARCH_QUEUE.md#rq-001-coast-guard-engagement-and-inspection-readiness)  
+> **Status**: ✅ Complete  
+> **Priority**: 🔴 P0 - Critical
+
 ## Purpose
 
 This guide provides comprehensive guidance on engaging with U.S. Coast Guard District Offices, preparing for Coast Guard inspections, and ensuring successful MTSA cybersecurity compliance. This document addresses proactive engagement strategies, inspection preparation, documentation requirements, and response procedures.

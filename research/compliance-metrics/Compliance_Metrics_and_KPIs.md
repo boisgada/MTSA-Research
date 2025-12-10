@@ -1,5 +1,9 @@
 # MTSA Cybersecurity Compliance Metrics and KPIs
 
+> **Queue Item**: [RQ-008](../RESEARCH_QUEUE.md#rq-008-metrics-kpis-and-compliance-monitoring)  
+> **Status**: ✅ Complete  
+> **Priority**: 🟠 P1 - High
+
 ## Purpose
 
 This guide provides frameworks for developing key performance indicators (KPIs) and metrics to monitor MTSA cybersecurity compliance. It enables organizations to track compliance status, measure effectiveness, and demonstrate continuous improvement.
