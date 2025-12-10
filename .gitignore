@@ -1,0 +1,4 @@
+# Keep internal or third-party content out of the public repo
+ai-collaboration/chat_history*
+awesome-copilot/
+
