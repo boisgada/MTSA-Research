@@ -115,6 +115,21 @@ MTSA/
 
 ---
 
+## AI Collaboration and Acknowledgments
+
+This repository was developed with extensive AI assistance using `gpt-5-beast-mode` (tool-enabled, agentic AI). The AI contributed significantly to:
+
+- **Research and Analysis**: Regulatory literature scans, cross-sector benchmarking, and comprehensive requirements analysis
+- **Documentation**: Drafting and structuring implementation guides, research documents, and reference materials
+- **Reference Curation**: Systematic verification and citation of authoritative sources (USCG, CISA, NIST, ISA)
+- **Content Organization**: Repository structure design and documentation framework
+
+All content is based on public, authoritative sources and has been verified for accuracy. The AI collaboration approach enabled rapid development while maintaining rigorous standards for verified references.
+
+For detailed AI usage disclosure, see [`PUBLISHING.md`](PUBLISHING.md).
+
+---
+
 ## Resources
 
 - **Coast Guard Resources**: See implementation guides for links
