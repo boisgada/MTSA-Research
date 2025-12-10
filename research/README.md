@@ -36,6 +36,12 @@ research/
 - Land-based sectors with similar regulatory/OT challenges
 - Industry groups and best-practice sources to reuse for MTSA efficiency
 
+### GitHub Resources
+- Open-source tools and frameworks for MTSA compliance
+- NIST CSF implementation tools
+- CISA security tools and resources
+- Maritime security repositories
+
 ### Requirements Research
 - Complete MTSA cybersecurity requirements
 - Regulatory guidance and interpretation
@@ -49,6 +55,8 @@ research/
 - **Critical Assets Research**: Comprehensive analysis of critical asset definition
 - **TSI Trade/Commerce Interpretation**: TSI focus on trade/commerce impact
 - **TSI Transportation Disruption Analysis**: Analysis of transportation disruption conflict
+- **Cross-Sector Alignment**: Industry groups and best practices for MTSA efficiency
+- **GitHub Resources**: Open-source tools and frameworks for MTSA compliance support
 
 ---
 

@@ -63,6 +63,11 @@ MTSA/
 - **Cross-Sector Alignment** (`research/cross-sector-alignment.md`): Land-based sectors, industry groups, and best-practice sources to reuse for MTSA efficiency
   - Includes MTSA-adjacent intermodal logistics, bunkering/pipelines into marine terminals, and passenger terminal parallels for drills/access control/incident coordination
 
+### GitHub Resources (`research/`)
+
+- **GitHub Resources** (`research/github-resources.md`): Open-source tools and frameworks for MTSA compliance support
+  - NIST CSF implementation tools, CISA security tools, maritime security repositories, OT/ICS monitoring tools
+
 ### Assets (`assets/`)
 
 - **Asset Inventory Spreadsheets** (`assets/spreadsheets/`): Current asset inventory attempts
