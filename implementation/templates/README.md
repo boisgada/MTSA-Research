@@ -1,5 +1,9 @@
 # MTSA Compliance Documentation Templates
 
+> **Queue Item**: [RQ-027](../../research/RESEARCH_QUEUE.md#rq-027-comprehensive-template-creation)  
+> **Status**: ✅ Complete  
+> **Priority**: 🟠 P1 - High
+
 ## Purpose
 
 This folder contains templates and examples for MTSA cybersecurity compliance documentation. Templates are generic and can be adapted for your specific facility and requirements.
