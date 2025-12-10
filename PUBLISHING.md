@@ -15,17 +15,21 @@
 
 ## Recommended Pre-Publish Checklist
 - Confirm `.gitignore` excludes the paths above.
-- **Run verification script**: `./verify-no-company-refs.sh` to check for company-specific references
+- **Run verification script**: `./tools/verify-no-company-refs.sh [CompanyName]` to check for company-specific references
 - Re-scan for any residual company identifiers before push: `rg "[CompanyName]" .` (replace with your company name)
 - Verify verified-reference links remain valid.
 - Add a license file appropriate for open sharing (e.g., MIT/Apache-2.0) if desired.
 
-## Verification Script
+## Repository Maintenance Tools
 
-A verification script (`verify-no-company-refs.sh`) is included to help ensure no company-specific references remain in tracked files. Run it before publishing:
+Utility scripts for maintaining repository cleanliness are located in the `tools/` folder:
+
+### Verification Script
+
+A verification script (`tools/verify-no-company-refs.sh`) is included to help ensure no company-specific references remain in tracked files. Run it before publishing:
 
 ```bash
-./verify-no-company-refs.sh
+./tools/verify-no-company-refs.sh [CompanyName]
 ```
 
 The script checks:
@@ -33,4 +37,12 @@ The script checks:
 - Files with company name in filename
 - Company email domains
 - Internal path references (e.g., OneDrive paths)
+
+### History Cleaning Tools
+
+If you need to clean company references from git history, see:
+- `tools/clean-git-history.sh`: Script to rewrite git history
+- `tools/HISTORY_CLEANING.md`: Complete documentation and instructions
+
+See `tools/README.md` for complete documentation of all maintenance tools.
 

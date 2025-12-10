@@ -37,6 +37,11 @@ MTSA/
 ├── assets/                    # Supporting assets and data
 │   ├── README.md
 │   └── spreadsheets/          # Excel files and data
+├── tools/                     # Repository maintenance tools
+│   ├── README.md
+│   ├── verify-no-company-refs.sh
+│   ├── clean-git-history.sh
+│   └── HISTORY_CLEANING.md
 └── awesome-copilot/           # AI prompt library (external resource)
 ```
 
@@ -77,6 +82,12 @@ MTSA/
 - **Rules of Engagement**: Guidelines for AI collaboration sessions
 - **Project Context**: Essential project context for AI sessions
 - **Session Notes Template**: Template for documenting AI sessions
+
+### Repository Maintenance Tools (`tools/`)
+
+- **Verification Script** (`tools/verify-no-company-refs.sh`): Verify repository is clean of company-specific references
+- **History Cleaning Script** (`tools/clean-git-history.sh`): Remove company references from git history
+- **History Cleaning Documentation** (`tools/HISTORY_CLEANING.md`): Guide for cleaning git history
 
 ---
 
