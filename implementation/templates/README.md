@@ -10,38 +10,48 @@ This folder contains templates and examples for MTSA cybersecurity compliance do
 
 ### Cybersecurity Plan Templates
 
-- **Cybersecurity Plan Outline**: Structure and required sections
-- **Cybersecurity Plan Section Templates**: Individual section templates
+- **Cybersecurity Plan Outline Template**: Structure and required sections for Cybersecurity Plan
 
 ### Assessment Templates
 
-- **Cybersecurity Assessment Report Template**: Assessment documentation
-- **Critical Asset Assessment Template**: Asset assessment documentation
-- **Risk Assessment Template**: Risk assessment documentation
+- **Cybersecurity Assessment Report Template**: Annual assessment documentation
+- **Risk Assessment Template**: Risk assessment for critical assets
+- **Gap Analysis Template**: Gap analysis between current state and requirements
+- **Self-Assessment Template**: Pre-inspection self-assessment
 
 ### Drill and Exercise Templates
 
-- **Drill Plan Template**: Drill planning documentation
-- **Exercise Plan Template**: Exercise planning documentation
-- **After-Action Review Template**: Post-drill/exercise documentation
+- **Drill Exercise Documentation Template**: Drill and exercise documentation
 
 ### Incident Reporting Templates
 
-- **Incident Report Template**: Internal incident documentation
-- **NRC Report Template**: NRC reporting documentation
-- **Incident Response Documentation Template**: Response documentation
+- **Incident Report Template**: Internal incident documentation and NRC reporting
+- **Incident Response Procedure Template**: Incident response procedures with NRC integration
 
 ### Training Templates
 
-- **Training Plan Template**: Training program planning
+- **Training Plan Template**: Training program planning and structure
 - **Training Record Template**: Training completion records
-- **Training Content Outline Template**: Training content structure
+
+### Vendor and Third-Party Templates
+
+- **Vendor Assessment Template**: Vendor security and compliance assessment
+
+### Compliance Management Templates
+
+- **Corrective Action Plan Template**: Remediation planning and tracking
+- **Compliance Report Template**: Compliance status reporting
+- **Metrics Dashboard Template**: Compliance metrics and KPIs
+- **Evidence Package Template**: Evidence organization for audits
+
+### Business and Change Management Templates
+
+- **Business Case Presentation Template**: Executive presentation for funding approval
+- **Change Management Template**: Regulatory change management
 
 ### Recordkeeping Templates
 
-- **Recordkeeping Index Template**: Documentation organization
-- **Compliance Record Template**: Compliance documentation
-- **Maintenance Record Template**: Maintenance documentation
+- **Recordkeeping Index Template**: Documentation organization and indexing
 
 ---
 
