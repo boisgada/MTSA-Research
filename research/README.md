@@ -67,10 +67,28 @@ research/
 
 ### Research Queue
 - **Research Queue** (`RESEARCH_QUEUE.md`): Prioritized list of research topics and tasks
-  - 25 research topics organized by priority (P0-P3)
+  - ✅ **Status**: All 29 research items complete (100%)
+  - **Format**: Uses persistent RQ-XXX IDs for tracking across priority changes
+  - **Bidirectional Links**: Queue items link to outputs, outputs link back to queue items
   - Status tracking for each research item
   - Recommended research order
   - Estimated effort and dependencies
+
+### Industry-Specific Considerations
+- **Industry-Specific Considerations** (`industry-specific/`): Tailored guidance for different industry sectors
+  - Chemical industry considerations
+  - Refining/petrochemical industry guidance
+  - Port terminal considerations
+  - Intermodal facility considerations
+  - Marine fuel/bunkering facilities
+
+### Advanced Topics
+- **Advanced Topics** (`advanced-topics/`): Forward-looking advanced capabilities
+  - AI/ML in cybersecurity for MTSA
+  - Zero-trust architecture for maritime
+  - Advanced threat detection
+  - Predictive compliance analytics
+  - Emerging technologies
 
 ---
 
