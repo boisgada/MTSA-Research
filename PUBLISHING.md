@@ -5,8 +5,10 @@
 This repository was developed through extensive collaboration with AI assistance. The following details the AI's role and contributions:
 
 ### Primary AI Assistant
-- **Model**: `gpt-5-beast-mode` (tool-enabled, agentic AI)
-- **Capabilities**: Research, analysis, drafting, document structuring, and iterative refinement
+- **Platform**: Cursor (AI-powered code editor)
+- **Assistant**: Auto (agentic AI coding assistant)
+- **Approach**: Tool-enabled autonomous agent mode with persistent context and iterative refinement
+- **Capabilities**: Research, analysis, drafting, document structuring, web search, code/file operations, and systematic verification
 
 ### AI Contributions
 
@@ -43,6 +45,17 @@ This repository was developed through extensive collaboration with AI assistance
 - No proprietary content remains; all content is generic and reusable
 - All organization-specific references removed
 - All recommendations supported by verified authoritative sources
+
+### AI Platform Credit
+
+This project was developed using **[Cursor](https://cursor.sh)** (AI-powered code editor) with its **Auto** agentic AI assistant. Cursor's tool-enabled autonomous agent capabilities were essential for:
+
+- **Persistent Context**: Maintaining project context across extended collaboration sessions
+- **Multi-Tool Operations**: Simultaneous file operations, web research, and code analysis
+- **Iterative Refinement**: Systematic document improvement and verification workflows
+- **Autonomous Execution**: Self-directed research, analysis, and content generation with minimal human intervention
+
+The agentic AI approach enabled rapid development of this comprehensive research repository while maintaining rigorous standards for verified references and content quality.
 
 ## Do Not Publish (keep internal/private)
 - `ai-collaboration/chat_history_*` (session transcripts and internal notes)
