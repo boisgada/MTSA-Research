@@ -48,6 +48,13 @@ research/
 - Industry best practices
 - Coast Guard guidance
 
+### Coast Guard Engagement
+- **Coast Guard Engagement and Inspection Readiness** (`coast-guard-engagement/`): Comprehensive guide for engaging with Coast Guard District Offices, preparing for inspections, and ensuring compliance
+  - Proactive engagement strategies
+  - Inspection preparation and procedures
+  - Documentation requirements
+  - Common findings and response strategies
+
 ### Research Queue
 - **Research Queue** (`RESEARCH_QUEUE.md`): Prioritized list of research topics and tasks
   - 25 research topics organized by priority (P0-P3)
