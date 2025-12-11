@@ -94,6 +94,7 @@
 - **[CIS Controls Alignment](implementation/strategies/CIS_Controls_MTSA_Alignment.md)**: Controls-first view for MTSA
 - **[NIST SP 800-82 Alignment](implementation/strategies/NIST_SP800-82_MTSA_Alignment.md)**: OT/ICS practices for MTSA
 - **[Cross-Framework Evidence Matrix](implementation/strategies/Cross_Framework_Evidence_Matrix.md)**: Evidence reuse across frameworks
+- **[Examples and Diagrams](implementation/strategies/MTSA_Examples_and_Diagrams.md)**: Scenarios and visuals
 
 ### Assessment Tools
 - **[Critical Asset Assessment Checklist](implementation/checklists/Critical_Asset_Assessment_Checklist.md)**: Step-by-step assessment checklist

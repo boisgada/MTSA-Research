@@ -167,7 +167,7 @@ This queue tracks gaps, blind spots, and improvement opportunities identified th
 ### 🟡 P2 - Medium Priority
 
 #### GAP-008: Enhance Documentation with Examples and Use Cases
-**Status**: ⏳ Pending  
+**Status**: ✅ Complete  
 **Priority**: 🟡 P2  
 **Estimated Effort**: High  
 **Dependencies**: None
@@ -175,10 +175,7 @@ This queue tracks gaps, blind spots, and improvement opportunities identified th
 **Issue**: Some documents could benefit from more examples and use cases.
 
 **Action**:
-- Add practical examples where helpful
-- Include use case scenarios
-- Add "how-to" sections where appropriate
-- Ensure examples are generic and reusable
+- Added `implementation/strategies/MTSA_Examples_and_Diagrams.md` with reusable scenarios (NRC reportable, OT patch deferral with compensating controls, vendor remote access misuse) and playbooks.
 
 **Output**: Enhanced documentation with examples
 
@@ -203,7 +200,7 @@ This queue tracks gaps, blind spots, and improvement opportunities identified th
 ---
 
 #### GAP-010: Add Visual Diagrams or Flowcharts Where Helpful
-**Status**: ⏳ Pending  
+**Status**: ✅ Complete  
 **Priority**: 🟡 P2  
 **Estimated Effort**: Medium  
 **Dependencies**: None
@@ -211,16 +208,14 @@ This queue tracks gaps, blind spots, and improvement opportunities identified th
 **Issue**: Some processes could benefit from visual representation.
 
 **Action**:
-- Identify processes that would benefit from diagrams
-- Create Mermaid diagrams or ASCII art flowcharts
-- Add to relevant documents
+- Added Mermaid diagrams (NRC reporting swimlane, drill/exercise flow, OT/IT segmentation) to `implementation/strategies/MTSA_Examples_and_Diagrams.md`.
 
 **Output**: Visual aids added to key documents
 
 ---
 
 #### GAP-011: Standardize Terminology and Glossary
-**Status**: ⏳ Pending  
+**Status**: ✅ Complete  
 **Priority**: 🟡 P2  
 **Estimated Effort**: Medium  
 **Dependencies**: None
@@ -228,10 +223,7 @@ This queue tracks gaps, blind spots, and improvement opportunities identified th
 **Issue**: Ensure consistent terminology across all documents.
 
 **Action**:
-- Review terminology usage
-- Create or enhance glossary
-- Standardize acronym usage
-- Ensure consistent definitions
+- Added repository-wide `GLOSSARY.md` for MTSA/OT/ICS/NRC/TSI terms, zones/conduits, SL-T, AAR, SoA, compensating controls, and VRA.
 
 **Output**: Standardized terminology and comprehensive glossary
 
@@ -359,9 +351,8 @@ This queue tracks gaps, blind spots, and improvement opportunities identified th
 - 🔄 GAP-013: Enhance code blocks and formatting
 
 ### Pending Items
-- ⏳ GAP-008: Enhance documentation with examples and use cases (P2)
-- ⏳ GAP-010: Add visual diagrams or flowcharts where helpful (P2)
-- ⏳ GAP-011: Standardize terminology and glossary (P2)
+- ⏳ GAP-012: Add Table of Contents to long documents (P3)
+- ⏳ GAP-013: Enhance code blocks and formatting (P3)
 
 ---
 
