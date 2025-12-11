@@ -35,36 +35,43 @@ Provide a concise view of how MTSA cybersecurity requirements map to NIST CSF (v
 ## Detailed Crosswalk
 
 ### 1) Cybersecurity Plan (MTSA)
+
 - **CSF**: ID.GV-1/2 (governance policies), ID.RA-1/3 (risk mgmt), PR.IP-1/3/8 (policies, configuration, change)
 - **MTSA specifics**: Align with Facility Security Plan; include maritime/OT scope; Coast Guard submission.
 - **Reuse from ISO 27001**: Clauses 4.3, 5.2, 6.1.2/6.1.3, 8.1 (see ISO guide).
 
 ### 2) Cybersecurity Officer (CySO)
+
 - **CSF**: ID.GV-2 (roles/responsibilities), ID.AM-6 (roles for assets), ID.RM-1 (risk mgmt roles)
 - **MTSA specifics**: Formal designation, authority for MTSA plan, coordination with FSO/USCG.
 - **Reuse**: ISO 27001 5.1/5.3/7.2.
 
 ### 3) Training
+
 - **CSF**: PR.AT-1/2/3/4 (awareness, role-based), PR.AT-5 (third parties, if applicable)
 - **MTSA specifics**: Annual MTSA/OT training; NRC reporting awareness; maritime scenarios.
 - **Reuse**: ISO 27001 7.2/7.3; Annex A.7.2.x.
 
 ### 4) Cybersecurity Assessment
+
 - **CSF**: ID.RA-1/2/3/6 (risk/vuln), ID.AM-1/2/3 (assets), DE.CM-8 (vuln monitoring)
 - **MTSA specifics**: Critical asset identification, maritime threats, OT inclusion, annual cadence.
 - **Reuse**: ISO 27001 6.1.2/6.1.3; Annex A.8.x (asset); A.12.6.1 (vuln mgmt).
 
 ### 5) Drills and Exercises
+
 - **CSF**: RS.IM-1/2 (improvements), RS.CO-1/2/3 (comms), RS.MI-1 (lessons learned)
 - **MTSA specifics**: Two drills + one exercise per year; maritime/OT scenarios; document AARs.
 - **Reuse**: ISO 27001 Annex A.5.26/5.27; A.17.x for continuity aspects.
 
 ### 6) Incident Reporting (NRC)
+
 - **CSF**: RS.CO-1/2/3 (reporting/coordination), RS.AN-1/2 (analysis), RS.MI-1 (improvements)
 - **MTSA specifics**: Immediate NRC notification; Coast Guard coordination; evidence of tested playbooks.
 - **Reuse**: ISO 27001 Annex A.5.26/5.27/6.1.3 (authorities contact) with MTSA extensions.
 
 ### 7) Technical Cybersecurity Measures
+
 - **CSF**:
   - PR.AC-1/3/4/5/6 (access, least privilege, authN, remote access, network segmentation)
   - PR.DS-1/2/5/6/7 (data at rest/in transit, DLP, integrity)
@@ -75,6 +82,7 @@ Provide a concise view of how MTSA cybersecurity requirements map to NIST CSF (v
 - **Reuse**: ISO 27001 Annex A.5, A.8, A.9, A.12, A.13, A.17 (see ISO guide tables).
 
 ### 8) Recordkeeping
+
 - **CSF**: ID.GV-3 (legal/reg obligations), PR.IP-4/5 (backups, change), RS.IM-1/2 (IR records), RC.CO-1 (recovery comms)
 - **MTSA specifics**: Training logs, drills/exercises evidence, incident records with NRC reporting, assessments, change history.
 - **Reuse**: ISO 27001 7.5, 9.1/9.2/9.3; Annex A.12.4.x (logging).
@@ -94,7 +102,7 @@ Provide a concise view of how MTSA cybersecurity requirements map to NIST CSF (v
 | Technical Measures | PR.AC-1/3/4/5/6; PR.DS-1/2/5/6/7; PR.IP-1/3/4/12; PR.MA-1/2; DE.CM-1/4/7/8 | IT/OT segmentation, authN/Z, backups/DR, vuln mgmt, monitoring | Annex A.5, A.8, A.9, A.12, A.13, A.17 |
 | Recordkeeping | ID.GV-3 (reg obligations), PR.IP-4/5 (backups/change), RS.IM-1/2 (IR records), RC.CO-1 (recovery comms) | Training logs, drills/exercises evidence, incident records with NRC reporting, assessment history | 7.5 documented info; 9.1/9.2/9.3; A.12.4.x logging |
 
-> CSF v2.0 note: The new **Govern (GV)** function subsumes ID.GV concepts. Map ID.GV-* items above to GV.* categories in v2.0; other categories largely retain ID/PR/DE/RS/RC identifiers with minor wording updates. Adjust labels if your organization has formally adopted v2.0 terminology.
+> CSF v2.0 note: The new **Govern (GV)** function subsumes ID.GV concepts. Map `ID.GV-*` items above to `GV.*` categories in v2.0; other categories largely retain ID/PR/DE/RS/RC identifiers with minor wording updates. Adjust labels if your organization has formally adopted v2.0 terminology.
 
 ---
 
@@ -111,3 +119,12 @@ Provide a concise view of how MTSA cybersecurity requirements map to NIST CSF (v
 
 - Review after significant MTSA rule updates, CSF version changes, or OT scope changes.
 - If using CSF v2.0, include a short appendix translating ID.GV → GV.* labels and any Category wording changes your org adopts.
+
+---
+
+## Appendix: CSF v1.1 ↔ v2.0 Terminology Deltas (quick view)
+
+- **Govern Function**: v2.0 introduces the **GV** function. Map `ID.GV-*` items to `GV.*`; core intent unchanged.
+- **Category naming tweaks**: Most ID/PR/DE/RS/RC Categories keep identifiers; wording is slightly modernized (e.g., supply chain emphasis). Align local policy names if your org adopts v2.0 text.
+- **Supply chain**: v2.0 elevates supply-chain risk; ensure MTSA assessments capture third-party/port partner exposure.
+- **Action**: If you standardize on v2.0 wording, add a one-page local glossary mapping your adopted labels to the v1.1 identifiers shown in this crosswalk.
