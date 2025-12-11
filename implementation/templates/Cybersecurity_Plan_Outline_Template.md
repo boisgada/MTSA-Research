@@ -4,6 +4,9 @@
 
 This template provides a comprehensive outline for developing a Cybersecurity Plan that meets MTSA requirements. Use this as a starting point and customize for your specific facility.
 
+> Terminology: see `GLOSSARY.md`  
+> Evidence: see `EVIDENCE_PACK_CHECKLIST.md` and `implementation/strategies/Cross_Framework_Evidence_Matrix.md`
+
 ---
 
 ## Cybersecurity Plan Structure
