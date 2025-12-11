@@ -27,6 +27,7 @@
 - **NIST SP 800-82 alignment (OT/ICS)?** → `implementation/strategies/NIST_SP800-82_MTSA_Alignment.md`
 - **Evidence reuse?** → `implementation/strategies/Cross_Framework_Evidence_Matrix.md`
 - **Examples/diagrams?** → `implementation/strategies/MTSA_Examples_and_Diagrams.md`
+- **Evidence pack checklist?** → `EVIDENCE_PACK_CHECKLIST.md`
 - **Assessment checklist?** → `implementation/checklists/Critical_Asset_Assessment_Checklist.md`
 
 ### 📊 Assets

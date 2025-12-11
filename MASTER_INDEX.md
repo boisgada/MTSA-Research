@@ -95,6 +95,7 @@
 - **[NIST SP 800-82 Alignment](implementation/strategies/NIST_SP800-82_MTSA_Alignment.md)**: OT/ICS practices for MTSA
 - **[Cross-Framework Evidence Matrix](implementation/strategies/Cross_Framework_Evidence_Matrix.md)**: Evidence reuse across frameworks
 - **[Examples and Diagrams](implementation/strategies/MTSA_Examples_and_Diagrams.md)**: Scenarios and visuals
+- **[Evidence Pack Checklist](EVIDENCE_PACK_CHECKLIST.md)**: Submission/audit materials list
 
 ### Assessment Tools
 - **[Critical Asset Assessment Checklist](implementation/checklists/Critical_Asset_Assessment_Checklist.md)**: Step-by-step assessment checklist
