@@ -90,6 +90,8 @@
 - **[Corporate Framework Strategy](implementation/strategies/MTSA_Corporate_Framework_Strategy.md)**: Multi-site efficiency approach
 - **[ISO 27001 Alignment](implementation/strategies/ISO_27001_MTSA_Alignment_Guide.md)**: Leveraging existing ISMS
 - **[NIST CSF Alignment](implementation/strategies/NIST_CSF_MTSA_Alignment.md)**: CSF lens for MTSA requirements
+- **[IEC 62443 Alignment](implementation/strategies/IEC_62443_MTSA_Alignment.md)**: OT/ICS focus with zones/conduits and SL-T
+- **[CIS Controls Alignment](implementation/strategies/CIS_Controls_MTSA_Alignment.md)**: Controls-first view for MTSA
 
 ### Assessment Tools
 - **[Critical Asset Assessment Checklist](implementation/checklists/Critical_Asset_Assessment_Checklist.md)**: Step-by-step assessment checklist

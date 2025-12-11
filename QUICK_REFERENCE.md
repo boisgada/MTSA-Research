@@ -22,6 +22,8 @@
 - **Corporate strategy?** → `implementation/strategies/MTSA_Corporate_Framework_Strategy.md`
 - **ISO 27001 alignment?** → `implementation/strategies/ISO_27001_MTSA_Alignment_Guide.md`
 - **NIST CSF alignment?** → `implementation/strategies/NIST_CSF_MTSA_Alignment.md`
+- **IEC 62443 alignment (OT/ICS)?** → `implementation/strategies/IEC_62443_MTSA_Alignment.md`
+- **CIS Controls alignment?** → `implementation/strategies/CIS_Controls_MTSA_Alignment.md`
 - **Assessment checklist?** → `implementation/checklists/Critical_Asset_Assessment_Checklist.md`
 
 ### 📊 Assets

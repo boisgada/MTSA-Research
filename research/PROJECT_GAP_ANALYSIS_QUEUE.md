@@ -255,7 +255,7 @@ This queue tracks gaps, blind spots, and improvement opportunities identified th
 ---
 
 #### GAP-015: Evaluate Additional Framework Alignments (IEC 62443 / CIS Controls)
-**Status**: ⏳ Pending  
+**Status**: ✅ Complete  
 **Priority**: 🟡 P2  
 **Estimated Effort**: Medium  
 **Dependencies**: NIST CSF crosswalk
@@ -263,12 +263,11 @@ This queue tracks gaps, blind spots, and improvement opportunities identified th
 **Issue**: Many operators also align to OT-centric or control-priority frameworks (IEC 62443, CIS Controls). Providing MTSA crosswalks will streamline multi-framework evidence reuse.
 
 **Action**:
-- Identify most-used frameworks for the facility (e.g., IEC 62443-3-3/2-1 for OT; CIS v8 for general controls).
-- Draft concise MTSA ↔ IEC 62443 crosswalk for OT controls; highlight delta areas (zones/conduits, SL-Ts).
-- Draft MTSA ↔ CIS Controls v8 alignment for quick “controls-first” audiences.
-- Link deliverables from `MASTER_INDEX.md` and `QUICK_REFERENCE.md` when published.
+- Created `implementation/strategies/IEC_62443_MTSA_Alignment.md` (OT/ICS focus, zones/conduits, SL-T).
+- Created `implementation/strategies/CIS_Controls_MTSA_Alignment.md` (controls-first view).
+- Linked from `MASTER_INDEX.md` and `QUICK_REFERENCE.md`.
 
-**Output**: Two alignment briefs (IEC 62443, CIS Controls) with reuse guidance for MTSA evidence.
+**Output**: Two published alignment briefs with guidance to reuse MTSA evidence across frameworks.
 
 ---
 
@@ -330,7 +329,6 @@ This queue tracks gaps, blind spots, and improvement opportunities identified th
 - ⏳ GAP-010: Add visual diagrams or flowcharts where helpful (P2)
 - ⏳ GAP-011: Standardize terminology and glossary (P2)
 - ⏳ GAP-014: Add NIST CSF alignment crosswalk (P2)
-- ⏳ GAP-015: Evaluate additional framework alignments (IEC 62443 / CIS Controls) (P2)
 
 ---
 
