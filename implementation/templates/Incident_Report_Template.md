@@ -4,11 +4,16 @@
 
 This template provides structure for documenting cybersecurity incidents and NRC reporting. Use for both internal incident documentation and NRC reporting.
 
+> Terminology: see `GLOSSARY.md`  
+> Evidence: see `EVIDENCE_PACK_CHECKLIST.md` and `implementation/strategies/Cross_Framework_Evidence_Matrix.md`  
+> Scenarios/visuals: see `implementation/strategies/MTSA_Examples_and_Diagrams.md`
+
 ---
 
 ## Incident Report Structure
 
 ### 1. Incident Information
+
 - Incident ID
 - Date and time discovered
 - Date and time occurred
@@ -16,6 +21,7 @@ This template provides structure for documenting cybersecurity incidents and NRC
 - Severity
 
 ### 2. Incident Description
+
 - What happened
 - How discovered
 - Systems affected
@@ -23,12 +29,14 @@ This template provides structure for documenting cybersecurity incidents and NRC
 - TSI potential
 
 ### 3. Affected Systems
+
 - Systems affected
 - Critical assets involved
 - Data affected
 - Operations affected
 
 ### 4. Response Actions
+
 - Immediate actions
 - Containment actions
 - Eradication actions
@@ -36,6 +44,7 @@ This template provides structure for documenting cybersecurity incidents and NRC
 - Timeline
 
 ### 5. Reporting Information
+
 - NRC report submitted (yes/no)
 - NRC report date/time
 - NRC report number
@@ -43,24 +52,28 @@ This template provides structure for documenting cybersecurity incidents and NRC
 - Additional reporting
 
 ### 6. Root Cause Analysis
+
 - Root cause
 - Contributing factors
 - Analysis methodology
 - Findings
 
 ### 7. Corrective Actions
+
 - Corrective actions planned
 - Corrective actions implemented
 - Preventive measures
 - Timeline
 
 ### 8. Follow-Up
+
 - Follow-up actions
 - Status updates
 - Final resolution
 - Lessons learned
 
 ### 9. Appendices
+
 - Supporting documentation
 - Logs and evidence
 - Communications
@@ -71,12 +84,14 @@ This template provides structure for documenting cybersecurity incidents and NRC
 ## Template Usage
 
 **Internal Documentation:**
+
 - Complete for all incidents
 - Maintain for recordkeeping
 - Use for lessons learned
 - Support compliance
 
 **NRC Reporting:**
+
 - Use relevant sections for NRC report
 - Provide complete information
 - Submit promptly
@@ -84,6 +99,5 @@ This template provides structure for documenting cybersecurity incidents and NRC
 
 ---
 
-*This template is part of the MTSA Cybersecurity Compliance Research Repository.*
-*Last Updated: December 2025*
-
+_This template is part of the MTSA Cybersecurity Compliance Research Repository._  
+_Last Updated: December 2025_
