@@ -128,3 +128,33 @@ Provide a concise view of how MTSA cybersecurity requirements map to NIST CSF (v
 - **Category naming tweaks**: Most ID/PR/DE/RS/RC Categories keep identifiers; wording is slightly modernized (e.g., supply chain emphasis). Align local policy names if your org adopts v2.0 text.
 - **Supply chain**: v2.0 elevates supply-chain risk; ensure MTSA assessments capture third-party/port partner exposure.
 - **Action**: If you standardize on v2.0 wording, add a one-page local glossary mapping your adopted labels to the v1.1 identifiers shown in this crosswalk.
+
+---
+
+## Appendix: CSF v1.1 ↔ v2.0 Glossary (label map)
+
+| CSF v1.1 Identifier | CSF v1.1 Title | CSF v2.0 Identifier | CSF v2.0 Title | Notes for MTSA |
+|---------------------|----------------|---------------------|----------------|----------------|
+| ID.GV | Governance | GV | Govern | v2.0 introduces GV as its own function; map ID.GV-* to GV.* |
+| ID.AM | Asset Management | ID.AM | Asset Management | Largely unchanged; ensure OT/critical assets covered |
+| ID.BE | Business Environment | ID.BE | Business Environment | Unchanged; include maritime mission/TSI context |
+| ID.RA | Risk Assessment | ID.RA | Risk Assessment | Unchanged; include maritime threats/TSI |
+| ID.RM | Risk Management Strategy | ID.RM | Risk Management Strategy | Unchanged; align with MTSA plan and FSP |
+| PR.AC | Access Control | PR.AC | Access Control | Unchanged; cover IT/OT and privileged access |
+| PR.AT | Awareness and Training | PR.AT | Awareness and Training | Unchanged; include MTSA/OT/NRC content |
+| PR.DS | Data Security | PR.DS | Data Security | Unchanged; include OT data/backup considerations |
+| PR.IP | Information Protection Processes and Procedures | PR.IP | Improvement Planning (renamed) | v2.0 wording tweaks; intent similar—update local labels if adopted |
+| PR.MA | Maintenance | PR.MA | Maintenance | Unchanged; include controlled remote/vendor maintenance |
+| PR.PT | Protective Technology | PR.PT | Protective Technology | Unchanged |
+| DE.CM | Security Continuous Monitoring | DE.CM | Security Continuous Monitoring | Unchanged; ensure OT telemetry/logging |
+| DE.DP | Detection Processes | DE.DP | Detection Processes | Unchanged |
+| RS.RP | Response Planning | RS.RP | Response Planning | Unchanged; add NRC/USCG notifications |
+| RS.CO | Communications | RS.CO | Communications | Unchanged; keep NRC/Coast Guard paths |
+| RS.AN | Analysis | RS.AN | Analysis | Unchanged |
+| RS.MI | Mitigation | RS.MI | Mitigation | Unchanged; include OT containment playbooks |
+| RS.IM | Improvements | RS.IM | Improvements | Unchanged; capture AARs for drills/exercises |
+| RC.RP | Recovery Planning | RC.RP | Recovery Planning | Unchanged; include OT recovery/TSI impacts |
+| RC.IM | Improvements | RC.IM | Improvements | Unchanged |
+| RC.CO | Communications | RC.CO | Communications | Unchanged; recovery comms with Coast Guard/partners |
+
+> If your organization renames Categories/Subcategories per v2.0 wording, keep the v1.1 identifiers visible in MTSA-aligned artifacts to ease regulator and auditor reviews. Include both labels in tables where feasible (e.g., `GV.RR-01 (formerly ID.GV-1)`).

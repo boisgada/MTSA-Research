@@ -92,6 +92,8 @@
 - **[NIST CSF Alignment](implementation/strategies/NIST_CSF_MTSA_Alignment.md)**: CSF lens for MTSA requirements
 - **[IEC 62443 Alignment](implementation/strategies/IEC_62443_MTSA_Alignment.md)**: OT/ICS focus with zones/conduits and SL-T
 - **[CIS Controls Alignment](implementation/strategies/CIS_Controls_MTSA_Alignment.md)**: Controls-first view for MTSA
+- **[NIST SP 800-82 Alignment](implementation/strategies/NIST_SP800-82_MTSA_Alignment.md)**: OT/ICS practices for MTSA
+- **[Cross-Framework Evidence Matrix](implementation/strategies/Cross_Framework_Evidence_Matrix.md)**: Evidence reuse across frameworks
 
 ### Assessment Tools
 - **[Critical Asset Assessment Checklist](implementation/checklists/Critical_Asset_Assessment_Checklist.md)**: Step-by-step assessment checklist

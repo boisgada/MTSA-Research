@@ -24,6 +24,8 @@
 - **NIST CSF alignment?** → `implementation/strategies/NIST_CSF_MTSA_Alignment.md`
 - **IEC 62443 alignment (OT/ICS)?** → `implementation/strategies/IEC_62443_MTSA_Alignment.md`
 - **CIS Controls alignment?** → `implementation/strategies/CIS_Controls_MTSA_Alignment.md`
+- **NIST SP 800-82 alignment (OT/ICS)?** → `implementation/strategies/NIST_SP800-82_MTSA_Alignment.md`
+- **Evidence reuse?** → `implementation/strategies/Cross_Framework_Evidence_Matrix.md`
 - **Assessment checklist?** → `implementation/checklists/Critical_Asset_Assessment_Checklist.md`
 
 ### 📊 Assets
