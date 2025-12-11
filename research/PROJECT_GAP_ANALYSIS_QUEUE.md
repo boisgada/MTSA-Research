@@ -238,7 +238,7 @@ This queue tracks gaps, blind spots, and improvement opportunities identified th
 ---
 
 #### GAP-014: Add NIST CSF Alignment Crosswalk
-**Status**: ⏳ Pending  
+**Status**: ✅ Complete  
 **Priority**: 🟡 P2  
 **Estimated Effort**: Medium  
 **Dependencies**: ISO 27001 alignment guide
@@ -246,9 +246,9 @@ This queue tracks gaps, blind spots, and improvement opportunities identified th
 **Issue**: Stakeholders need a NIST CSF view of MTSA requirements to complement the ISO 27001 alignment.
 
 **Action**:
-- Create `NIST_CSF_MTSA_Alignment.md` mapping MTSA requirements to CSF Functions/Categories/Subcategories.
-- Cross-reference existing ISO 27001 controls where applicable to avoid duplication.
-- Link from `MASTER_INDEX.md` and `QUICK_REFERENCE.md` once published.
+- Created `NIST_CSF_MTSA_Alignment.md` mapping MTSA requirements to CSF Functions/Categories/Subcategories.
+- Cross-referenced ISO 27001 controls.
+- Linked from `MASTER_INDEX.md` and `QUICK_REFERENCE.md`.
 
 **Output**: Published NIST CSF alignment crosswalk with references to ISO/MTSA evidence.
 
@@ -268,6 +268,40 @@ This queue tracks gaps, blind spots, and improvement opportunities identified th
 - Linked from `MASTER_INDEX.md` and `QUICK_REFERENCE.md`.
 
 **Output**: Two published alignment briefs with guidance to reuse MTSA evidence across frameworks.
+
+---
+
+#### GAP-016: Add CSF v1.1 ↔ v2.0 Glossary Appendix
+**Status**: ⏳ Pending  
+**Priority**: 🟡 P2  
+**Estimated Effort**: Low  
+**Dependencies**: NIST CSF crosswalk
+
+**Issue**: Some stakeholders are migrating to CSF v2.0 terminology. A glossary will speed reviews and reduce confusion.
+
+**Action**:
+- Add a one-page v1.1↔v2.0 glossary/label map to the CSF guide.
+- Note supply-chain emphasis and any org-specific label adoptions.
+- Reference in `MASTER_INDEX.md` and `QUICK_REFERENCE.md` when finalized.
+
+**Output**: Glossary appendix aiding CSF v2.0 adopters.
+
+---
+
+#### GAP-017: Add NIST SP 800-82 OT Practices Mapping
+**Status**: ⏳ Pending  
+**Priority**: 🟡 P2  
+**Estimated Effort**: Medium  
+**Dependencies**: IEC 62443 brief
+
+**Issue**: Many OT teams follow NIST SP 800-82; a short MTSA mapping will help align OT practices and evidence.
+
+**Action**:
+- Create a concise MTSA ↔ SP 800-82 mapping focusing on OT/ICS recommended practices.
+- Highlight overlaps/gaps vs. 62443 SL-T approach.
+- Link from `MASTER_INDEX.md` and `QUICK_REFERENCE.md`.
+
+**Output**: Published SP 800-82 alignment brief to aid OT teams.
 
 ---
 
@@ -328,7 +362,8 @@ This queue tracks gaps, blind spots, and improvement opportunities identified th
 - ⏳ GAP-008: Enhance documentation with examples and use cases (P2)
 - ⏳ GAP-010: Add visual diagrams or flowcharts where helpful (P2)
 - ⏳ GAP-011: Standardize terminology and glossary (P2)
-- ⏳ GAP-014: Add NIST CSF alignment crosswalk (P2)
+- ⏳ GAP-016: Add CSF v1.1 ↔ v2.0 glossary appendix (P2)
+- ⏳ GAP-017: Add NIST SP 800-82 OT practices mapping (P2)
 
 ---
 
