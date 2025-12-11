@@ -89,6 +89,7 @@
 ### Strategic Approaches
 - **[Corporate Framework Strategy](implementation/strategies/MTSA_Corporate_Framework_Strategy.md)**: Multi-site efficiency approach
 - **[ISO 27001 Alignment](implementation/strategies/ISO_27001_MTSA_Alignment_Guide.md)**: Leveraging existing ISMS
+- **[NIST CSF Alignment](implementation/strategies/NIST_CSF_MTSA_Alignment.md)**: CSF lens for MTSA requirements
 
 ### Assessment Tools
 - **[Critical Asset Assessment Checklist](implementation/checklists/Critical_Asset_Assessment_Checklist.md)**: Step-by-step assessment checklist

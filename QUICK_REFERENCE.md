@@ -21,6 +21,7 @@
 - **All requirements?** → `implementation/guides/MTSA_Cyber_Requirements_Complete_Implementation_Guide.md`
 - **Corporate strategy?** → `implementation/strategies/MTSA_Corporate_Framework_Strategy.md`
 - **ISO 27001 alignment?** → `implementation/strategies/ISO_27001_MTSA_Alignment_Guide.md`
+- **NIST CSF alignment?** → `implementation/strategies/NIST_CSF_MTSA_Alignment.md`
 - **Assessment checklist?** → `implementation/checklists/Critical_Asset_Assessment_Checklist.md`
 
 ### 📊 Assets

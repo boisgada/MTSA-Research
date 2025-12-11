@@ -17,6 +17,7 @@ This guide demonstrates how your existing **ISO 27001 Information Security Manag
 ## Table of Contents
 
 1. [Alignment Overview](#1-alignment-overview)
+   - [Quick Wins](#13-quick-wins-for-mtsa-readiness)
 2. [ISO 27001 to MTSA Requirement Mapping](#2-iso-27001-to-mtsa-requirement-mapping)
 3. [Detailed Control Mapping](#3-detailed-control-mapping)
 4. [Gap Analysis](#4-gap-analysis)
@@ -24,10 +25,16 @@ This guide demonstrates how your existing **ISO 27001 Information Security Manag
 6. [Documentation Strategy](#6-documentation-strategy)
 7. [Implementation Recommendations](#7-implementation-recommendations)
 8. [Cybersecurity Plan Integration](#8-cybersecurity-plan-integration)
+9. [Coast Guard Evidence Pack](#9-coast-guard-evidence-pack)
+10. [Key Recommendations Summary](#10-key-recommendations-summary)
+11. [Conclusion](#11-conclusion)
+12. [Verified References](#12-verified-references)
 
 ---
 
 ## 1. Alignment Overview
+
+> Version note: This guide assumes ISO/IEC 27001:2022 and Annex A 2022 controls. If you are still on ISO/IEC 27001:2013, map legacy Annex A controls to the 2022 structure before finalizing MTSA alignment.
 
 ### 1.1 Core Alignment Areas
 
@@ -52,6 +59,14 @@ ISO 27001 and MTSA share fundamental security principles:
 4. **Controls**: Many ISO 27001 controls satisfy MTSA requirements
 5. **Audit Trail**: ISO 27001 audit evidence supports MTSA compliance
 6. **Continuous Improvement**: ISO 27001 improvement cycle aligns with MTSA
+
+### 1.3 Quick Wins for MTSA Readiness
+
+1. **NRC reporting addendum**: Append NRC contact/escalation steps to the existing incident response runbook and test a desk-check within two weeks.
+2. **OT scope statement**: Update the ISO 27001 scope to explicitly include critical OT assets and network segments; log this in the Statement of Applicability.
+3. **Drill calendar**: Schedule two MTSA-aligned drills and one full exercise for the next 12 months; align scenarios to maritime operations and TSI impacts.
+4. **Access recertification**: Run a privileged-access review for OT/IT systems and capture evidence for the Coast Guard submission packet.
+5. **Network zoning proof**: Produce a one-page diagram showing IT/OT segmentation, interconnections, and enforced controls; attach to the MTSA plan.
 
 ---
 
@@ -725,9 +740,24 @@ Maintain a gap register documenting:
 
 ---
 
-## 9. Key Recommendations Summary
+## 9. Coast Guard Evidence Pack
 
-### 9.1 Strategic Recommendations
+Prepare a concise evidence pack to accompany the Cybersecurity Plan submission:
+
+- **Scope & SoA**: Updated ISO 27001 scope including OT; current Statement of Applicability showing MTSA-relevant controls.
+- **Risk artifacts**: Latest risk assessment with maritime threats, TSI considerations, and critical asset register.
+- **IR/NRC**: Incident response playbook with NRC notification steps and contact details; evidence of a tabletop or drill.
+- **Training**: Attendance records and content showing MTSA/OT inclusions; role-based modules for CySO, OT operators, and facility security.
+- **Network segmentation**: Current diagrams, firewall/ACL summaries, and monitoring coverage for IT/OT boundaries.
+- **Access reviews**: Recent privileged-access review results and remediation actions.
+- **Drills/exercises**: Schedule and after-action reports for MTSA-aligned drills/exercises.
+- **Change log**: Version history showing updates tied to MTSA alignment activities.
+
+---
+
+## 10. Key Recommendations Summary
+
+### 10.1 Strategic Recommendations
 
 1. **Leverage ISO 27001 Foundation**: Use ISO 27001 ISMS as foundation for MTSA compliance
 2. **Extend, Don't Replace**: Extend ISO 27001 to include MTSA requirements
@@ -735,15 +765,16 @@ Maintain a gap register documenting:
 4. **Identify Gaps**: Systematically identify and address gaps
 5. **Maintain Integration**: Keep ISO 27001 and MTSA aligned
 
-### 9.2 Tactical Recommendations
+### 10.2 Tactical Recommendations
 
 1. **Create Mapping Document**: Map ISO 27001 controls to MTSA requirements
 2. **Extend Risk Assessment**: Add maritime threats and OT systems
 3. **Enhance Incident Response**: Add NRC reporting procedures
 4. **Extend Training**: Add maritime and OT content
 5. **Document Gaps**: Maintain gap register and remediation plans
+6. **Add NIST CSF crosswalk**: Provide a CSF Function/Category mapping to MTSA requirements for stakeholders who consume NIST CSF.
 
-### 9.3 Documentation Recommendations
+### 10.3 Documentation Recommendations
 
 1. **Reference ISO 27001**: Reference existing ISO 27001 documentation
 2. **Document Extensions**: Clearly document maritime-specific extensions
@@ -753,7 +784,7 @@ Maintain a gap register documenting:
 
 ---
 
-## 10. Conclusion
+## 11. Conclusion
 
 Your ISO 27001 alignment provides a **strong foundation** for MTSA compliance. By:
 
@@ -780,7 +811,7 @@ You can efficiently achieve MTSA compliance while maintaining your ISO 27001 cer
 
 ---
 
-## 11. Verified References
+## 12. Verified References
 
 ### ⚠️ CRITICAL: License to Operate Impact
 
