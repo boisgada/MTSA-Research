@@ -25,6 +25,7 @@
 
 ### For Implementation Planning
 - **[Complete Implementation Guide](implementation/guides/MTSA_Cyber_Requirements_Complete_Implementation_Guide.md)**: All MTSA requirements with timeline
+- **[Timeline Summary](MTSA_TIMELINE_SUMMARY.md)**: Quick reference for all mandatory deadlines and implementation phases
 - **[Corporate Framework Strategy](implementation/strategies/MTSA_Corporate_Framework_Strategy.md)**: Multi-site efficiency approach
 - **[ISO 27001 Alignment Guide](implementation/strategies/ISO_27001_MTSA_Alignment_Guide.md)**: Leveraging existing ISMS
 
@@ -146,6 +147,11 @@
 ---
 
 ## Reference Materials
+
+### Quick Reference Documents
+- **[Timeline Summary](MTSA_TIMELINE_SUMMARY.md)**: Complete timeline of all mandatory deadlines and recommended phases
+- **[Glossary](GLOSSARY.md)**: Repository-wide terminology definitions
+- **[Evidence Pack Checklist](EVIDENCE_PACK_CHECKLIST.md)**: Coast Guard submission/audit evidence checklist
 
 ### Verified References
 - **[VERIFIED_REFERENCES.md](VERIFIED_REFERENCES.md)**: Complete mapping of all recommendations to verified sources

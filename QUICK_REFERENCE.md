@@ -19,6 +19,7 @@
 
 ### 🛠️ Implementation Guides
 - **All requirements?** → `implementation/guides/MTSA_Cyber_Requirements_Complete_Implementation_Guide.md`
+- **Timeline/deadlines?** → `MTSA_TIMELINE_SUMMARY.md` (complete timeline with mandatory deadlines)
 - **Corporate strategy?** → `implementation/strategies/MTSA_Corporate_Framework_Strategy.md`
 - **ISO 27001 alignment?** → `implementation/strategies/ISO_27001_MTSA_Alignment_Guide.md`
 - **NIST CSF alignment?** → `implementation/strategies/NIST_CSF_MTSA_Alignment.md`
@@ -69,6 +70,8 @@
 - 🔴 **July 16, 2025**: Incident reporting to NRC
 - 🔴 **January 12, 2026**: Training completion
 - 🔴 **July 16, 2027**: CySO, Assessment, Plan submission
+
+**For complete timeline with recommended phases, see**: `MTSA_TIMELINE_SUMMARY.md`
 
 ## ⚠️ Verified References
 
