@@ -1,4 +1,5 @@
 # Keep internal or third-party content out of the public repo
+ai-collaboration/chat_history*
 awesome-copilot/
 
 # Exclude asset spreadsheets (use templates instead)
@@ -9,4 +10,3 @@ assets/spreadsheets/*.xlsx
 
 # Exclude repository maintenance tools (local use only)
 tools/
-
