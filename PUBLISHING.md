@@ -58,8 +58,8 @@ This project was developed using **[Cursor](https://cursor.sh)** (AI-powered cod
 The agentic AI approach enabled rapid development of this comprehensive research repository while maintaining rigorous standards for verified references and content quality.
 
 ## Do Not Publish (keep internal/private)
-- `ai-collaboration/chat_history_*` (session transcripts and internal notes)
-- `awesome-copilot/` (third-party repo content; not ours to redistribute)
+- `ai-collaboration/chat-history/` (session transcripts and internal notes)
+- `reference-projects/awesome-copilot/` (third-party repo content; not ours to redistribute)
 
 ## Optional/Context to Keep Internal
 - Any future session transcripts or scratch pads not intended for public consumption.

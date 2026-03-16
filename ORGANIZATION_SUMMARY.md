@@ -46,7 +46,8 @@ MTSA/
 │   └── spreadsheets/
 │       ├── CRITICAL_ASSET_INVENTORY_TEMPLATE.md
 │       └── README.md
-└── awesome-copilot/                   # AI prompt library (external, excluded from repo)
+└── reference-projects/
+    └── awesome-copilot/               # AI prompt library (external, excluded from repo)
 ```
 
 ---

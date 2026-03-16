@@ -39,7 +39,8 @@ MTSA/
 │   └── spreadsheets/          # Excel files and data
 ├── tools/                     # Repository maintenance tools
 │   └── README.md
-└── awesome-copilot/           # AI prompt library (external resource)
+└── reference-projects/        # External/reference resources
+    └── awesome-copilot/       # AI prompt library (external resource)
 ```
 
 ---

@@ -1,6 +1,6 @@
 # Keep internal or third-party content out of the public repo
-ai-collaboration/chat_history*
-awesome-copilot/
+ai-collaboration/chat-history/
+reference-projects/awesome-copilot/
 
 # Exclude asset spreadsheets (use templates instead)
 assets/spreadsheets/*.xlsx

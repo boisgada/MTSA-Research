@@ -1,38 +1,44 @@
 # Progress
 
 ## What Works
-- ✅ [Completed and functional item 1]
-- ✅ [Completed and functional item 2]
-- ✅ [Completed and functional item 3]
+- ✅ Critical asset research and TSI interpretation analysis captured in `research/critical-assets` and `research/tsi-analysis`.
+- ✅ Complete MTSA cyber requirements analysis and mapping to project strategy.
+- ✅ Corporate framework leverage strategy and ISO 27001 alignment approach documented in implementation guides.
+- ✅ AI collaboration guardrails in place (`rules-of-engagement.md`, verified references requirement, generic-content requirement).
 
 ## What's Left to Build
-1. [Item 1]
-   - [Sub-task or detail]
-   - [Sub-task or detail]
+1. Corporate MTSA Cyber Framework Document  
+   - Define structure and sections (governance, technical controls, training, incident response, recordkeeping).  
+   - Map MTSA requirements to existing corporate controls and ISO 27001 clauses.  
+   - Document how the framework supports multiple MTSA-regulated sites.
 
-2. [Item 2]
-   - [Sub-task or detail]
+2. Site-Specific MTSA Cyber Plan Template  
+   - Define sections that reference the corporate framework vs. site-local details.  
+   - Integrate with FSP elements that depend on cyber content.  
+   - Provide placeholders for site-specific critical assets and TSI pathways.
 
-3. [Item 3]
-   - [Sub-task or detail]
+3. Operationalization and Tooling  
+   - Connect queue system (`queue/master-queue.md`) to concrete work items and milestones.  
+   - Update verified references documents as new sources are confirmed.  
+   - Capture site assessment and Coast Guard engagement steps once they begin.
 
 ## Current Status
-**Phase**: [Current phase or status]
-- ✅ [Completed item]
-- 🔄 [In progress item]
-- ⏳ [Pending item]
+**Phase**: Framework design and documentation setup  
+- ✅ Foundational research and strategic decisions complete.  
+- 🔄 Corporate framework documentation and site-template design in progress (structure and alignment work).  
+- ⏳ Site plan development, Coast Guard engagement, and site assessments.
 
 ## Known Issues
-- ⚠️ [Known issue 1]
-  - [Description]
-  - [Impact]
-  - [Potential solution]
+- ⚠️ Dependency on Coast Guard interpretation for certain edge cases  
+  - Description: Some interpretations (e.g., specific treatment of foreign-located systems in complex logistics chains) may require explicit Coast Guard confirmation.  
+  - Impact: Certain recommendations must be flagged as “requires confirmation” before being treated as final.  
+  - Potential solution: Clearly mark these areas in implementation documents and verified references, and plan targeted Coast Guard engagement.
 
-- ⚠️ [Known issue 2]
-  - [Description]
-  - [Impact]
-  - [Potential solution]
+- ⚠️ Risk of scope creep without disciplined use of corporate framework  
+  - Description: Site-by-site customization could reintroduce duplication and undermine the corporate-first strategy.  
+  - Impact: Increased implementation effort and inconsistent documentation across sites.  
+  - Potential solution: Keep corporate framework and site templates as primary artifacts; treat site variations as controlled exceptions.
 
 ---
 
-*Progress Tracking - Last Updated: [Date]*
+*Progress Tracking - Last Updated: 2026-03-16*

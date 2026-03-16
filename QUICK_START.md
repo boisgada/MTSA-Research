@@ -55,7 +55,7 @@ Open `ai-collaboration/rules-of-engagement.md`:
 
 - Keep `project-context.md` updated as your project evolves
 - Use session notes to track progress
-- Leverage awesome-copilot resources for specialized tasks
+- Leverage `reference-projects/awesome-copilot/` resources for specialized tasks
 
 ---
 
@@ -77,7 +77,7 @@ Open `ai-collaboration/rules-of-engagement.md`:
 
 ### Keeping Submodules Up-to-Date
 
-If your project uses git submodules (like `awesome-copilot`):
+If your project uses git submodules (like `reference-projects/awesome-copilot`):
 
 1. **Check status**: `git submodule status`
 2. **Update all**: `git submodule update --remote`
@@ -93,7 +93,7 @@ See `documentation/submodule-maintenance.md` for detailed guide (if available).
 - **Memory Bank**: See `ai-collaboration/memory-bank/README.md`
 - **Submodule Maintenance**: See `documentation/submodule-maintenance.md` (if available)
 - **Helper Scripts**: See `scripts/README.md`
-- **Awesome Copilot**: Browse `awesome-copilot/` folder
+- **Awesome Copilot**: Browse `reference-projects/awesome-copilot/` folder
 - **Full Documentation**: See main `README.md`
 
 ---

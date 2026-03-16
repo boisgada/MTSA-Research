@@ -13,7 +13,19 @@ This folder contains documentation to support **persistent AI collaboration** ac
 - **rules-of-engagement.md**: Guidelines for AI collaboration sessions
 - **project-context.md**: Essential project context and background information
 - **session-notes-template.md**: Template for documenting AI session notes
+- **session-startup-guidelines.md**: Best practices for starting AI collaboration sessions
+- **cursor-communication-guide.md**: Quick reference for reporting what you see in Cursor
 - **queue-system-guide.md**: Guide for using the numbered queueing system (optional)
+- **todo-to-queue-mapping-guide.md**: Optional guide for mapping todos to queue entries
+- **docker-development-guide.md**: Optional Docker workflow guidance
+
+### Application Development Workflows (Optional)
+
+- **application-development-workflows/**: Reference workflows for design, implementation, deployment, and review
+
+### Testing Workflows (Optional)
+
+- **testing-workflows/**: Reference workflows for unit, integration, system, regression, and performance/security testing
 
 ### Optional Structures
 
@@ -25,11 +37,13 @@ This folder contains documentation to support **persistent AI collaboration** ac
 ### Usage
 
 1. **At Session Start**:
+   - Review `session-startup-guidelines.md`
    - Review `rules-of-engagement.md` and `project-context.md`
    - If using queue system, review `../queue/master-queue.md`
    - If using memory-bank, review relevant memory-bank files
 2. **During Session**:
    - Reference these documents as needed
+   - Reference workflow guides if doing implementation or testing work
    - Update queue items as work progresses (if using queue system)
    - Update relevant context files as needed
 3. **At Session End**:
@@ -39,7 +53,7 @@ This folder contains documentation to support **persistent AI collaboration** ac
 
 ### Recommended Agent Mode (Research + Updates)
 
-- **Use**: `awesome-copilot/chatmodes/gpt-5-beast-mode.chatmode.md`
+- **Use**: `reference-projects/awesome-copilot/chatmodes/gpt-5-beast-mode.chatmode.md`
 - **Why**: Tuned for decisive research with tool use, web fetch, and iterative updates while enforcing verified references.
 - **How**: Start with one focused discovery pass, pull official/regulatory sources first, and stop after applying actionable document updates.
 
@@ -89,7 +103,11 @@ This folder contains documentation to support **persistent AI collaboration** ac
    - If yes, populate memory-bank files instead of or in addition to `project-context.md`
    - Keep `project-context.md` as an overview/index if using memory-bank
 
-6. **First Session**:
+6. **Optional: Use Workflow Guides**:
+   - Review `application-development-workflows/` when doing implementation work
+   - Review `testing-workflows/` when planning or validating testing work
+
+7. **First Session**:
    - Follow the session workflow in `rules-of-engagement.md`
    - Start documenting using `session-notes-template.md`
 
@@ -105,10 +123,13 @@ This folder implements proven session persistence techniques:
 4. **Regular Updates**: Documents evolve with the project
 5. **Queue System**: Numbered work item tracking (optional)
 6. **Memory Bank**: Granular context organization for complex projects (optional)
+7. **Workflow Guides**: Optional implementation and testing references
+8. **Session Startup**: Explicit startup guidance for AI-assisted sessions
 
 For more details on session persistence techniques, see `../documentation/discoveries.md` (if available).
 For queue system details, see `queue-system-guide.md`.
 For memory-bank structure, see `memory-bank/README.md`.
+For session startup best practices, see `session-startup-guidelines.md`.
 
 ---
 

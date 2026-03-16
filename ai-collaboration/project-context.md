@@ -205,7 +205,7 @@ This document provides **essential context** for AI collaboration sessions on th
 
 ### Working Mode for Public-Source Refresh
 
-- **Preferred agent**: `awesome-copilot/chatmodes/gpt-5-beast-mode.chatmode.md`
+- **Preferred agent**: `reference-projects/awesome-copilot/chatmodes/gpt-5-beast-mode.chatmode.md`
 - **Purpose**: Rapidly pull authoritative public sources (USCG Final Rule/NVIC, CISA, NIST) and fold citations into project docs with minimal rework.
 - **Method**: Single targeted discovery pass → fetch/verify official sources → update documents and verified references → stop when actionable updates are merged.
 
