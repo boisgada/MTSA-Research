@@ -16,18 +16,37 @@ The numbered queueing system provides a structured way to track and prioritize w
 
 ### Core Components
 
-1. **Master Queue File**: `queue/master-queue.md` - Central tracking file for all queue items
-2. **Queue Item Format**: Standardized format for each numbered item
-3. **Queue Management**: Process for adding, updating, and closing items
+1. **Master Queue File**: `queue/master-queue.md` - Tracks **active** items only (Pending, In Progress, Blocked)
+2. **Archive Folder**: `queue/archive/` - Contains completed and cancelled items organized by category
+3. **Queue Item Format**: Standardized format for each numbered item
+4. **Queue Management**: Process for adding, updating, archiving, and closing items
+
+### Scalable Structure
+
+For projects with many queue items, the system uses a **hybrid structure**:
+
+- **Active Items**: Kept in `master-queue.md` for easy access and AI assistant efficiency
+- **Completed Items**: Archived in `queue/archive/` by category (e.g., `completed-res.md`, `completed-enh.md`)
+- **Cancelled Items**: Archived in `queue/archive/cancelled-items.md`
+
+**Benefits**:
+- Master queue stays manageable (typically < 100 items)
+- Full history preserved in organized archive files
+- Better performance for AI assistants (smaller context windows)
+- Easier navigation and Git diffs
+- Still viewable in GitLab (all markdown files)
 
 ### Queue Numbering
 
 - Format: `RES-001`, `ENH-001`, `MIT-001`, `FIX-001`, `DEL-001`, etc.
-- Prefix indicates category: **RES** (Research), **ENH** (Enhancement), **MIT** (Mitigation), **FIX** (Fix), **DEL** (Deliverable)
+- **Standard Prefixes**: **RES** (Research), **ENH** (Enhancement), **MIT** (Mitigation), **FIX** (Fix), **DEL** (Deliverable)
+- **Custom Prefixes**: Projects can define additional queue types (e.g., **CRIT** for Critical Review, **GAP** for Gap Analysis, **MAP** for Mapping)
 - Sequential numbering within each category (RES-001, RES-002, RES-003, etc.)
 - Each category maintains its own counter
 - Numbers are never reused within a category (even if item is cancelled)
 - Each queue number is unique and permanent
+
+**Note**: When using custom queue types, create corresponding archive files (e.g., `completed-crit.md` for CRIT-### items).
 
 ---
 
@@ -73,7 +92,9 @@ Each queue item includes:
 
 ## Category Guidelines
 
-### Research
+### Standard Categories
+
+#### Research (RES)
 
 - Questions to investigate
 - Information gathering tasks
@@ -81,7 +102,7 @@ Each queue item includes:
 - Source verification
 - Data collection
 
-### Enhancement
+#### Enhancement (ENH)
 
 - Process improvements
 - Documentation improvements
@@ -89,7 +110,7 @@ Each queue item includes:
 - Optimization opportunities
 - Quality improvements
 
-### Mitigation
+#### Mitigation (MIT)
 
 - Risk mitigation strategies
 - Preventive actions
@@ -97,7 +118,7 @@ Each queue item includes:
 - Security measures
 - Compliance actions
 
-### Fix
+#### Fix (FIX)
 
 - Bug fixes
 - Corrections to errors
@@ -105,13 +126,40 @@ Each queue item includes:
 - Data corrections
 - System repairs
 
-### Deliverable
+#### Deliverable (DEL)
 
 - Documents to be shared with stakeholders
 - Research summaries for distribution
 - Presentations or materials for external audiences
 - Reports or findings to be published
 - Communication packages for partners or collaborators
+
+### Custom Queue Types
+
+**Projects can define additional queue types** beyond the standard five. Common examples:
+
+- **CRIT** (Critical Review): Critical review items, validation tasks, quality assurance
+- **GAP** (Gap Analysis): Gap analysis tasks, assessment items
+- **MAP** (Mapping): Mapping tasks, cross-referencing work
+
+**To add a custom queue type**:
+
+1. **Define the prefix** (e.g., CRIT, GAP, MAP)
+2. **Document the purpose** in your project's queue system guide
+3. **Create archive file** when needed: `queue/archive/completed-[prefix].md`
+4. **Update master-queue.md**:
+   - Add to category counters section
+   - Add to "Next Available Queue Numbers" section
+   - Add to archive locations reference
+5. **Use consistently** throughout the project
+
+**Example**: If using CRIT-### items:
+- Create `queue/archive/completed-crit.md` when first CRIT item is completed
+- Add "**Critical Review (CRIT)**: X items (next: CRIT-###)" to category counters
+- Add "**CRIT (Critical Review)**: Next available: **CRIT-###**" to next available numbers
+- Reference `queue/archive/completed-crit.md` in archive locations
+
+**Note**: Custom types work seamlessly with the archive system - just create the appropriate `completed-[prefix].md` file when needed.
 
 ---
 
@@ -136,18 +184,36 @@ Each queue item includes:
 
 ### Completing an Item
 
-1. Update status to "Completed"
+1. Update status to "Completed" in master-queue.md
 2. Add completion date
-3. Document outcomes or deliverables
+3. Document outcomes or deliverables in notes
 4. Update any related items that were blocked
-5. Move to completed section (optional, or keep in chronological order)
+5. **Move item to appropriate archive file**:
+   - Research items (RES-###) → `queue/archive/completed-res.md`
+   - Enhancement items (ENH-###) → `queue/archive/completed-enh.md`
+   - Mitigation items (MIT-###) → `queue/archive/completed-mit.md`
+   - Fix items (FIX-###) → `queue/archive/completed-fix.md`
+   - Deliverable items (DEL-###) → `queue/archive/completed-del.md`
+   - **Custom types** (e.g., CRIT-###) → `queue/archive/completed-[prefix].md` (create if needed)
+6. Remove from master-queue.md (keep only active items)
+7. Update queue statistics in master-queue.md
 
 ### Blocking an Item
 
-1. Update status to "Blocked"
+1. Update status to "Blocked" in master-queue.md
 2. Document the blocker in notes
 3. Reference blocking item if applicable
 4. Update priority if needed
+5. Keep in master-queue.md (blocked items are still active)
+
+### Cancelling an Item
+
+1. Update status to "Cancelled" in master-queue.md
+2. Add cancellation date
+3. Document reason for cancellation in notes
+4. **Move item to** `queue/archive/cancelled-items.md`
+5. Remove from master-queue.md
+6. Update queue statistics in master-queue.md
 
 ---
 
@@ -166,7 +232,9 @@ Each queue item includes:
 
 ### Session Start
 
-- Review queue for pending high-priority items
+- **Check "Currently Pending Items" section** (if using this structure) for quick overview
+- Review queue for pending items (all priorities: High/Medium/Low)
+- Verify queue statistics match actual pending items
 - Check for blocked items that may be unblocked
 - Identify items to work on in this session
 
@@ -186,14 +254,45 @@ Each queue item includes:
 
 ## Queue Organization
 
-The master queue can be organized by:
+### Master Queue Structure
 
-1. **Chronological**: All items in order by number (recommended for small projects)
-2. **By Category**: Grouped by Research/Enhancement/Mitigation/Fix/Deliverable
-3. **By Status**: Grouped by Pending/In Progress/Completed
-4. **By Priority**: Grouped by High/Medium/Low
+The `master-queue.md` file contains **only active items** organized by:
 
-For this template, we recommend **chronological by number** (all items together) with optional category filters in the index. Alternatively, items can be grouped by category prefix (all RES items together, all ENH items together, etc.).
+1. **By Status**: Pending / In Progress / Blocked
+2. **By Priority**: Within each status, items are grouped by High/Medium/Low priority
+
+This keeps the master queue focused on actionable work and manageable in size.
+
+### Archive Structure
+
+Completed and cancelled items are organized in `queue/archive/`:
+
+1. **By Category**: Completed items are split by category (RES, ENH, MIT, FIX, DEL)
+2. **By Status**: Cancelled items are in a single file (all categories together)
+3. **Chronological**: Within each archive file, items are typically listed in chronological order
+
+### When to Use Archive Structure
+
+**Use archive structure when**:
+- You have more than ~50 completed items
+- Master queue file is becoming difficult to navigate
+- AI assistants are having trouble with file size
+- Git diffs are becoming unwieldy
+
+**For small projects** (< 50 total items), you can keep everything in master-queue.md if preferred. The archive structure is optional but recommended for scalability.
+
+### Recommended: "Currently Pending Items" Section
+
+The master queue template includes a "Currently Pending Items" section that lists only active items (Pending, In Progress, Blocked). This is the default structure.
+
+**Benefits**:
+- AI assistants can quickly find pending items without searching through archived items
+- Clear separation between active work and historical items
+- Easier to verify queue statistics match actual pending items
+- Master queue stays manageable even with hundreds of completed items
+- Better performance for AI assistants (smaller context windows)
+
+**Maintenance**: When items are completed or cancelled, move them to the appropriate archive file and remove from master-queue.md. This keeps the master queue focused on actionable work.
 
 ---
 
@@ -230,9 +329,51 @@ For large queues, maintain an index:
 
 ---
 
+## Migration from Single-File Structure
+
+If you have an existing `master-queue.md` with many completed items:
+
+### Migration Steps
+
+1. **Create archive folder structure**:
+   ```bash
+   mkdir -p queue/archive
+   ```
+
+2. **Review your master-queue.md** and identify:
+   - All completed items
+   - All cancelled items
+   - Active items (Pending, In Progress, Blocked)
+
+3. **Move completed items** to appropriate archive files:
+   - Research items → `queue/archive/completed-res.md`
+   - Enhancement items → `queue/archive/completed-enh.md`
+   - Mitigation items → `queue/archive/completed-mit.md`
+   - Fix items → `queue/archive/completed-fix.md`
+   - Deliverable items → `queue/archive/completed-del.md`
+
+4. **Move cancelled items** to `queue/archive/cancelled-items.md`
+
+5. **Update master-queue.md**:
+   - Remove all completed/cancelled items
+   - Keep only active items (Pending, In Progress, Blocked)
+   - Update statistics to reflect the split
+   - Add reference to archive locations
+
+6. **Verify queue numbers unchanged** - All queue numbers remain the same, only file organization changes
+
+### Backward Compatibility
+
+- **Queue numbers never change** - Commit messages referencing "RES-001" continue to work
+- **Archive is optional** - Small projects can keep everything in master-queue.md
+- **Gradual migration** - You can migrate gradually, moving items as they complete
+
+---
+
 ## Revision History
 
 - **Initial Version**: January 2025
+- **Scalable Structure Added**: January 2025 - Added archive system for large projects
 - **Purpose**: Standardized queueing system for AI-assisted projects
 
 ---

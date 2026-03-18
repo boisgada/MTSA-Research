@@ -2,19 +2,21 @@
 
 ## Purpose
 
-This document establishes **rules and guidelines** for AI collaboration sessions on the MTSA compliance project. Following these rules ensures efficient, consistent, and effective collaboration.
+This document establishes **rules and guidelines** for AI collaboration sessions on your research project. Following these rules ensures efficient, consistent, and effective collaboration.
+
+**⚠️ IMPORTANT**: This is a template file. Customize it with your project-specific requirements before use.
 
 ---
 
-## ⚠️ CRITICAL REQUIREMENT: Generic Content Only
+## ⚠️ CRITICAL REQUIREMENT: Generic Content Only (If Applicable)
 
 ### Public Repository Requirement
 
-**This repository is published publicly and must contain ZERO organization-specific references. This is non-negotiable.**
+**If this repository is published publicly, it must contain ZERO organization-specific references. This is non-negotiable.**
 
 **CRITICAL**: Never create scripts, documentation, or commit messages that document what was cleaned or removed. This creates the exact association we're trying to avoid.
 
-### Mandatory Requirements
+### Mandatory Requirements (If Applicable)
 
 1. **NEVER include company names in any files**
    - No company names in file contents
@@ -51,16 +53,18 @@ This document establishes **rules and guidelines** for AI collaboration sessions
 
 ---
 
-## ⚠️ CRITICAL REQUIREMENT: Verified References
+## ⚠️ CRITICAL REQUIREMENT: Verified References (If Applicable)
 
-### License to Operate Impact
+### License to Operate Impact (If Applicable)
 
-**MTSA compliance directly impacts license to operate. Therefore, ALL recommendations MUST be supported by verified reference information.**
+**If your project directly impacts license to operate or requires regulatory compliance, include this section:**
 
-### Mandatory Requirements
+**Since [project type] compliance directly impacts [critical outcome], ALL recommendations MUST be supported by verified reference information.**
+
+### Mandatory Requirements (If Applicable)
 
 1. **ALL recommendations MUST have verified source support**
-   - Regulatory requirements: Must cite official sources (33 CFR, Coast Guard guidance)
+   - Regulatory requirements: Must cite official sources
    - Best practices: Must cite authoritative sources (NIST, CISA, industry standards)
    - Research findings: Must cite multiple validated sources
 
@@ -68,36 +72,42 @@ This document establishes **rules and guidelines** for AI collaboration sessions
    - Full source URLs
    - Publication dates
    - Document titles
+   - Author/organization (if applicable)
    - Verification status (✅ VERIFIED or ⚠️ REQUIRES CONFIRMATION)
 
-3. **Areas requiring Coast Guard confirmation MUST be clearly identified**
+3. **Areas requiring confirmation MUST be clearly identified**
    - Use ⚠️ indicator
    - Explain why confirmation is needed
    - Note that implementation should wait for confirmation
 
 4. **Reference Documentation**:
-   - See `VERIFIED_REFERENCES.md` for complete source mapping
+   - See `VERIFIED_REFERENCES.md` for complete source mapping (if applicable)
    - All documents must include verified references sections
    - All recommendations must be traceable to verified sources
 
-### AI Session Requirements
+### AI Session Requirements (If Applicable)
 
 **AI MUST**:
 - ✅ Provide verified references for ALL recommendations
 - ✅ Cite official regulatory sources for regulatory requirements
 - ✅ Cite authoritative sources for best practices
-- ✅ Clearly identify areas requiring Coast Guard confirmation
+- ✅ Clearly identify areas requiring confirmation
 - ✅ Never make recommendations without verified source support
+- ✅ Include full URLs, dates, and document titles in citations
+- ✅ Cite multiple sources for research findings when possible
 
 **AI MUST NOT**:
 - ❌ Make recommendations without source citations
 - ❌ Use unverified sources
 - ❌ Present opinions as facts
 - ❌ Skip source verification
+- ❌ Use secondary sources when primary sources are available
 
 ---
 
 ## Session Guidelines
+
+**Commit/sync often**: After making file changes, commit and push before ending the turn (see section 8 below). Do not leave uncommitted work unless explicitly requested.
 
 ### 1. Context Awareness
 
@@ -121,56 +131,59 @@ This document establishes **rules and guidelines** for AI collaboration sessions
 - ✅ Maintain document organization and structure
 - ✅ Follow established naming conventions
 - ✅ Reference related documents appropriately
-- ✅ **CRITICAL**: Verify content is generic before creating/updating files
-- ✅ **CRITICAL**: Use generic placeholders instead of organization names
-- ✅ **CRITICAL**: Never create scripts/documentation that document what was cleaned
+- ✅ **Keep README files current**: When adding, removing, or significantly changing folder contents, project structure, or key features, update relevant README files so they accurately describe the current state
+- ✅ **CRITICAL**: Verify content is generic before creating/updating files (if applicable)
+- ✅ **CRITICAL**: Use generic placeholders instead of organization names (if applicable)
+- ✅ **CRITICAL**: Never create scripts/documentation that document what was cleaned (if applicable)
 
 **User Should:**
 - ✅ Specify which documents to update
 - ✅ Indicate if new documents are needed
 - ✅ Review AI-suggested changes before accepting
-- ✅ Verify content is generic before accepting changes
+- ✅ Verify content is generic before accepting changes (if applicable)
 
 ### 3. Research Approach
 
-**⚠️ CRITICAL: Verified References Required**
+**⚠️ CRITICAL: Verified References Required (If Applicable)**
 
-**Since MTSA compliance impacts license to operate, ALL recommendations MUST be supported by verified reference information.**
+**If your project requires verified references, include this section:**
+
+**Since [project type] impacts [critical outcome], ALL recommendations MUST be supported by verified reference information.**
 
 **AI Should:**
-- ✅ **ALWAYS** provide verified references for ALL recommendations
-- ✅ Use web search for current regulatory information from authoritative sources
+- ✅ **ALWAYS** provide verified references for ALL recommendations (if applicable)
+- ✅ Use web search for current information from authoritative sources
 - ✅ Cross-reference multiple sources to validate information
 - ✅ Cite sources with full URLs and publication dates
-- ✅ Distinguish between regulatory requirements (with CFR citations) and recommendations
-- ✅ Note when information is uncertain or requires Coast Guard clarification
-- ✅ **NEVER** make recommendations without verified source support
+- ✅ Distinguish between regulatory requirements and recommendations (if applicable)
+- ✅ Note when information is uncertain or requires clarification
+- ✅ **NEVER** make recommendations without verified source support (if applicable)
 - ✅ Clearly identify when recommendations are based on:
-  - Regulatory text (33 CFR citations)
-  - Coast Guard guidance (NVIC, official guidance)
+  - Regulatory text (with citations)
+  - Official guidance
   - Industry best practices (with source citations)
   - Research findings (with source citations)
 - ✅ Document all sources in a verifiable format
 
 **User Should:**
 - ✅ Request research on specific topics
-- ✅ **ALWAYS** ask for source citations for recommendations
-- ✅ Request clarification on regulatory vs. recommended requirements
+- ✅ **ALWAYS** ask for source citations for recommendations (if applicable)
+- ✅ Request clarification on regulatory vs. recommended requirements (if applicable)
 - ✅ Verify references before implementing recommendations
 - ✅ Request additional sources if references seem insufficient
 
 ### 4. Implementation Guidance
 
 **AI Should:**
-- ✅ Leverage existing corporate framework and ISO 27001 alignment
-- ✅ Minimize duplication across sites
+- ✅ Leverage existing frameworks and standards (if applicable)
+- ✅ Minimize duplication (if applicable)
 - ✅ Provide actionable, specific recommendations
-- ✅ Consider multi-site efficiency
+- ✅ Consider efficiency optimizations
 - ✅ Reference existing documents and strategies
 
 **User Should:**
-- ✅ Specify site-specific requirements
-- ✅ Indicate corporate vs. site-specific scope
+- ✅ Specify project-specific requirements
+- ✅ Indicate scope considerations
 - ✅ Request efficiency optimizations
 
 ### 5. Documentation Standards
@@ -181,49 +194,72 @@ This document establishes **rules and guidelines** for AI collaboration sessions
 - ✅ Include executive summaries for long documents
 - ✅ Use consistent formatting and markdown
 - ✅ Include dates and version information
-- ✅ Clearly distinguish mandatory deadlines from recommendations
+- ✅ Clearly distinguish mandatory deadlines from recommendations (if applicable)
 
 **User Should:**
 - ✅ Request specific document formats
 - ✅ Specify level of detail needed
 - ✅ Request summaries or detailed analysis
 
-### 6. Critical Asset Focus
+### 6. Project-Specific Focus Areas
 
 **AI Should:**
-- ✅ Focus on trade/commerce impact (not company profitability)
-- ✅ Consider TSI pathway analysis
-- ✅ Account for foreign-located systems appropriately
-- ✅ Consider network segmentation for scope limitation
-- ✅ Reference established critical asset research
+- ✅ Focus on [project-specific focus area 1]
+- ✅ Consider [project-specific consideration 1]
+- ✅ Account for [project-specific consideration 2]
+- ✅ Reference established research (if applicable)
 
 **User Should:**
-- ✅ Provide specific asset information when relevant
-- ✅ Clarify trade/commerce vs. company impact
-- ✅ Request TSI pathway analysis
+- ✅ Provide specific information when relevant
+- ✅ Clarify project-specific considerations
+- ✅ Request analysis on specific topics
 
-### 7. Corporate Framework Leverage
+### 7. Framework Leverage (If Applicable)
 
 **AI Should:**
-- ✅ Maximize use of existing corporate cybersecurity framework
-- ✅ Reference ISO 27001 alignment
-- ✅ Minimize site-specific duplication
-- ✅ Leverage best-in-class OT architecture
-- ✅ Consider corporate vs. site-specific requirements
+- ✅ Maximize use of existing frameworks
+- ✅ Reference standards alignment (if applicable)
+- ✅ Minimize duplication (if applicable)
+- ✅ Consider organizational vs. project-specific requirements
 
 **User Should:**
-- ✅ Specify corporate capabilities
+- ✅ Specify organizational capabilities
 - ✅ Indicate what can be leveraged
-- ✅ Request corporate framework documentation strategies
+- ✅ Request framework documentation strategies
 
-### 8. Timeline and Deadlines
+<!-- TEMPLATE-SECTION:START name=commit-sync-core -->
+### 8. Commit and Sync (Commit/Sync Often)
+
+**Commit and push to the remote repository frequently so work is not lost and repository history stays current.**
+
+- **After substantive file changes**: Commit and push before ending the turn or moving to unrelated work, unless the user explicitly asks to defer.
+- **When user says "commit/sync"**: Stage all relevant modified and untracked files, commit with a clear message, and push.
+- **Minimum cadence**: Commit/sync after each completed queue item (if using queue) and at session end.
+- **Before commit**: Ensure edits were accepted and content is generic (if applicable).
 
 **AI Should:**
-- ✅ Clearly distinguish mandatory Coast Guard deadlines from recommendations
-- ✅ Use visual indicators (🔴 MANDATORY, 🟡 RECOMMENDED, 🟢 ONGOING)
+- ✅ Run `git add`, `git commit`, and `git push` after completing a coherent set of accepted file changes (unless user asks to commit manually/defer)
+- ✅ Include all relevant changed files when user requests commit/sync
+- ✅ Use clear commit messages that reference the work performed
+- ✅ If edits are not yet accepted, remind user to accept edits, then commit/sync
+
+**User Should:**
+- ✅ Accept file edits in Cursor so intended changes can be committed
+- ✅ Confirm commit/sync timing when they want manual control
+<!-- TEMPLATE-SECTION:END name=commit-sync-core -->
+
+<!-- PROJECT-OVERRIDE:START name=commit-sync-project-overrides -->
+<!-- Add project-specific commit/sync constraints here (if needed). -->
+<!-- PROJECT-OVERRIDE:END name=commit-sync-project-overrides -->
+
+### 9. Timeline and Deadlines (If Applicable)
+
+**AI Should:**
+- ✅ Clearly distinguish mandatory deadlines from recommendations (if applicable)
+- ✅ Use visual indicators (🔴 MANDATORY, 🟡 RECOMMENDED, 🟢 ONGOING) (if applicable)
 - ✅ Provide realistic timelines
-- ✅ Consider corporate framework development time
-- ✅ Account for multi-site parallel work
+- ✅ Consider framework development time (if applicable)
+- ✅ Account for parallel work (if applicable)
 
 **User Should:**
 - ✅ Request timeline clarifications
@@ -266,43 +302,17 @@ This document establishes **rules and guidelines** for AI collaboration sessions
 
 ## Project-Specific Guidelines
 
-### 1. Multi-Site Context
+### [Project-Specific Guideline 1]
 
-- Always consider multiple MTSA sites within a larger organization
-- Minimize duplication across sites
-- Leverage corporate framework
-- Consider site-specific maritime operations
+- [Guideline detail 1]
+- [Guideline detail 2]
 
-### 2. Corporate Framework
+### [Project-Specific Guideline 2]
 
-- Existing mature cybersecurity program (IT/OT)
-- Consolidated corporate requirements framework
-- Best-in-class OT architecture
-- ISO 27001 aligned
-- Standard operational model
+- [Guideline detail 1]
+- [Guideline detail 2]
 
-### 3. Key Research Findings
-
-- TSI focuses on trade/commerce, not company profitability
-- Network segmentation can limit scope (similar to TWIC isolation)
-- Foreign-located systems assessed by trade/commerce impact
-- Corporate framework can satisfy most MTSA requirements
-
-### 4. Efficiency Goals
-
-- Minimize duplication (target 65-70% reduction)
-- Leverage existing investments
-- Document corporate framework once
-- Reference in site-specific plans
-
-### 5. Generic Content Requirement
-
-- **CRITICAL**: All content must be generic and reusable
-- Never include company-specific names, paths, or identifiers
-- Use placeholders like `[CompanyName]`, `[YourCompany]`, `[Organization]`
-- Templates and examples must be generic
-- Scripts must accept company name as parameter, never hardcode
-- Documentation must use generic descriptions
+[Add project-specific guidelines as needed]
 
 ---
 
@@ -312,25 +322,39 @@ This document establishes **rules and guidelines** for AI collaboration sessions
 
 1. AI reads `project-context.md`
 2. AI reviews `rules-of-engagement.md`
-3. User provides session objectives
-4. AI confirms understanding
+3. **Optional: Check submodule status** (if using submodules):
+   - Run `git submodule status` to check for updates
+   - Review submodule maintenance guide if needed
+   - Update submodules if desired (see `documentation/submodule-maintenance.md`)
+4. User provides session objectives
+5. AI confirms understanding
 
 ### During Session
 
 1. AI references existing documents
 2. AI builds on previous work
 3. AI maintains consistency
-4. User provides feedback and clarifications
+4. AI commits/syncs accepted file changes at natural breakpoints (see section 8)
+5. User provides feedback and clarifications
 
 ### End of Session
 
-1. AI documents key outcomes
+1. AI creates or updates a session summary (for example in `ai-collaboration/chat-history/`) and captures outcomes, queue status (if used), repository status, and follow-up items
 2. AI updates relevant documents
-3. **CRITICAL**: AI verifies all content is generic and reusable
-4. **CRITICAL**: AI ensures no cleanup documentation was created
-5. User reviews and accepts changes
-6. User verifies content is generic before committing
-7. User notes any follow-up items
+3. **Session closeout**: Follow **`session-closeout-guidelines.md`** (document outcomes, update queue if used, git state, Next Session Preparation)
+4. **CRITICAL**: AI verifies all content is generic and reusable (if applicable)
+5. **CRITICAL**: AI ensures no cleanup documentation was created (if applicable)
+6. **IMPORTANT: Accept All File Edits**:
+   - User must accept all file edits in Cursor before committing
+   - See `documentation/cursor-file-edits-guide.md` for instructions
+   - User should verify changes are staged before committing
+7. **Commit and push**: AI runs `git add`, `git commit`, and `git push` for any remaining changes unless user requests manual/deferred commit
+8. **Optional: Submodule Maintenance** (if applicable):
+   - Remind user to check submodule status periodically
+   - Update submodules if needed (see `documentation/submodule-maintenance.md`)
+9. User reviews and accepts changes
+10. User verifies content is generic before committing (if applicable)
+11. User notes any follow-up items
 
 ---
 
@@ -338,12 +362,11 @@ This document establishes **rules and guidelines** for AI collaboration sessions
 
 ### Research Quality
 
-- ✅ **CRITICAL**: Current and accurate information with verified sources
-- ✅ **CRITICAL**: Multiple source validation for all recommendations
-- ✅ **CRITICAL**: Clear source citations with full URLs and dates
-- ✅ **CRITICAL**: Distinction between requirements (regulatory text) and recommendations (best practices)
-- ✅ **CRITICAL**: All recommendations must have verifiable source support
-- ✅ **CRITICAL**: Regulatory requirements must cite 33 CFR or official Coast Guard guidance
+- ✅ Current and accurate information
+- ✅ Multiple source validation (if applicable)
+- ✅ Clear source citations with full URLs and dates (if applicable)
+- ✅ Distinction between requirements and recommendations (if applicable)
+- ✅ All recommendations must have verifiable source support (if applicable)
 
 ### Documentation Quality
 
@@ -351,65 +374,34 @@ This document establishes **rules and guidelines** for AI collaboration sessions
 - ✅ Comprehensive coverage
 - ✅ Actionable recommendations
 - ✅ Consistent formatting
-- ✅ **CRITICAL**: All content is generic and reusable (use generic placeholders)
-- ✅ **CRITICAL**: Generic terminology throughout
-- ✅ **CRITICAL**: No cleanup documentation created
+- ✅ **CRITICAL**: All content is generic and reusable (if applicable)
+- ✅ **CRITICAL**: Generic terminology throughout (if applicable)
+- ✅ **CRITICAL**: No cleanup documentation created (if applicable)
 
 ### Implementation Quality
 
 - ✅ Practical and feasible
 - ✅ Efficient and cost-effective
-- ✅ Leverages existing capabilities
-- ✅ Minimizes duplication
+- ✅ Leverages existing capabilities (if applicable)
+- ✅ Minimizes duplication (if applicable)
 
 ---
 
-## Critical Requirement: Verified References
+## Customization Instructions
 
-### ⚠️ License to Operate Impact
-
-**MTSA compliance directly impacts license to operate. Therefore:**
-
-1. **ALL recommendations MUST have verified source support**
-2. **Regulatory requirements MUST cite official sources (33 CFR, Coast Guard guidance)**
-3. **Best practices MUST cite authoritative sources**
-4. **Research findings MUST cite multiple validated sources**
-5. **Uncertain information MUST be clearly identified as requiring Coast Guard clarification**
-
-### Reference Requirements
-
-**For Regulatory Requirements:**
-- Must cite: 33 CFR Part 101, Coast Guard Final Rule, NVIC 01-20, or official Coast Guard guidance
-- Must include: Publication date, Federal Register citation (if applicable), official document URLs
-
-**For Recommendations:**
-- Must cite: Authoritative sources (NIST, CISA, industry standards, Coast Guard guidance)
-- Must include: Source URLs, publication dates, document titles
-- Must validate: Cross-reference multiple sources when possible
-
-**For Research Findings:**
-- Must cite: Multiple sources validating the finding
-- Must include: Source URLs, publication dates
-- Must note: When findings require Coast Guard confirmation
-
-### Documentation Standard
-
-All documents containing recommendations must include:
-1. **Source Citations**: Inline citations with full references
-2. **References Section**: Complete list of all sources with URLs
-3. **Verification Status**: Clear indication of source verification
-4. **Regulatory vs. Recommendation**: Clear distinction
+1. Remove sections that don't apply to your project (e.g., verified references if not needed)
+2. Customize project-specific guidelines sections
+3. Adjust quality standards to match your project needs
+4. Update terminology to match your project
+5. Add project-specific requirements as needed
 
 ---
 
 ## Revision History
 
-- **Initial Version**: December 2025
-- **Updated**: December 2025 - Added critical verified references requirement
-- **Updated**: December 2025 - Added critical requirement: Generic content only, no cleanup documentation
-- **Purpose**: Establish rules for effective AI collaboration with emphasis on verified references and generic content
+- **Initial Version**: [Date]
+- **Purpose**: Establish rules for effective AI collaboration
 
 ---
 
 *These rules should be reviewed and updated as the project evolves.*
-

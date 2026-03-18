@@ -1,0 +1,7 @@
+path,owner_mode,parity_required,alignment_scope,review_cadence,notes
+ai-collaboration/session-startup-guidelines.md,template-controlled,true,process,monthly,Template source of truth
+ai-collaboration/session-closeout-guidelines.md,template-controlled,true,process,monthly,Template source of truth
+ai-collaboration/rules-of-engagement.md,merge-controlled,true,process,monthly,Preserve PROJECT-OVERRIDE blocks
+ai-collaboration/queue-system-guide.md,template-controlled,true,workflow,monthly,Template source of truth
+documentation/project-alignment-workflow.md,template-controlled,true,docs,monthly,Template source of truth
+scripts/setup-project.sh,template-controlled,true,setup,monthly,Template source of truth

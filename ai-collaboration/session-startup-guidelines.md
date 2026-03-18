@@ -24,7 +24,7 @@ Before starting a session:
 - [ ] Check queue system for pending items (if using) - see enhanced process below
 - [ ] Review memory-bank files if using granular context structure
 
-**Time**: 5–10 minutes
+**Time**: 5-10 minutes
 
 ---
 
@@ -44,7 +44,8 @@ Prepare relevant information:
 
 - [ ] Verify development environment is set up
 - [ ] Check if dependencies need updates
-- [ ] Verify submodule status (if using submodules): `git submodule status`
+- [ ] Check submodule status (if using submodules): `git submodule status`
+- [ ] Refresh submodules only when needed (for example after template/reference updates)
 - [ ] **Check Git Status** (enhanced):
   - [ ] Run `git status` to check repository state
   - [ ] **Explicitly check for untracked files** - these may need to be committed or added
@@ -230,6 +231,9 @@ If using:
   - [ ] **Explicitly check for untracked files**
   - [ ] Note any uncommitted changes
   - [ ] Identify files that may need attention
+- [ ] **Submodule Status Check** (if using submodules):
+  - [ ] Run `git submodule status`
+  - [ ] Refresh only if updates are required for the current session
 - [ ] Acknowledge understanding of context
 - [ ] Confirm session objectives
 - [ ] Ask clarifying questions if needed
@@ -242,12 +246,239 @@ If using:
 
 ---
 
+## Quick Start Templates
+
+### Template 1: Feature Development
+
+```
+I'm working on [feature name] for [project name].
+
+Context:
+- Project is at [development phase]
+- Recent work: [brief summary]
+- Current blocker: [if any]
+
+Session objective:
+Implement [specific feature/functionality]
+
+Files to review:
+- [file path 1]
+- [file path 2]
+
+Questions:
+- [Question 1]
+- [Question 2]
+```
+
+### Template 2: Bug Fix
+
+```
+I'm working on fixing [bug description] in [project name].
+
+Issue:
+- [Bug description]
+- Error message: [if applicable]
+- Steps to reproduce: [if applicable]
+
+Context:
+- [Relevant context]
+
+Session objective:
+Fix [specific bug] and verify solution
+
+Files involved:
+- [file path 1]
+- [file path 2]
+```
+
+### Template 3: Setup/Configuration
+
+```
+I'm setting up [component/environment] for [project name].
+
+Current state:
+- [What's already done]
+- [What needs to be set up]
+
+Session objective:
+Set up [specific component] with [requirements]
+
+Constraints:
+- [Constraint 1]
+- [Constraint 2]
+```
+
+### Template 4: Testing
+
+```
+I'm writing tests for [component/feature] in [project name].
+
+Component to test:
+- [Component description]
+- Location: [file path]
+
+Session objective:
+Create comprehensive tests for [component]
+
+Test types needed:
+- [Unit/Integration/System tests]
+
+Coverage goals:
+- [Coverage target if applicable]
+```
+
+---
+
+## Best Practices
+
+### 1. Be Specific
+
+- Provide specific objectives, not vague goals
+- Share relevant file paths and code sections
+- Include error messages verbatim if troubleshooting
+- Reference specific requirements or constraints
+
+### 2. Provide Context
+
+- Share relevant background information
+- Reference previous related work
+- Explain why you're working on this
+- Provide any relevant constraints
+
+### 3. Set Priorities
+
+- Identify primary vs. secondary objectives
+- Clarify what must be done vs. nice-to-have
+- Set realistic expectations for session scope
+
+### 4. Share Relevant Files
+
+- Open or reference relevant files
+- Share error messages or logs
+- Provide code snippets if asking about specific code
+- Reference documentation if relevant
+
+### 5. Ask Questions
+
+- Don't hesitate to ask for clarification
+- Request explanations when needed
+- Ask for alternatives or recommendations
+- Seek best practices guidance
+
+---
+
+## Common Session Types
+
+### Development Session
+
+**Focus**: Building new features or functionality
+
+**Startup**:
+1. Review feature requirements
+2. Check relevant codebase sections
+3. Review related workflow documents
+4. Define implementation approach
+
+### Debugging Session
+
+**Focus**: Fixing bugs or issues
+
+**Startup**:
+1. Gather error messages and logs
+2. Identify files involved
+3. Reproduce the issue
+4. Define debugging approach
+
+### Refactoring Session
+
+**Focus**: Improving code structure
+
+**Startup**:
+1. Identify code to refactor
+2. Review current implementation
+3. Define refactoring goals
+4. Plan refactoring approach
+
+### Testing Session
+
+**Focus**: Writing or improving tests
+
+**Startup**:
+1. Identify code to test
+2. Review testing requirements
+3. Check testing workflow documents
+4. Define test coverage goals
+
+### Setup/Configuration Session
+
+**Focus**: Setting up environments or tools
+
+**Startup**:
+1. Review setup requirements
+2. Check relevant guides (Docker, submodules, etc.)
+3. Identify dependencies
+4. Plan setup steps
+
+---
+
+## AI Assistant Response Pattern
+
+AI assistants should follow this pattern at session start:
+
+1. **Acknowledge Context**
+   ```
+   I've reviewed the project context. I understand you're working on [summary].
+   ```
+
+2. **Confirm Objectives**
+   ```
+   Your session objectives are:
+   1. [Objective 1]
+   2. [Objective 2]
+
+   Is this correct?
+   ```
+
+3. **Clarify Scope**
+   ```
+   To accomplish this, I'll help you with:
+   - [Activity 1]
+   - [Activity 2]
+
+   Does this align with your expectations?
+   ```
+
+4. **Ask for Missing Information** (if needed)
+   ```
+   To proceed effectively, I need:
+   - [Missing information 1]
+   - [Missing information 2]
+   ```
+
+5. **Propose Approach**
+   ```
+   I suggest we start by [first step], then [second step].
+   Does this approach work for you?
+   ```
+
+6. **Provide Comprehensive Summary** (if checking queue/git status)
+   ```
+   Summary of current state:
+   - Pending queue items: [list all pending items]
+   - Queue statistics: [verify accuracy]
+   - Git status: [untracked files, uncommitted changes]
+   - Discrepancies found: [any issues discovered]
+   ```
+
+---
+
 ## Session Transition
 
 ### Ending a Session
 
 When ending a session:
 
+- [ ] Follow `session-closeout-guidelines.md` for complete closeout and handoff
 - [ ] Document key outcomes using session notes template
 - [ ] Update project context if significant changes
 - [ ] Update queue items if applicable
@@ -262,6 +493,7 @@ When starting the next session:
 - [ ] Check for follow-up items from previous session
 - [ ] Review "Repository Status for Next Session" from previous session notes
 - [ ] Verify queue status matches what was documented in previous session
+- [ ] Check `git submodule status` and refresh only if needed for the planned work
 - [ ] Review any changes made since last session
 - [ ] Establish connection to previous work
 
@@ -338,4 +570,3 @@ If untracked files are found:
 ---
 
 *Session Startup Guidelines - Template v1.0*
-
