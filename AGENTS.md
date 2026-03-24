@@ -2,6 +2,7 @@
 
 This file defines default agent behavior for this repository in **Cursor** and **Windsurf**.
 
+<!-- TEMPLATE-SECTION:START name=agents-template-baseline -->
 ## Session startup baseline
 
 At the start of a new session, read and align with:
@@ -26,6 +27,7 @@ When the user ends a session (for example: “close session,” “session close
 - Use MCP servers per **`ai-collaboration/mcp-integration.md`**: prefer targeted retrieval, read tool schemas before calling tools, and avoid dumping large files into chat when a tool can subset or summarize.
 - For **files in the canonical AI Assistance Template tree** (alignment, governed docs, “what ships?”), follow **mcp-integration.md**: use the **filesystem** MCP mounted at that path, or **editor `Read`** on the known absolute path — not the standards server’s **`list_directory`** unless you have verified its root behavior.
 - Short prompts such as “prepare for today’s session” mean **standard startup only** (context, rules, optional queue, MCP policy)—not choosing the session’s substantive goal unless the user states one.
+<!-- TEMPLATE-SECTION:END name=agents-template-baseline -->
 
 ## Project-specific agent rules (customize)
 

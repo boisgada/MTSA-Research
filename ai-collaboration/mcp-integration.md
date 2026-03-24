@@ -1,5 +1,6 @@
 # MCP integration (AI Assistance Template)
 
+<!-- TEMPLATE-SECTION:START name=mcp-template-baseline -->
 ## Purpose
 
 This document is the **canonical policy** for when to use MCP servers that relate to the **AI Assistance Template** and to **template alignment**, while keeping prompts short and avoiding unnecessary token use.
@@ -52,11 +53,23 @@ Consumer repos often include **`reference-projects/ai-assistance-template`** as 
 
 ## Porting to a consumer project
 
-1. Copy this file into `ai-collaboration/mcp-integration.md` (or merge into an existing local policy).
-2. Add a table row for **every other** MCP you enable (memory, git, search, etc.).
+1. Keep the **`mcp-template-baseline`** merge markers intact so `sync-all-projects.sh` can refresh shared policy without deleting your extensions below.
+2. Add a table row (in **Project MCP extensions**) for **every other** MCP you enable (memory, git, search, etc.).
 3. Point **`AGENTS.md`** at this file in the session startup list.
 4. Optionally add a **Cursor rule** so new chats load this policy automatically.
+5. If this file becomes heavily customized (large server matrices), set **`ai-collaboration/mcp-integration.md`** to **`project-controlled`** in **`documentation/template-ownership-manifest.csv`** so applies never overwrite it automatically.
 
 ---
 
-*Revision: 2026-03-24 — split filesystem vs standards MCP; submodule caveat; integrated template feedback.*
+*Revision: 2026-03-24 — merge-friendly baseline; project extension section; integrated template feedback.*
+<!-- TEMPLATE-SECTION:END name=mcp-template-baseline -->
+
+---
+
+## Project MCP extensions
+
+Use this section for **additional MCP servers**, workspace-specific roots, Cursor server ids, and tables that are not part of the shared template baseline above.
+
+**Alignment:** With default **`merge-controlled`** ownership, `sync-all-projects.sh` replaces only the marked **`mcp-template-baseline`** block. Content **here stays in the project** as long as the merge markers remain valid. If a one-time realignment replaces the whole file (no markers yet), paste your extensions back under this heading.
+
+_(Nothing below this line is required for minimal repos.)_
