@@ -128,6 +128,7 @@ The AI assistant should:
 1. **Read Project Context**
    - Read `project-context.md`
    - Review `rules-of-engagement.md`
+   - Read `ai-collaboration/mcp-integration.md` and follow it for MCP usage when MCP servers are enabled (including continuity via memory and lightweight token stats when useful)
    - Check relevant workflow documents if applicable
 
 2. **Acknowledge Understanding**
@@ -186,7 +187,9 @@ Define clear, actionable objectives:
 Always available:
 - `project-context.md`: Essential project context
 - `rules-of-engagement.md`: Collaboration guidelines
+- `ai-collaboration/mcp-integration.md`: MCP usage, canonical template access, and token discipline for this workspace
 - `session-notes-template.md`: Session documentation template
+- Root `AGENTS.md` (when present): Cursor/Windsurf default agent baseline; often summarizes startup pointers and project-specific agent rules
 
 ### Application Development Context
 
@@ -220,6 +223,8 @@ If using:
 
 - [ ] Read `project-context.md`
 - [ ] Review `rules-of-engagement.md`
+- [ ] Read and apply `ai-collaboration/mcp-integration.md` (MCP selection, token discipline, session bootstrap when the user only asks for standard prep)
+- [ ] Read root `AGENTS.md` when present (Cursor/Windsurf; may restate startup pointers—still load for project-specific agent rules)
 - [ ] Check relevant workflow documents if applicable
 - [ ] **Check Queue Status** (if using queue system):
   - [ ] Check "Currently Pending Items" section in `queue/master-queue.md`
