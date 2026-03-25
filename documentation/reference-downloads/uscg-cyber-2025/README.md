@@ -14,8 +14,8 @@ These are the files currently under this folder (names may use the browser’s d
 | `Cyber Small Entity Guide_Facilites_CLEAN_15JAN2025.pdf` | Small entity guide — facilities |
 | `Cyber Small Entity Guide_Vessels_CLEAN_15JAN2025.pdf` | Small entity guide — vessels |
 | `Cyber Regulations Fact Sheet for Public Release_CLEAN_15JAN2025.pdf` | Cyber regulations fact sheet |
-| `FederalRegister_2025-00708_Cybersecurity-MTS.pdf` | Federal Register **2025-00708** (GovInfo PDF) |
-| `2025-00708.pdf` | Same FR document (duplicate copy—you may delete one) |
+| `FederalRegister_2025-00708_Cybersecurity-MTS.pdf` | Federal Register **2025-00708** (GovInfo PDF; **tracked in git**) |
+| `2025-00708.pdf` | Same FR document if your browser saved this name — **not tracked** (duplicate; listed in `.gitignore`) |
 
 Optional (not in folder yet): `CISA_MTS-Resilience-Assessment-Guide_2024-12.pdf` — see link in [CISA section](#other-government-pdf-optional--cisa-mts-resilience) below.
 

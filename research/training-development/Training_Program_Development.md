@@ -31,12 +31,15 @@ This guide provides comprehensive guidance on developing, implementing, and main
 ### 1.1 Regulatory Requirements
 
 **Mandatory Deadline:**
-- **January 12, 2026**: Initial cybersecurity training for all IT/OT personnel must be completed
+- **January 12, 2026**: Initial cybersecurity training for all IT/OT personnel must be completed (**33 CFR 101.650(d)(4)**)
+
+**U.S. Coast Guard Policy Letter 01-25** (Oct. 9, 2025): use for **definitions**, **interim** procedures before **Cybersecurity Plan** approval, **key personnel** documentation, **untrained** access (accompaniment / remote escorting), **minimum training records**, and combining training with **104.225 / 105.215 / 106.220**. Local PDF: `documentation/reference-downloads/uscg-cyber-2025/Cybersecurity Training Policy Letter-5-PC_01-25.pdf`. Full regulatory sequencing: **Complete Implementation Guide** §5.
 
 **Training Scope:**
-- All IT personnel
-- All OT personnel
-- Personnel with access to critical assets
+- All IT personnel (**including contractors**, all employment types)
+- All OT personnel (same)
+- Personnel with **logical** or **unrestricted physical** access to areas housing IT/OT (**Policy 01-25 §7.a**)
+- **Key personnel** as **defined by the owner/operator** (**must** receive **101.650(d)(1)** and **(d)(2)** topics)
 - Personnel involved in cybersecurity functions
 
 **Training Requirements:**
@@ -635,8 +638,8 @@ This guide provides comprehensive guidance on developing, implementing, and main
   - Relevance: Defines training requirements for IT/OT personnel
 
 - **Final Rule: "Cybersecurity in the Marine Transportation System"**
-  - Source: Federal Register, 89 FR 48016 (June 3, 2024)
-  - Verification: [Federal Register](https://www.federalregister.gov/documents/2024/06/03/2024-12019/cybersecurity-in-the-marine-transportation-system)
+  - Source: Federal Register Document **2025-00708** (Jan. 17, 2025); effective July 16, 2025
+  - Verification: https://www.federalregister.gov/documents/2025/01/17/2025-00708/cybersecurity-in-the-marine-transportation-system
   - Relevance: Establishes training deadline of January 12, 2026
 
 ### 11.2 Training Framework Sources

@@ -80,8 +80,9 @@ This document provides verified references for all recommendations made in the M
 ### 4a. CG-5PC Policy Letter 01-25 (Cybersecurity Training)
 
 **Source**: U.S. Coast Guard (Assistant Commandant for Prevention Policy; CG-5PC)  
-**Status**: ✅ **VERIFIED** — Official USCG policy (announced **October 10, 2025**)  
+**Status**: ✅ **VERIFIED** — Official USCG policy (**October 9, 2025** signed; announced **October 10, 2025**)  
 **Title**: Policy Letter **01-25** — cybersecurity training for personnel with access to IT/OT (implements **33 CFR 101.650(d)** in operational detail)  
+**Local project copy** (if present): `documentation/reference-downloads/uscg-cyber-2025/Cybersecurity Training Policy Letter-5-PC_01-25.pdf`  
 **References**:
 - USCG announcement (training + NVIC 02-24 CH 1): https://www.news.uscg.mil/maritime-commons/Article/4343729/publication-of-cybersecurity-training-and-incident-reporting-guidance-and-polic/
 - Maritime Cyber resource hub (verify access from your network): https://www.uscg.mil/MaritimeCyber/
@@ -93,7 +94,9 @@ This document provides verified references for all recommendations made in the M
 **Status**: ✅ **VERIFIED** — Official USCG guidance  
 **Titles**:
 - **NVIC 02-24**: Reporting breaches of security, suspicious activity, transportation security incidents, and cyber incidents (original issuance **February 21, 2024**)
-- **NVIC 02-24, Change 1**: Updated reporting guidance (announced **2025**; aligns cyber incident reporting with regulatory structure — use current USCG-posted PDF)
+- **NVIC 02-24, Change 1**: Updated reporting guidance (**November 12, 2025**; harmonizes **Part 6** cyber incidents with **Part 101** RCIs, BOS/SA/TSI routing, **NRC**/**FBI**/**CISA**/**COTP** — use official PDF)
+
+**Local project copies** (if present): `documentation/reference-downloads/uscg-cyber-2025/BOS_SA_Cyber Reporting NVIC.pdf` and `BOS_SA_Cyber Reporting NVIC 02-24 CH 1.pdf`
 
 **Source URLs**:
 - NVIC 02-24 announcement: https://www.news.uscg.mil/maritime-commons/Article/3685390/navigation-and-vessel-inspection-circular-nvic-02-24-reporting-breaches-of-secu/
@@ -434,6 +437,7 @@ All project documents containing recommendations must:
 - **Initial Version**: December 2025
 - **Purpose**: Provide verified references for all recommendations to support license to operate compliance
 - **2026-03-25**: Added Federal Register document **2025-00708** and eCFR Subpart F pointer; added **Policy Letter 01-25**, **NVIC 02-24 / CH 1**, Maritime Cyber hub and **MTSCyberRule@uscg.mil**; added CISA **MTS Resilience Assessment Guide** URL
+- **2026-03-25 (b)**: Corrected **NVIC 02-24 CH 1** issuance date to **Nov. 12, 2025**; **Policy 01-25** signed **Oct. 9, 2025**; local PDF paths under `documentation/reference-downloads/uscg-cyber-2025/`
 
 ---
 

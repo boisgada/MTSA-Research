@@ -48,81 +48,47 @@ This guide provides comprehensive guidance on integrating MTSA cybersecurity inc
 - Provides guidance on reporting
 - Maintains reporting records
 
-### 1.2 MTSA Cybersecurity Incident Reporting
+### 1.2 MTSA and maritime cyber reporting (USCG-aligned)
 
-**Effective Date:**
-- **July 16, 2025**: Incident reporting to NRC becomes mandatory
+**Effective date:** **July 16, 2025** — **33 CFR Part 101** Subpart F and related reporting provisions apply together with **33 CFR Part 6** and **NVIC 02-24, Change 1** (Nov. 12, 2025).
 
-**Reporting Requirement:**
-- Report cybersecurity incidents that could lead to Transportation Security Incident (TSI)
-- Report immediately upon discovery
-- Coordinate with Coast Guard as needed
+**Primary USCG source used for this section:** **NVIC 02-24, Change 1** (local project copy: `documentation/reference-downloads/uscg-cyber-2025/BOS_SA_Cyber Reporting NVIC 02-24 CH 1.pdf`). The NVIC **does not** replace the CFR; it **harmonizes** reporting for **BOS**, **SA**, **TSI**, **cyber incidents** (Part 6), and **reportable cyber incidents (RCI)** (Part 101).
 
-**Key Principle:**
-- Report incidents that could affect maritime transportation security
-- Focus on incidents affecting trade/commerce, not just company operations
+**Key principles:**
+- **Multiple channels** may apply to one event (**NRC**, **COTP**/**District Commander**, **FBI**, **CISA**). Use the **NVIC** routing (Enclosure (1)) with **33 CFR 101.305**, **101.620**, and **6.16-1**.  
+- **When in doubt, report** — the NVIC states that if criteria might apply, use **101.305**, **101.620**, and **6.16-1** as applicable.  
+- **NRC** reporting for **Part 6** cyber incidents is **strongly recommended** and, per NVIC, can **satisfy** **COTP** and **FBI** notification (**FBI** accepts **NRC**-forwarded reports to **CyWatch**). **CISA** still requires a **separate** report.  
+- **SSI** (**49 CFR Part 1520**): treat security incident information accordingly; initial reports may be **minimal**.
 
 ---
 
 ## 2. MTSA Incident Reporting Requirements
 
-### 2.1 Reportable Incidents
+### 2.1 Reportable incidents and criteria (summary — cite NVIC for detail)
 
-**What Must Be Reported:**
-- Cybersecurity incidents affecting critical assets
-- Incidents that could lead to Transportation Security Incident (TSI)
-- Incidents affecting maritime operations
-- Incidents affecting trade/commerce
-- Incidents requiring Coast Guard notification
+**Breach of security (BOS) and suspicious activity (SA)** — MTSA-regulated entities (**33 CFR 101.305**): report to **NRC** **without delay** when SA/BOS may result in a **TSI**; may also notify **COTP** but **NRC** obligation remains.
 
-**TSI-Related Incidents:**
-- Incidents that could cause:
-  - Significant loss of life
-  - Environmental damage
-  - Transportation system disruption
-  - Economic disruption in a particular area
+**Transportation security incident (TSI)** — **104/105**: notify **local COTP** without delay, then follow the **approved security plan** (may include **NRC**). **106**: notify **cognizant District Commander**, then plan procedures.
 
-**Critical Asset Incidents:**
-- Compromise of critical assets
-- Unauthorized access to critical systems
-- Malware affecting critical systems
-- Denial of service affecting critical operations
-- Data breaches affecting critical information
+**Cyber incidents (33 CFR Part 6 / 6.16-1)** — Notify **FBI**, **CISA**, and **Coast Guard (COTP)**. Per **NVIC 02-24 CH 1**, **NRC** is **strongly recommended** and satisfies **COTP** + **FBI** when used as described; **CISA** is **separate**: **(844) 729-2472**, **SayCISA@cisa.dhs.gov**, or CISA Service Portal.
 
-### 2.2 When to Report
+**Reportable cyber incidents (RCI)** — **33 CFR 101.620**: entities that **have not** reported under **6.16-1** (or are **not subject** to **Part 6**, e.g. many **OCS** cases per NVIC discussion) report **RCIs** to **NRC** without delay. If already reported under **6.16-1**, **101.620** does **not** require a duplicate **RCI** report.
 
-**Immediate Reporting:**
-- Upon discovery of reportable incident
-- As soon as incident is confirmed
-- Before full investigation is complete
-- Within required timeframe (typically immediately)
+**NVIC cyber incident / RCI indicators (non-exhaustive):** substantial **CIA** impact on covered systems; significant **operational** or **service** disruption (including potential serious injury or health/safety); large-scale **nonpublic personal** data exposure; disruption to **critical infrastructure**; or situations that may lead to a **TSI** (**33 CFR 101.105**). **Not** every **phishing/spam** or minor hygiene issue rises to a **cyber incident**—assess **sophistication, volume, persistence**, and **TSI** potential per NVIC.
 
-**Reporting Triggers:**
-- Confirmed cybersecurity incident
-- Suspected compromise of critical asset
-- Incident affecting maritime operations
-- Incident with TSI potential
+### 2.2 When and how to report
 
-**When NOT to Report:**
-- Incidents only affecting company operations (not trade/commerce)
-- Routine security events (handled internally)
-- False positives (after verification)
-- Non-critical system incidents (if not affecting critical assets)
+**Timing:** **Without delay** / **immediately** when reporting thresholds may be met—do **not** defer initial notification to finish an investigation.
 
-### 2.3 Reporting Obligations
+**Routing:** Apply **§2.1** and the **table** in the **Complete Implementation Guide**, **§8.3.2** (NVIC Enclosure (1) §e). **CySO** / duty officer should own **which** agencies are notified and **documentation**.
 
-**Organizational Responsibility:**
-- Facility remains responsible for reporting
-- Cannot delegate reporting responsibility
-- Must report even if using managed services
-- Must coordinate with vendors if needed
+**Do not use ad hoc “company-only” shortcuts:** The NVIC explicitly notes that incidents affecting **business or administrative** systems can still contribute to a **TSI** when they cause or risk **transportation system** or **economic disruption** in the **33 CFR 101.105** sense. Use the **NVIC** and **counsel**, not informal “internal only” rules.
 
-**Coordination Requirements:**
-- Coordinate with IT/OT teams
-- Coordinate with security teams
-- Coordinate with management
-- Coordinate with legal/compliance
-- Coordinate with Coast Guard (as needed)
+### 2.3 Reporting obligations
+
+**Organizational responsibility:** The owner/operator remains responsible for **timely** notifications and **coordination** with **IT/OT**, security, legal, and **managed service** providers.
+
+**Coordination:** Maintain **playbooks** that list **NRC**, **COTP**, **FBI**, **CISA**, and **internal** escalation in one workflow; preserve **records** of **what** was reported, **when**, and **by whom**.
 
 ---
 
@@ -257,8 +223,8 @@ This guide provides comprehensive guidance on integrating MTSA cybersecurity inc
 
 **Cybersecurity Officer (CySO):**
 - Overall responsibility for incident response
-- Decision on NRC reporting
-- Coordination with Coast Guard
+- Decision on **regulatory reporting** (NRC / COTP / FBI / CISA) per **NVIC** and **33 CFR**
+- Coordination with Coast Guard and other agencies
 - Final approval of reports
 
 **IT Security Team:**
@@ -308,11 +274,11 @@ This guide provides comprehensive guidance on integrating MTSA cybersecurity inc
 - Decision coordination
 
 **Reporting Coordination:**
-- Determine reporting requirements
+- Determine reporting requirements (**101.305** / **101.620** / **6.16-1**)
 - Gather required information
-- Prepare report
+- Prepare report(s) for each required channel
 - Review and approve
-- Submit to NRC
+- Submit **without delay** per NVIC routing (**NRC**, **CISA**, **COTP**, etc.)
 
 ### 5.3 Communication Protocols
 
@@ -629,23 +595,22 @@ This guide provides comprehensive guidance on integrating MTSA cybersecurity inc
 
 ### 11.1 Primary Regulatory Sources
 
-**MTSA Regulations:**
-- **33 CFR Part 101**: Maritime Transportation Security Act (MTSA) regulations
-  - Source: [eCFR 33 CFR Part 101](https://www.ecfr.gov/current/title-33/chapter-I/subchapter-H/part-101)
-  - Verification: Official Code of Federal Regulations
-  - Relevance: Defines incident reporting requirements (Section 101.305)
+**MTSA and maritime security regulations:**
+- **33 CFR Part 101** — [eCFR Part 101](https://www.ecfr.gov/current/title-33/chapter-I/subchapter-H/part-101): **101.305** (BOS/SA), Subpart F (**101.620** RCI, etc.)
+- **33 CFR Part 6** — **6.16-1** and related provisions: **cyber incident** reporting to **FBI**, **CISA**, **Coast Guard**
 
-- **Final Rule: "Cybersecurity in the Marine Transportation System"**
-  - Source: Federal Register, 89 FR 48016 (June 3, 2024)
-  - Verification: [Federal Register](https://www.federalregister.gov/documents/2024/06/03/2024-12019/cybersecurity-in-the-marine-transportation-system)
-  - Relevance: Establishes NRC reporting requirement effective July 16, 2025
+**Final rule (codified in Part 101 Subpart F):**
+- **Federal Register Document 2025-00708** (Jan. 17, 2025; effective July 16, 2025)  
+  - [Federal Register HTML](https://www.federalregister.gov/documents/2025/01/17/2025-00708/cybersecurity-in-the-marine-transportation-system)  
+  - [GovInfo PDF](https://www.govinfo.gov/content/pkg/FR-2025-01-17/pdf/2025-00708.pdf)  
+  - Local: `documentation/reference-downloads/uscg-cyber-2025/FederalRegister_2025-00708_Cybersecurity-MTS.pdf`
 
-**NRC Resources:**
-- **National Response Center (NRC)**: Federal point of contact for incident reporting
-  - Source: [NRC Website](https://www.nrc.uscg.mil/)
-  - Contact: 1-800-424-8802 (24/7) or 202-267-2675
-  - Verification: Official NRC contact information
-  - Relevance: Mandatory reporting channel for cybersecurity incidents
+**U.S. Coast Guard NVIC (reporting harmonization):**
+- **NVIC 02-24, Change 1** (Nov. 12, 2025) — local: `documentation/reference-downloads/uscg-cyber-2025/BOS_SA_Cyber Reporting NVIC 02-24 CH 1.pdf`  
+- **NVIC 02-24** (Feb. 21, 2024) — local: `documentation/reference-downloads/uscg-cyber-2025/BOS_SA_Cyber Reporting NVIC.pdf`
+
+**National Response Center (NRC):**
+- [NRC](https://www.nrc.uscg.mil/) — **1-800-424-8802** (24/7), **202-267-2675** — primary channel for **101.305** BOS/SA and many **RCI** / recommended **Part 6** cyber reports per **NVIC**
 
 ### 11.2 Supporting Frameworks
 
@@ -671,15 +636,15 @@ This guide provides comprehensive guidance on integrating MTSA cybersecurity inc
 
 ## Important Notes
 
-⚠️ **NRC reporting is mandatory for reportable incidents effective July 16, 2025.**
+⚠️ **Reporting is multi-channel** (**NRC**, **COTP**/**District**, **FBI**, **CISA**) per **33 CFR** and **NVIC 02-24 CH 1**—not “NRC only.”
 
-⚠️ **Report incidents that could lead to Transportation Security Incident (TSI), focusing on trade/commerce impact.**
+⚠️ **Effective July 16, 2025**, Subpart F and related obligations apply; use the **NVIC** to route each event.
 
-⚠️ **Integrate NRC reporting with existing incident response procedures for efficiency.**
+⚠️ **Do not rely on informal “company-only / no TSI” shortcuts**—the **NVIC** states **business/admin** cyber events can still relate to a **TSI** when **101.105** impacts are implicated.
 
-⚠️ **Maintain complete documentation of all incidents and reporting activities.**
+⚠️ **Integrate** agency notifications with existing **IR** playbooks and **SSI** handling (**49 CFR Part 1520**).
 
-⚠️ **Coordinate with IT/OT/security teams and Coast Guard as needed.**
+⚠️ **Document** what was reported, when, and to which agencies.
 
 ---
 
@@ -687,5 +652,5 @@ This guide provides comprehensive guidance on integrating MTSA cybersecurity inc
 *For complete MTSA requirements, see the Complete Implementation Guide.*
 *For critical asset identification, see the Critical Assets Research.*
 *For verified references, see VERIFIED_REFERENCES.md.*
-*Last Updated: December 2025*
+*Last Updated: March 2026 (aligned with NVIC 02-24 CH 1 and Policy Letter 01-25 PDFs in `documentation/reference-downloads/uscg-cyber-2025/`).*
 

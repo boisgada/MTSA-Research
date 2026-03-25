@@ -8,7 +8,7 @@ This comprehensive guide documents **all cybersecurity requirements** under the 
 
 **These dates are MANDATORY and must be met. Failure to meet these deadlines may result in non-compliance.**
 
-1. **July 16, 2025** - **MANDATORY**: Incident reporting to National Response Center (NRC) becomes effective
+1. **July 16, 2025** - **MANDATORY**: Maritime cybersecurity and reporting obligations under **33 CFR Part 101** Subpart F (and related reporting rules) take effect—use **NVIC 02-24, Change 1** with **33 CFR 101.305**, **101.620**, and **33 CFR Part 6 / 6.16-1** to determine **NRC**, **COTP**, **FBI**, and **CISA** notifications (not a single “NRC-only” path for all cyber events)
 2. **January 12, 2026** - **MANDATORY**: Initial cybersecurity training for all IT/OT personnel must be completed
 3. **July 16, 2027** - **MANDATORY**: 
    - Cybersecurity Officer (CySO) must be designated
@@ -79,7 +79,7 @@ The MTSA cybersecurity requirements consist of **eight major requirement categor
 3. **Cybersecurity Training** - Training for all IT/OT personnel
 4. **Cybersecurity Assessment** - Annual assessment of vulnerabilities and risks
 5. **Cybersecurity Drills and Exercises** - Regular testing of cybersecurity capabilities
-6. **Incident Reporting** - Immediate reporting of cybersecurity incidents
+6. **Incident Reporting** - Security and cyber reporting per **33 CFR 101.305**, **101.620**, and **33 CFR 6.16-1**, as harmonized in **NVIC 02-24, Change 1** (NRC, COTP, FBI, CISA as applicable)
 7. **Technical Cybersecurity Measures** - Implementation of **33 CFR 101.650** controls (account, device, data, risk management—including assessment and **penetration testing at plan renewal**, **KEV** remediation—supply chain, resilience, network segmentation, physical security, plus training in **(d)**)
 8. **Recordkeeping** - Maintenance of cybersecurity records
 
@@ -305,15 +305,27 @@ All personnel with access to **Information Technology (IT)** and **Operational T
 
 ### 5.2 Training Deadlines
 
-Per **33 CFR 101.650(d)(4)** (see also **CG-5PC Policy Letter 01-25** on the Coast Guard site):
+Per **33 CFR 101.650(d)(4)** and **CG-5PC Policy Letter 01-25** (Oct. 9, 2025; local copy: `documentation/reference-downloads/uscg-cyber-2025/Cybersecurity Training Policy Letter-5-PC_01-25.pdf`):
 
 - **January 12, 2026**: All personnel must complete the training specified in **(d)(1)(ii) through (v)**; key personnel must complete **(d)(2)** by the same date  
 - **Annually thereafter**: Same topics repeat on an annual basis (key personnel may need more frequent updates **as needed**)  
 - **New personnel** (hired after the rule’s effective date): training within **5 days** of gaining system access, but **no later than 30 days from hiring**, then annually  
 - **New IT or OT systems** (put in service after the effective date): training within **5 days** of system access, then annually  
-- **Cybersecurity Plan content (d)(1)(i)**: within **60 days** of receiving **Coast Guard approval** of the Cybersecurity Plan
+- **Cybersecurity Plan content (d)(1)(i)**: within **60 days** of receiving **Coast Guard approval** of the Cybersecurity Plan **once a plan is approved**  
+- **Interim before CSP approval / CySO assignment (Policy Letter §8.b)**: Training on **(d)(1)(i)** may be **deferred** until the **Cybersecurity Plan is approved** and a **CySO** is assigned, **but no later than July 16, 2027**. Training on **(d)(1)(iv)** (reporting to the CySO) may **temporarily** follow **existing cyber incident reporting procedures** under the **FSP/VSP/OCS FSP** until the CSP is in place. Trainers or approvers during this interim should meet or exceed **CySO knowledge** expectations in **33 CFR 101.625(e)**.
 
 ### 5.3 Training Requirements
+
+#### 5.3.0 U.S. Coast Guard Policy Letter 01-25 (alignment)
+
+Use the official policy for inspection readiness and program design (non-regulatory but describes Coast Guard verification expectations):
+
+- **“Access” (Policy §7.a)**: Ability to interact with a system—including **logical** access **or** **unrestricted physical** access to spaces/areas housing **IT and/or OT** (e.g., physical presence that can reach equipment counts as access even without credentials).  
+- **Key personnel (Policy §7.b)**: **Designated by the owner/operator**; typically includes roles involved in **cyber IR/recovery**, **cybersecurity oversight** of IT or **remotely accessible OT**, and other designated roles. The policy lists **examples** (CSO/FSO/VSO, admins, **CySO**, OT engineers with elevated access, etc.); **document** how your facility defines key personnel. **Key personnel** must receive **both** **101.650(d)(2)** topics **and** **(d)(1)** topics.  
+- **Combination with existing security training (Policy §8)**: Cybersecurity training may be **combined** with training required under **33 CFR 104.225**, **105.215**, and **106.220** where appropriate.  
+- **After CSP approval (Policy §8.c)**: The **CySO** must **review** existing training so it matches the entity’s **IT/OT** and operations.  
+- **Untrained personnel (Policy §9; aligns with 101.650(d)(3))**: Use **physical** accompaniment/monitoring by trained personnel, or **remote escorting** (e.g., least-privilege remote access, session monitoring/recording, real-time controls) with procedures **documented**; **remote access to OT** by untrained personnel must include **remote control/shadowing** by a **trained** application engineer/owner as described in the policy.  
+- **Training records (Policy §10)**: At minimum: **date**, **duration**, **outline** showing coverage of **101.650(d)(1)** and **(2)** topics, and **attendee list**; may align with FSP/VSP/OCS FSP security training records (plan amendment not always required when documented as additional security training—see policy).
 
 #### 5.3.1 Scope of Training
 
@@ -327,10 +339,11 @@ Training must cover:
 #### 5.3.2 Training Audience
 
 Training must be provided to:
-- All personnel with IT system access
-- All personnel with OT system access
-- Key personnel (additional training may be required)
-- CySO and security personnel
+- All personnel with **IT** system access (including **contractors**, all employment types)
+- All personnel with **OT** system access (same scope)
+- Personnel with **physical** access to areas housing IT/OT when that access is **unrestricted**, per Policy Letter **§7.a** (counts as “access” for training purposes)
+- **Key personnel** as **defined and documented** by the owner/operator (**101.650(d)(2)** **plus** all **(d)(1)** topics)
+- **CySO** and security personnel (CySO must meet **101.625(e)** knowledge areas; training should support that)
 
 #### 5.3.3 Training Content
 
@@ -649,40 +662,62 @@ Examples of exercises:
 
 ### 8.1 Regulatory Requirement
 
-**33 CFR 101.620(b)(7)** and **101.650(g)(1)** require owners and operators to ensure that **reportable cyber incidents** are reported to the **National Response Center (NRC) without delay** when the entity **has not** reported to the Coast Guard under **33 CFR 6.16-1** or is **not subject** to that section. Interpretation of **“reportable cyber incident”** and coordination with **Part 6** should follow the **current** **NVIC 02-24** series (including **Change 1**) and be confirmed with counsel where unclear.
+Reporting is **not** a single-channel “NRC only” rule. MTSA-regulated entities must apply:
+
+- **33 CFR 101.305** — **Breach of security (BOS)** and **suspicious activity (SA)** that may result in a **TSI** (generally **NRC** without delay, per NVIC)  
+- **33 CFR 101** TSI reporting — **local COTP** (facilities/vessels under **104/105**) or **District Commander** (**106**), then follow the **approved security plan** (which may include **NRC**)  
+- **33 CFR 6.16-1** — **Cyber incidents** (Part 6 sense): notify **FBI**, **CISA**, and **Coast Guard (COTP)** as required by regulation  
+- **33 CFR 101.620(b)(7)** / **101.650(g)(1)** — **Reportable cyber incidents (RCI)** to **NRC** when the entity **has not** reported under **6.16-1** or is **not subject** to it (e.g., **OCS** facilities under **106** per **NVIC 02-24 CH 1** discussion)
+
+**Authoritative USCG harmonization:** **NVIC 02-24, Change 1** (Nov. 12, 2025; local copy: `documentation/reference-downloads/uscg-cyber-2025/BOS_SA_Cyber Reporting NVIC 02-24 CH 1.pdf`). When in doubt, the NVIC instructs entities to report under **101.305**, **101.620**, and **6.16-1** as applicable.
 
 ### 8.2 Reporting Deadline
 
-**July 16, 2025**: NRC reporting obligations in **Subpart F** take effect (aligned with the final rule effective date). Continue to use **NVIC 02-24** guidance for operational reporting criteria and updates.
+**July 16, 2025**: Subpart F effective date; **cyber reporting** obligations must be read together with **Part 6** and **NVIC 02-24 CH 1**.
 
 ### 8.3 Reporting Requirements
 
-#### 8.3.1 Reportable Incidents
+#### 8.3.1 Cyber incident / RCI criteria (NVIC 02-24 CH 1, Enclosure (1))
 
-Use the regulatory definition of **reportable cyber incidents** and USCG reporting guidance (**NVIC 02-24**, **Change 1**) rather than informal paraphrases. In practice, programs also track:
+The NVIC provides **non-exhaustive** criteria for cyber incidents / RCIs that must be reported (harmonizing **Part 6** “cyber incident” with **Part 101** “RCI”), including situations that **lead to** or **could reasonably lead to** (paraphrased for planning—cite the NVIC for exact wording):
 
-- Incidents that could contribute to or constitute a **Transportation Security Incident (TSI)** (**33 CFR 101.105**)
-- Incidents affecting **critical** IT or OT systems and maritime operations
-- Actual or threatened cyber incidents addressed under **33 CFR Part 6** and **Part 101** as applicable
+- Substantial loss of **confidentiality, integrity, or availability** of covered **IT, network, or OT**  
+- **Disruption** or significant adverse impact on **operations** or delivery of **goods/services**, including potential serious **health/safety** impacts  
+- **Unauthorized** access or disclosure of **nonpublic personal information** for a **significant** number of individuals  
+- Other potential **operational disruption** to **critical infrastructure** systems or assets  
+- Incidents that may lead to a **TSI** under **33 CFR 101.105**  
 
-#### 8.3.2 Reporting Timeline
+**Not** every nuisance event is a “cyber incident”: routine **spam/phishing** handled by normal hygiene, and **accidental** minor policy violations, may fall below reporting thresholds—**NVIC** emphasizes **sophistication, volume, persistence**, and **TSI** potential. **Cyber-related** **BOS/SA** may still require **NRC** reporting when tied to security-plan systems or **TSI** potential.
 
-- **Immediate**: Report immediately upon discovery
-- **No Delay**: Do not delay reporting for investigation
-- **24/7**: Reporting available 24/7 through NRC
+#### 8.3.2 Where to report (NVIC 02-24 CH 1, Enclosure (1) §e)
 
-#### 8.3.3 Reporting Method
+| Event (examples) | Primary USCG-aligned channels |
+|------------------|-------------------------------|
+| **BOS** or **SA** (MTSA entity) | **NRC** **without delay**: **1-800-424-8802** (**33 CFR 101.305**). May also notify **COTP**; **does not** replace **NRC**. |
+| **TSI** | **104/105**: **local COTP** without delay, then **security plan** procedures (may include **NRC**). **106**: **cognizant District Commander**, then plan procedures. |
+| **Cyber incident** (**Part 6** / **6.16-1**) | **FBI**, **CISA**, and **COTP**. NVIC: **NRC** notification **without delay** is **strongly recommended** and **satisfies** the **COTP** notification; **NRC** forwards to **FBI CyWatch** (**cywatch@fbi.gov**), which the **FBI accepts** as meeting the **FBI** requirement. **Separate** notification to **CISA**: **(844) 729-2472**, **SayCISA@cisa.dhs.gov**, or CISA Service Portal. |
+| **RCI** (**101.620**) | Entities **not subject** to **33 CFR Part 6** (e.g., many **OCS** cases per NVIC): **NRC** without delay. If the entity **already** reported the cyber incident under **6.16-1**, **101.620** reporting **does not** apply (avoid duplicate reports). |
 
-- **National Response Center**: 1-800-424-8802 or 202-267-2675
-- **Online**: Report through NRC online system
-- **Follow-up**: Provide additional information as requested
+Multi-zone COTP impact: NVIC instructs reporters to note in the **NRC** report if the incident may affect **more than one** COTP zone.
+
+#### 8.3.3 Reporting timeline and content
+
+- **Without delay / immediately** when criteria are met—do **not** wait for a full investigation to **initiate** notification.  
+- Initial reports may be **minimal**; **SSI** handling applies (**49 CFR Part 1520**). NVIC: basic **who/where/what/type/summary** is sufficient initially; deeper vulnerability detail can follow with the Coast Guard.
+
+#### 8.3.4 Phone numbers and contacts (from NVIC 02-24 CH 1)
+
+- **NRC**: **1-800-424-8802** (also **202-267-2675** in project contact lists)  
+- **CISA**: **(844) Say-CISA (729-2472)**, **SayCISA@cisa.dhs.gov**  
+- **FBI CyWatch** (via **NRC** forward per NVIC): **cywatch@fbi.gov**  
+- **Rule/policy questions**: **MTSCyberRule@uscg.mil**
 
 ### 8.4 Implementation Recommendations
 
 #### Step 1: Establish Reporting Procedures
-- Develop incident identification procedures
-- Define reporting criteria
-- Establish reporting procedures
+- Develop incident identification procedures aligned with **NVIC 02-24 CH 1** (BOS/SA, TSI, Part 6 **cyber incident**, **RCI**)
+- Define reporting criteria and **which agency** receives the initial notification (**NRC**, **COTP**/**District**, **FBI**, **CISA**)
+- Establish reporting procedures (including **NRC** as **strongly recommended** for Part 6 cyber incidents per NVIC, plus **separate CISA** contact)
 - Train personnel on reporting
 
 #### Step 2: Implement Detection Capabilities

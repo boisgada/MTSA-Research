@@ -323,8 +323,8 @@ This guide provides comprehensive guidance on the Cybersecurity Officer (CySO) r
   - Relevance: Defines CySO designation requirement
 
 - **Final Rule: "Cybersecurity in the Marine Transportation System"**
-  - Source: Federal Register, 89 FR 48016 (June 3, 2024)
-  - Verification: [Federal Register](https://www.federalregister.gov/documents/2024/06/03/2024-12019/cybersecurity-in-the-marine-transportation-system)
+  - Source: Federal Register Document **2025-00708** (Jan. 17, 2025); effective July 16, 2025
+  - Verification: https://www.federalregister.gov/documents/2025/01/17/2025-00708/cybersecurity-in-the-marine-transportation-system
   - Relevance: Establishes CySO designation deadline of July 16, 2027
 
 ### 10.2 Related Project Documents

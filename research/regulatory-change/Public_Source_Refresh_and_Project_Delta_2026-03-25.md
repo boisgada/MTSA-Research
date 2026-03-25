@@ -102,6 +102,16 @@ The following items were confirmed against **33 CFR 101.620**, **101.625**, **10
 - `VERIFIED_REFERENCES.md` — Federal Register document ID, new USCG guidance rows, CISA MTS resilience guide link.
 - `implementation/guides/MTSA_Cyber_Requirements_Complete_Implementation_Guide.md` — CySO qualifications, training triggers, NRC reporting conditionality, supply-chain pillar, KEV + penetration testing, related guidance list.
 
+## 7. Update after local USCG PDFs (2026-03-25)
+
+The following were aligned using **local copies** in `documentation/reference-downloads/uscg-cyber-2025/` (**CG-5PC Policy Letter 01-25**, **NVIC 02-24 CH 1**, **NVIC 02-24**):
+
+- **Implementation guide §5** — Interim **CSP/CySO** training deferrals (**Policy §8.b**), **access** and **key personnel** definitions, combination with **104.225 / 105.215 / 106.220**, untrained-personnel / remote escorting (**Policy §9**), minimum training **records** (**Policy §10**).
+- **Implementation guide §8** — Full **multi-channel** reporting (**BOS/SA**, **TSI**, **Part 6** cyber incidents, **RCI**), **NVIC** criteria and routing table (**NRC** / **CISA** / **FBI** / **COTP**), removal of implicit “NRC-only” framing in the executive summary.
+- **`research/incident-response/NRC_Incident_Response_Integration.md`** — Replaced oversimplified NRC-centric text; removed **“When NOT to Report”** list that conflicted with NVIC (**business/admin** systems may still relate to **TSI**); fixed **Federal Register** citation to **2025-00708**; added **NVIC CH 1** date **Nov. 12, 2025**.
+- **Research / framework documents (batch)** — Corrected erroneous **89 FR 48016 / 2024-12019** final-rule citation to **2025-00708** (Jan. 17, 2025) wherever it appeared in `research/` and `implementation/frameworks/`.
+- **`VERIFIED_REFERENCES.md`** — **NVIC CH 1** date; **Policy 01-25** signed date; local PDF path notes.
+
 ---
 
 *This document should be updated when official USCG PDFs are ingested or when Subpart F is amended (check eCFR “Title 33 last amended” metadata).*
