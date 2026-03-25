@@ -2,11 +2,22 @@
 
 Use this folder for **local mirrors** of official PDFs. Some hosts (**uscg.mil**, **cisa.gov**) often return **HTTP 403** to automated or datacenter IPs; if scripted download fails, open the URLs below in a **normal desktop browser** (or VPN) and save the files here with the suggested names.
 
-## Already present in this repository (as of 2026-03-25)
+## Local inventory (PDFs on disk)
 
-| File | Source |
-|------|--------|
-| `FederalRegister_2025-00708_Cybersecurity-MTS.pdf` | U.S. Government Publishing Office (GovInfo) — Federal Register document **2025-00708** |
+These are the files currently under this folder (names may use the browser’s default download names). For AI-assisted work in Cursor, PDFs are read via shell tools (e.g. `pdftotext`) when quoted text is needed—IDE search may not list binaries.
+
+| File (as saved) | Document |
+|-----------------|----------|
+| `Cybersecurity Training Policy Letter-5-PC_01-25.pdf` | CG-5PC Policy Letter 01-25 (Oct. 2025) |
+| `BOS_SA_Cyber Reporting NVIC 02-24 CH 1.pdf` | NVIC 02-24, Change 1 |
+| `BOS_SA_Cyber Reporting NVIC.pdf` | NVIC 02-24 (original) |
+| `Cyber Small Entity Guide_Facilites_CLEAN_15JAN2025.pdf` | Small entity guide — facilities |
+| `Cyber Small Entity Guide_Vessels_CLEAN_15JAN2025.pdf` | Small entity guide — vessels |
+| `Cyber Regulations Fact Sheet for Public Release_CLEAN_15JAN2025.pdf` | Cyber regulations fact sheet |
+| `FederalRegister_2025-00708_Cybersecurity-MTS.pdf` | Federal Register **2025-00708** (GovInfo PDF) |
+| `2025-00708.pdf` | Same FR document (duplicate copy—you may delete one) |
+
+Optional (not in folder yet): `CISA_MTS-Resilience-Assessment-Guide_2024-12.pdf` — see link in [CISA section](#other-government-pdf-optional--cisa-mts-resilience) below.
 
 **GovInfo (recommended stable link for the rule PDF):**  
 https://www.govinfo.gov/content/pkg/FR-2025-01-17/pdf/2025-00708.pdf  
