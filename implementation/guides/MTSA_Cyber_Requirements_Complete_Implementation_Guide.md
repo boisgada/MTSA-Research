@@ -53,8 +53,12 @@ The timeline in Section 12 includes **recommended start dates** for activities t
 ### 1.2 Related Guidance
 
 - **NVIC 01-20**: Guidelines for Addressing Cyber Risks at MTSA-Regulated Facilities
+- **NVIC 02-24** and **NVIC 02-24, Change 1**: U.S. Coast Guard guidance on reporting breaches of security, suspicious activity, transportation security incidents, and cyber incidents (use the **current** NVIC PDF posted under the Coast Guard Maritime Cybersecurity resources)
+- **CG-5PC Policy Letter 01-25**: U.S. Coast Guard policy on cybersecurity **training** implementation (aligns with **33 CFR 101.650(d)**)
 - **Small Entity Compliance Guide**: Detailed guidance for facilities (published by Coast Guard)
-- **NIST Cybersecurity Framework**: Recommended framework for cybersecurity measures
+- **NIST Cybersecurity Framework**: Recommended framework for cybersecurity measures (see NVIC 01-20)
+- **Maritime Cybersecurity resource hub**: `https://www.uscg.mil/MaritimeCyber/` (fact sheets, guides, and pointers to official PDFs)
+- **Regulatory questions**: **MTSCyberRule@uscg.mil** (contact published in U.S. Coast Guard announcements on the cyber final rule)
 
 ### 1.3 Scope of Application
 
@@ -76,7 +80,7 @@ The MTSA cybersecurity requirements consist of **eight major requirement categor
 4. **Cybersecurity Assessment** - Annual assessment of vulnerabilities and risks
 5. **Cybersecurity Drills and Exercises** - Regular testing of cybersecurity capabilities
 6. **Incident Reporting** - Immediate reporting of cybersecurity incidents
-7. **Technical Cybersecurity Measures** - Implementation of technical controls
+7. **Technical Cybersecurity Measures** - Implementation of **33 CFR 101.650** controls (account, device, data, risk management—including assessment and **penetration testing at plan renewal**, **KEV** remediation—supply chain, resilience, network segmentation, physical security, plus training in **(d)**)
 8. **Recordkeeping** - Maintenance of cybersecurity records
 
 ---
@@ -201,25 +205,32 @@ Each facility must **designate a Cybersecurity Officer (CySO)** responsible for:
 
 ### 4.3 CySO Qualifications
 
-While specific qualifications are not detailed in the regulation, the CySO should have:
+**Regulatory baseline**: **33 CFR 101.625(e)** requires the CySO to have **general knowledge**, through training, education, or equivalent job experience, including at minimum:
 
-#### 4.3.1 Technical Knowledge
-- Understanding of IT and OT systems
-- Knowledge of cybersecurity threats and vulnerabilities
-- Familiarity with network architecture and security
-- Understanding of critical asset protection
+1. General vessel, facility, or OCS facility operations and conditions  
+2. General cybersecurity guidance and best practices  
+3. The Cyber Incident Response Plan  
+4. The Cybersecurity Plan  
+5. Cybersecurity equipment and systems  
+6. Methods of conducting cybersecurity audits, inspections, control, and monitoring techniques  
+7. Relevant laws and regulations pertaining to cybersecurity  
+8. Instruction techniques for cybersecurity training and education  
+9. Handling of Sensitive Security Information and security-related communications  
+10. Current cybersecurity threat patterns and **KEVs** (Known Exploited Vulnerabilities)  
+11. Recognizing characteristics and behavioral patterns of persons who are likely to threaten security  
+12. Conducting and assessing cybersecurity drills and exercises  
 
-#### 4.3.2 Regulatory Knowledge
-- Understanding of MTSA requirements
-- Knowledge of Coast Guard regulations
-- Familiarity with cybersecurity frameworks (NIST, etc.)
-- Understanding of incident reporting requirements
+Facility programs should **map evidence** (résumés, training records, experience letters) to these elements for inspection readiness.
 
-#### 4.3.3 Operational Knowledge
-- Understanding of facility operations
-- Knowledge of shipping operations
-- Familiarity with facility security procedures
-- Understanding of business continuity requirements
+#### 4.3.1 Technical Knowledge (implementation emphasis)
+- Understanding of IT and OT systems and how they support maritime operations
+- Knowledge of cybersecurity threats, vulnerabilities, and **KEV** remediation expectations for **critical** systems
+
+#### 4.3.2 Regulatory Knowledge (implementation emphasis)
+- MTSA and **33 CFR Part 101** Subpart F requirements, including reporting and plan submission paths (e.g., cognizant COTP / OCMI)
+
+#### 4.3.3 Operational Knowledge (implementation emphasis)
+- Facility and shipping operations; integration of cyber measures with the **FSP** and **Cybersecurity Plan**
 
 ### 4.4 CySO Responsibilities
 
@@ -228,6 +239,7 @@ While specific qualifications are not detailed in the regulation, the CySO shoul
 - Ensure plan addresses all requirements
 - Coordinate plan updates based on assessments
 - Maintain plan currency
+- Ensure an **annual audit** of the Cybersecurity Plan and its implementation, and updates if necessary (**33 CFR 101.625(d)(3)**)
 
 #### 4.4.2 Implementation Oversight
 - Oversee implementation of technical measures
@@ -240,6 +252,7 @@ While specific qualifications are not detailed in the regulation, the CySO shoul
 - Coordinate incident response
 - Manage incident reporting
 - Coordinate with authorities
+- Ensure **identification and mitigation of all KEVs** affecting **critical** IT or OT systems **without delay** (**33 CFR 101.625(d)(15)**; see also **101.650(e)(1)(iv)** and maintenance measures)
 
 #### 4.4.4 Compliance Management
 - Ensure compliance with MTSA requirements
@@ -292,8 +305,13 @@ All personnel with access to **Information Technology (IT)** and **Operational T
 
 ### 5.2 Training Deadlines
 
-- **January 12, 2026**: Initial training must be completed
-- **Annually**: Training must be repeated annually thereafter
+Per **33 CFR 101.650(d)(4)** (see also **CG-5PC Policy Letter 01-25** on the Coast Guard site):
+
+- **January 12, 2026**: All personnel must complete the training specified in **(d)(1)(ii) through (v)**; key personnel must complete **(d)(2)** by the same date  
+- **Annually thereafter**: Same topics repeat on an annual basis (key personnel may need more frequent updates **as needed**)  
+- **New personnel** (hired after the rule’s effective date): training within **5 days** of gaining system access, but **no later than 30 days from hiring**, then annually  
+- **New IT or OT systems** (put in service after the effective date): training within **5 days** of system access, then annually  
+- **Cybersecurity Plan content (d)(1)(i)**: within **60 days** of receiving **Coast Guard approval** of the Cybersecurity Plan
 
 ### 5.3 Training Requirements
 
@@ -631,22 +649,21 @@ Examples of exercises:
 
 ### 8.1 Regulatory Requirement
 
-Any **cybersecurity incidents that impact the facility** must be reported to the **National Response Center (NRC)** immediately.
+**33 CFR 101.620(b)(7)** and **101.650(g)(1)** require owners and operators to ensure that **reportable cyber incidents** are reported to the **National Response Center (NRC) without delay** when the entity **has not** reported to the Coast Guard under **33 CFR 6.16-1** or is **not subject** to that section. Interpretation of **“reportable cyber incident”** and coordination with **Part 6** should follow the **current** **NVIC 02-24** series (including **Change 1**) and be confirmed with counsel where unclear.
 
 ### 8.2 Reporting Deadline
 
-**July 16, 2025**: Incident reporting requirements take effect immediately
+**July 16, 2025**: NRC reporting obligations in **Subpart F** take effect (aligned with the final rule effective date). Continue to use **NVIC 02-24** guidance for operational reporting criteria and updates.
 
 ### 8.3 Reporting Requirements
 
 #### 8.3.1 Reportable Incidents
 
-Incidents that must be reported include:
-- Any cybersecurity incident that impacts facility operations
-- Incidents affecting critical assets
-- Incidents that could lead to a Transportation Security Incident (TSI)
-- Incidents affecting IT or OT systems
-- Any actual or threatened cyber incidents
+Use the regulatory definition of **reportable cyber incidents** and USCG reporting guidance (**NVIC 02-24**, **Change 1**) rather than informal paraphrases. In practice, programs also track:
+
+- Incidents that could contribute to or constitute a **Transportation Security Incident (TSI)** (**33 CFR 101.105**)
+- Incidents affecting **critical** IT or OT systems and maritime operations
+- Actual or threatened cyber incidents addressed under **33 CFR Part 6** and **Part 101** as applicable
 
 #### 8.3.2 Reporting Timeline
 
@@ -744,13 +761,7 @@ Incidents that must be reported include:
 
 ### 9.1 Regulatory Requirement
 
-Facilities must implement **technical cybersecurity measures** including:
-- Account security measures
-- Device security measures
-- Data security measures
-- Risk management
-- Resilience
-- Network segmentation
+Facilities must implement the cybersecurity measures in **33 CFR 101.650**, including at minimum the categories addressed in **(a)** account security, **(b)** device security, **(c)** data security, **(d)** training (see Requirement 3), **(e)** risk management (including the **Cybersecurity Assessment** and related requirements), **(f)** supply chain, **(g)** resilience, **(h)** network segmentation, and **(i)** physical security measures for OT and related IT.
 
 ### 9.2 Account Security Measures
 
@@ -813,11 +824,12 @@ Implement measures to secure data:
 
 #### 9.5.1 Requirements
 
-Implement risk management processes:
-- **Risk Assessment**: Regular risk assessments
-- **Risk Treatment**: Implement risk treatment measures
-- **Risk Monitoring**: Continuous risk monitoring
-- **Risk Reporting**: Regular risk reporting
+Implement risk management processes per **33 CFR 101.650(e)**, including:
+
+- **Cybersecurity Assessment**: Complete no later than **July 16, 2027**, and **at least annually thereafter**; conduct **sooner than annually** if there is a **change in ownership**; document outcomes in the **FSA/VSA/OCS FSA** as required (**104.305 / 105.305 / 106.305**); incorporate resolutions into the Cybersecurity Plan via amendment (**101.630(e)**)  
+- **KEVs**: Patch or implement **documented compensating controls** for all **KEVs** in **critical** IT or OT systems **without delay**  
+- **Penetration testing**: In conjunction with **Cybersecurity Plan renewal**, ensure a penetration test is completed; provide a **certification letter** and document **all identified vulnerabilities** in the **FSA/VSA/OCS FSA** per **33 CFR 104.305, 105.305, 106.305**  
+- **Risk treatment and monitoring**: Ongoing treatment, monitoring, and reporting consistent with the approved Cybersecurity Plan
 
 #### 9.5.2 Implementation Recommendations
 

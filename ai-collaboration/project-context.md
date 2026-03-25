@@ -106,6 +106,7 @@ This document provides **essential context** for AI collaboration sessions on th
 - `research/critical-assets/MTSA_Critical_Assets_Research.md`: Critical asset definition and identification
 - `research/tsi-analysis/TSI_Trade_Commerce_Interpretation.md`: TSI trade/commerce interpretation
 - `research/tsi-analysis/TSI_Transportation_Disruption_Analysis.md`: TSI disruption conflict analysis
+- `research/regulatory-change/Public_Source_Refresh_and_Project_Delta_2026-03-25.md`: USCG-prioritized public source review and deltas versus repository (eCFR-aligned)
 
 ### Implementation Documents
 - `implementation/guides/MTSA_Cyber_Requirements_Complete_Implementation_Guide.md`: Complete requirements guide

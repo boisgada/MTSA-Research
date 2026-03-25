@@ -18,8 +18,9 @@ This document provides verified references for all recommendations made in the M
 **Status**: ✅ **VERIFIED** - Official regulatory requirement
 **References**:
 - Coast Guard Final Rule: "Cybersecurity in the Marine Transportation System"
-- Federal Register publication (to be verified with exact citation)
-- 33 CFR Part 101 - MTSA Regulations
+- Federal Register: **Document 2025-00708**, published **January 17, 2025** ([Cybersecurity in the Marine Transportation System](https://www.federalregister.gov/documents/2025/01/17/2025-00708/cybersecurity-in-the-marine-transportation-system)); effective **July 16, 2025**
+- Codified cybersecurity requirements: **33 CFR Part 101, Subpart F** (see eCFR [Subpart F — Cybersecurity](https://www.ecfr.gov/current/title-33/chapter-I/subchapter-H/part-101/subpart-F); eCFR source note cites **90 FR 6447**, Jan. 17, 2025, for Subpart F)
+- 33 CFR Part 101 - MTSA Regulations (general)
 
 **Key Requirements Verified**:
 - ✅ Cybersecurity Plan requirement (July 16, 2027 deadline)
@@ -76,6 +77,29 @@ This document provides verified references for all recommendations made in the M
 - Facilities Guide: https://www.uscg.mil/Portals/0/Images/cyber/Cyber%20Small%20Entity%20Guide_Facilites_CLEAN_15JAN2025.pdf
 - Vessels Guide: https://www.uscg.mil/Portals/0/Images/cyber/Cyber%20Small%20Entity%20Guide_Vessels_CLEAN_15JAN2025.pdf
 
+### 4a. CG-5PC Policy Letter 01-25 (Cybersecurity Training)
+
+**Source**: U.S. Coast Guard (Assistant Commandant for Prevention Policy; CG-5PC)  
+**Status**: ✅ **VERIFIED** — Official USCG policy (announced **October 10, 2025**)  
+**Title**: Policy Letter **01-25** — cybersecurity training for personnel with access to IT/OT (implements **33 CFR 101.650(d)** in operational detail)  
+**References**:
+- USCG announcement (training + NVIC 02-24 CH 1): https://www.news.uscg.mil/maritime-commons/Article/4343729/publication-of-cybersecurity-training-and-incident-reporting-guidance-and-polic/
+- Maritime Cyber resource hub (verify access from your network): https://www.uscg.mil/MaritimeCyber/
+- Rule questions: **MTSCyberRule@uscg.mil** (per USCG public announcements)
+
+### 4b. NVIC 02-24 and NVIC 02-24, Change 1 (Reporting)
+
+**Source**: U.S. Coast Guard  
+**Status**: ✅ **VERIFIED** — Official USCG guidance  
+**Titles**:
+- **NVIC 02-24**: Reporting breaches of security, suspicious activity, transportation security incidents, and cyber incidents (original issuance **February 21, 2024**)
+- **NVIC 02-24, Change 1**: Updated reporting guidance (announced **2025**; aligns cyber incident reporting with regulatory structure — use current USCG-posted PDF)
+
+**Source URLs**:
+- NVIC 02-24 announcement: https://www.news.uscg.mil/maritime-commons/Article/3685390/navigation-and-vessel-inspection-circular-nvic-02-24-reporting-breaches-of-secu/
+- NVIC 02-24 CH 1 + Policy 01-25 announcement: https://www.news.uscg.mil/maritime-commons/Article/4343729/publication-of-cybersecurity-training-and-incident-reporting-guidance-and-polic/
+- Example NVIC-related PDF path (verify current file on **MaritimeCyber**): https://www.uscg.mil/Portals/0/Images/cyber/BOS_SA_Cyber%20Reporting%20NVIC.pdf
+
 ---
 
 ## Framework and Standard Sources
@@ -100,11 +124,13 @@ This document provides verified references for all recommendations made in the M
 - ✅ Multi-Asset and System Assessment (MASA)
 - ✅ OT Cybersecurity Asset Inventory Guidance
 - ✅ Network Segmentation Guidance
+- ✅ Marine Transportation System Resilience Assessment Guide (Dec. 2024) — federal methodology; **not** USCG regulatory text
 
 **Source URLs**:
 - CISA MASA: https://www.cisa.gov/resources-tools/services/multi-asset-and-system-assessment-masa
 - CISA OT Guidance: https://www.cisa.gov/resources-tools/resources/foundations-ot-cybersecurity-asset-inventory-guidance-owners-and-operators
 - CISA Network Security: https://www.cisa.gov/news-events/news/securing-network-infrastructure-devices
+- CISA MTS Resilience Assessment Guide (PDF): https://www.cisa.gov/sites/default/files/2024-12/mts-resilience-assessment-guide-dec2024.pdf
 
 ---
 
@@ -407,6 +433,7 @@ All project documents containing recommendations must:
 
 - **Initial Version**: December 2025
 - **Purpose**: Provide verified references for all recommendations to support license to operate compliance
+- **2026-03-25**: Added Federal Register document **2025-00708** and eCFR Subpart F pointer; added **Policy Letter 01-25**, **NVIC 02-24 / CH 1**, Maritime Cyber hub and **MTSCyberRule@uscg.mil**; added CISA **MTS Resilience Assessment Guide** URL
 
 ---
 
