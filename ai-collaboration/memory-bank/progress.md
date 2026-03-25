@@ -5,6 +5,7 @@
 - ✅ Complete MTSA cyber requirements analysis and mapping to project strategy.
 - ✅ Corporate framework leverage strategy and ISO 27001 alignment approach documented in implementation guides.
 - ✅ AI collaboration guardrails in place (`rules-of-engagement.md`, verified references requirement, generic-content requirement).
+- ✅ **2026-03-25**: Implementation guide and NRC incident research aligned with **USCG Policy 01-25** and **NVIC 02-24 CH 1**; official PDFs mirrored in `documentation/reference-downloads/uscg-cyber-2025/`; FR **2025-00708** citations corrected across many research files.
 
 ## What's Left to Build
 1. Corporate MTSA Cyber Framework Document  
@@ -41,4 +42,4 @@
 
 ---
 
-*Progress Tracking - Last Updated: 2026-03-16*
+*Progress Tracking - Last Updated: 2026-03-25*

@@ -11,9 +11,10 @@
 - Established detailed AI collaboration `rules-of-engagement.md` with verified-reference and generic-content requirements.
 - Created `ai-collaboration/session-notes-2026-03-16.md` to capture today’s work using the session-notes template pattern.
 - Initialized memory-bank structure and began populating `activeContext.md` and `progress.md` from `project-context.md`.
+- **2026-03-25**: Added `research/regulatory-change/Public_Source_Refresh_and_Project_Delta_2026-03-25.md`; committed USCG PDFs under `documentation/reference-downloads/uscg-cyber-2025/`; aligned **implementation guide** and **NRC incident integration** research with **Policy Letter 01-25** and **NVIC 02-24 CH 1**; corrected **Federal Register** citations to **2025-00708** across research/framework files. Session notes: `ai-collaboration/session_notes_20260325.md`.
 
 ## Next Steps
-1. Flesh out the corporate MTSA cybersecurity framework document (outline, sections, and linkages to ISO 27001 controls).
+1. Flesh out the corporate MTSA cybersecurity framework document (outline, sections, and linkages to ISO 27001 controls)—cite **Policy 01-25**, **NVIC 02-24 CH 1**, and Subpart F.
 2. Design a site-specific MTSA cyber plan template that clearly separates corporate content from site-local content.
 3. Connect the queue system (`queue/master-queue.md`) to concrete work items (e.g., framework document, site template, verified references refresh).
 4. Continue updating memory-bank files (`progress.md`, `techContext.md`, `systemPatterns.md`) as major decisions and artifacts solidify.
