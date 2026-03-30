@@ -19,7 +19,7 @@ If queue-driven work is expected, also review `queue/master-queue.md` and `ai-co
 When the user ends a session (for example: “close session,” “session closeout,” “wrap up”), do **not** only reply in chat.
 
 1. Follow **`ai-collaboration/session-closeout-guidelines.md`**.
-2. Write dated session notes (for example `ai-collaboration/session_notes_YYYYMMDD.md`) using **`ai-collaboration/session-notes-template.md`** as a guide. Include **Next Session Preparation** (queue, git state, next task, blockers) when applicable.
+2. Write dated session notes (for example `ai-collaboration/session_notes_YYYYMMDD.md`) using **`ai-collaboration/session-notes-template.md`** as a guide. Include **Next Session Preparation** (queue, git state, next task, blockers) when applicable. If that file **already** holds a completed session from **today**, append a new labeled session section or use `session_notes_YYYYMMDD-02.md` (see **session-notes-template.md → Same calendar day, multiple sessions**) instead of overwriting the earlier session.
 3. Align with **`ai-collaboration/rules-of-engagement.md`** (End of Session): queue state, git notes, commit/push when appropriate.
 
 ## MCP integration (default)

@@ -31,6 +31,11 @@ Use **`session-notes-template.md`** (or your project’s session notes format):
 - [ ] Key insights and follow-up items
 - [ ] **Next Session Preparation** (see below)
 
+**Same calendar day, multiple sessions**
+
+- If **`session_notes_YYYYMMDD.md` already exists** and documents a **completed** earlier session today, **do not** overwrite that session’s sections with a new session’s outcomes.
+- Instead: **append** a new `## Session N — YYYY-MM-DD` block (see **`session-notes-template.md` → Same calendar day, multiple sessions**), **or** create **`session_notes_YYYYMMDD-02.md`** (then `-03`, …), per your project convention.
+
 **Critical: Next Session Preparation section**
 
 This section is the main handoff. Include:

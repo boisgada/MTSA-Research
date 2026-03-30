@@ -494,6 +494,7 @@ When ending a session:
 
 When starting the next session:
 
+- [ ] If resuming **the same calendar day** as an earlier session, open today’s session notes file(s): either add a **new session block** in the same file or continue in **`session_notes_YYYYMMDD-02.md`** if that is the project convention — see **`session-notes-template.md` → Same calendar day, multiple sessions**
 - [ ] Review previous session notes, especially "Next Session Preparation" section
 - [ ] Check for follow-up items from previous session
 - [ ] Review "Repository Status for Next Session" from previous session notes

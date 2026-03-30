@@ -140,6 +140,102 @@ EOF
     echo -e "${GREEN}Created ai-collaboration/chat-history/README.md${NC}"
 fi
 
+# Template feedback folder (proposals for the shared AI Assistance Template)
+mkdir -p documentation/template-feedback/integrated
+if [ ! -f "documentation/template-feedback/README.md" ]; then
+    cat > documentation/template-feedback/README.md << 'TFEEDBACK_README'
+# Template feedback (upstream improvement proposals)
+
+## Purpose
+
+This folder holds **recommended improvements** for the **AI Assistance Template** itself. Items here are a **staging area**: reviewers prioritize them, then apply changes in the **template repository** for the benefit of **all projects** that copy or align to the template.
+
+Consumer projects may keep a **mirror** of this folder (or only the index) to record proposals discovered while working in that repo before they land upstream.
+
+---
+
+## How to use
+
+1. **Add** a new markdown file per idea: `YYYY-MM-DD-short-slug.md`.
+2. **Track** open vs integrated items in **`TEMPLATE_FEEDBACK_INDEX.md`**.
+3. **Integrate** by implementing the change in the template repo, then **move** the proposal to **`integrated/`** and add an integration header (commit/tag, date).
+4. **Propagate** to other Research projects via your alignment workflow (`ai-collaboration/scripts/sync-all-projects.sh` from the Research workspace root, submodule updates, or manual merge).
+
+---
+
+## Index
+
+See **[TEMPLATE_FEEDBACK_INDEX.md](./TEMPLATE_FEEDBACK_INDEX.md)**.
+
+---
+
+## Related
+
+- **`integrated/README.md`** — audit trail after upstream merge
+- **`documentation/template-maintenance-and-updates.md`** — releasing and copying the template
+- **`ai-collaboration/mcp-integration.md`** — MCP servers and canonical template access
+TFEEDBACK_README
+    echo -e "${GREEN}Created documentation/template-feedback/README.md${NC}"
+fi
+if [ ! -f "documentation/template-feedback/integrated/README.md" ]; then
+    cat > documentation/template-feedback/integrated/README.md << 'TFEEDBACK_INT'
+# Integrated template feedback
+
+## Purpose
+
+Archived copies of **feedback proposals after they have been implemented** in the template repository. Keeping them here preserves **rationale** and **traceability**.
+
+---
+
+## When to move a file here
+
+1. The template change described in the proposal is **merged** upstream.
+2. Add an **integration header** at the top of the moved file (see examples in the archived proposals).
+3. Update **`../TEMPLATE_FEEDBACK_INDEX.md`**: remove from **Open proposals**, add to **Integrated upstream**.
+
+---
+
+## Related
+
+- **[../README.md](../README.md)** — staging workflow
+- **[../TEMPLATE_FEEDBACK_INDEX.md](../TEMPLATE_FEEDBACK_INDEX.md)** — master index
+TFEEDBACK_INT
+    echo -e "${GREEN}Created documentation/template-feedback/integrated/README.md${NC}"
+fi
+if [ ! -f "documentation/template-feedback/TEMPLATE_FEEDBACK_INDEX.md" ]; then
+    cat > documentation/template-feedback/TEMPLATE_FEEDBACK_INDEX.md << 'TFEEDBACK_IDX'
+# Template feedback index
+
+Tracks **open** proposals and **integrated** (merged-upstream) items.
+
+---
+
+## Open proposals
+
+| Date | Topic | Proposal file |
+|------|--------|----------------|
+| — | *(none)* | — |
+
+---
+
+## Integrated upstream
+
+| Integrated date | Topic | Archived proposal |
+|-----------------|--------|-------------------|
+| — | *(none yet — add rows when mirroring upstream)* | — |
+
+---
+
+## Maintenance
+
+- When a proposal is **integrated** upstream: move it into **`integrated/`**, add the header block at the top of the file, update this index.
+- When adding a **new** proposal: create `YYYY-MM-DD-slug.md` and add a row under **Open proposals**.
+
+See **[README.md](./README.md)** for workflow detail.
+TFEEDBACK_IDX
+    echo -e "${GREEN}Created documentation/template-feedback/TEMPLATE_FEEDBACK_INDEX.md${NC}"
+fi
+
 echo ""
 echo -e "${GREEN}=== Setup Complete ===${NC}"
 echo ""
@@ -152,4 +248,5 @@ else
     echo "3. Chat history files are excluded from git (see .gitignore)"
 fi
 echo "4. Review QUICK_START.md for additional setup instructions"
+echo "5. Template improvement proposals: documentation/template-feedback/ (see README there)"
 echo ""
