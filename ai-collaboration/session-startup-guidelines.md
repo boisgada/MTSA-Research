@@ -51,6 +51,12 @@ Prepare relevant information:
   - [ ] **Explicitly check for untracked files** - these may need to be committed or added
   - [ ] Note any uncommitted changes that might affect work
   - [ ] Identify files that should be committed before starting new work
+- [ ] **Remote parity** (optional — use when you maintain **more than one clone** of this repository, or before work that must match **`origin`**):
+  - [ ] Run **`git fetch`** for the default remote before comparing to **`origin/<branch>`**.
+  - [ ] Compare **`HEAD`** to the remote tracking branch (for example **`git branch -vv`**, **`git status -sb`**, or **`git log -1`** vs **`origin/...`**).
+  - [ ] If **submodules** are in play and the session depends on their commits: confirm **`git submodule status`** matches expectations (see submodule bullets above).
+
+**Repository parity principle:** **`origin`** is the shared checkpoint between machines; avoid long-lived unpushed commits that exist only on one host unless that is deliberate.
 
 ---
 
