@@ -1,6 +1,6 @@
 # MTSA Cybersecurity Requirements: Complete Timeline Summary
 
-> **Last Updated**: December 2025  
+> **Last Updated**: June 2026  
 > **Purpose**: Quick reference for all MTSA mandatory deadlines and recommended implementation phases  
 > **Source**: Based on U.S. Coast Guard Final Rule "Cybersecurity in the Marine Transportation System" (33 CFR Part 101)
 
@@ -23,13 +23,19 @@
 
 ---
 
-### 🔴 January 12, 2026 - MANDATORY DEADLINE
+### 🔴 January 12, 2026 - MANDATORY DEADLINE (PASSED)
 **Initial Cybersecurity Training Completion**
 
-**Required Actions:**
+**Required Actions (at deadline):**
 - ✅ Complete initial cybersecurity training for all IT/OT personnel
 - ✅ Document training completion
 - ✅ Maintain training records
+
+**Current status (after January 12, 2026):**
+- Training is now an **ongoing annual** obligation (each person trained within the last 12 months)
+- **New personnel**: within **5 days** of system access, no later than **30 days** from hiring
+- **New IT/OT systems**: within **5 days** of access
+- Coast Guard **Training Verification Job Aid** on [MaritimeCyber](https://www.uscg.mil/MaritimeCyber/) supports inspection readiness
 
 **Status**: Regulatory requirement - not optional
 
@@ -180,9 +186,9 @@
 | **October 2025** | 🟡 **RECOMMENDED** | Assessment | • Continue assessment (recommended)<br>• Document findings (recommended) |
 | **November 2025** | 🟡 **RECOMMENDED** | Training Development | • Finalize training program (recommended - must be ready by Jan 2026)<br>• Prepare training materials (recommended) |
 | **December 2025** | 🟡 **RECOMMENDED** | Training Preparation | • Schedule training (recommended)<br>• Prepare for delivery (recommended) |
-| **January 12, 2026** | 🔴 **MANDATORY** | Training Completion Deadline | • **MUST** complete initial training for all IT/OT personnel<br>• **MUST** document training completion |
-| **Q1 2026** | 🟡 **RECOMMENDED** | Assessment Continuation | • Continue assessment (recommended - mandatory completion July 2027)<br>• Document findings (recommended) |
-| **Q2 2026** | 🟡 **RECOMMENDED** | Plan Development | • Begin plan development (recommended - mandatory submission July 2027)<br>• Integrate findings (recommended) |
+| **January 12, 2026** | 🔴 **MANDATORY** | Training Completion Deadline (**passed**) | • Initial training due (now **annual** within 12 months)<br>• New-hire / new-system triggers per **101.650(d)(4)** |
+| **Q1–Q2 2026** | 🟡 **RECOMMENDED** | Assessment (Policy 01-26) | • Apply **Policy Letter 01-26** CSA scoping (June 2026)<br>• Prepare for **July 2027** CSA/CSP deadline |
+| **Q2 2026** | 🟡 **RECOMMENDED** | Plan Development & Submission Prep | • Begin CSP development<br>• Review **MCP-WI-002/003** (waiver process; **DoD SAFE** submission) |
 | **Q3 2026** | 🟡 **RECOMMENDED** | Technical Implementation | • Continue technical measures (recommended)<br>• Conduct initial drills (recommended - 2 per year required) |
 | **Q4 2026** | 🟡 **RECOMMENDED** | Plan Refinement | • Refine plan (recommended)<br>• Integrate with FSP (recommended) |
 | **Q1 2027** | 🟡 **RECOMMENDED** | Plan Finalization | • Finalize plan (recommended - must be ready by July 2027)<br>• Internal review (recommended) |
@@ -240,5 +246,5 @@ After initial deadlines, facilities must maintain:
 
 *This timeline summary is based on the U.S. Coast Guard Final Rule: "Cybersecurity in the Marine Transportation System" (33 CFR Part 101). All mandatory deadlines are regulatory requirements. Recommended dates are best practices to ensure readiness.*
 
-*Last Updated: December 2025*
+*Last Updated: June 2026*
 

@@ -96,6 +96,20 @@ This guide provides risk assessment methodologies specifically tailored for MTSA
 
 ### 3.1 Risk Assessment Process
 
+**U.S. Coast Guard alignment (Policy Letter 01-26, June 2026):**
+
+The Coast Guard’s optional CSA guide structures assessment as **Prepare → Conduct → Communicate/Document**:
+
+| Stage | Focus |
+|-------|-------|
+| **Prepare** | Frame CSA (risk tolerance, assumptions, constraints); inventory **all** assets as Internal / External / Interface; list necessary operational functions |
+| **Conduct** | Threats, vulnerabilities, likelihood, impact, risk; identify **priority assets**; classify **critical IT/OT** using TSI potential (**Yes** / **Maybe** / **No**) |
+| **Communicate/Document** | CSA report supporting CSP development; **SSI** handling per **49 CFR 1520** |
+
+**Scope note:** Subpart F baseline measures apply to **all IT/OT**, not only critical IT/OT. Critical designation drives focused KEV remediation and in-depth controls.
+
+**Local reference:** `documentation/reference-downloads/uscg-cyber-2026/CG-5P Policy Letter 01-26 CYBERSECURITY ASSESSMENT INITIAL SCOPING AND PROCESS.pdf`
+
 **Assessment Steps:**
 1. Identify critical assets
 2. Identify threats
@@ -288,6 +302,11 @@ Risk = Likelihood × Impact
   - Verification: NIST official publication
   - Relevance: Risk assessment methodology
 
+- **CG-5PC Policy Letter 01-26**: Cybersecurity Assessment initial scoping and process
+  - Source: local copy `documentation/reference-downloads/uscg-cyber-2026/`; hub https://www.uscg.mil/MaritimeCyber/
+  - Verification: Official USCG policy (June 2, 2026)
+  - Relevance: CSA scoping, critical IT/OT classification, TSI-focused risk filtering
+
 ### 9.3 Related Project Documents
 
 **Internal References:**
@@ -311,5 +330,5 @@ Risk = Likelihood × Impact
 *This document is part of the MTSA Cybersecurity Compliance Research Repository.*
 *For critical asset identification, see the Critical Assets Research.*
 *For verified references, see VERIFIED_REFERENCES.md.*
-*Last Updated: December 2025*
+*Last Updated: June 2026*
 

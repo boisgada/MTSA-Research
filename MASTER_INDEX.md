@@ -72,6 +72,7 @@
 - **[Cross-Sector Alignment](research/cross-sector-alignment.md)**: Land-based sectors and industry groups
 - **[GitHub Resources](research/github-resources.md)**: Open-source tools and frameworks
 - **[Industry-Specific](research/industry-specific/Industry_Specific_Considerations.md)**: Tailored guidance for different industries
+- **[Email exchange — Policy 01-26 / WI-002/003 (Jun 2026)](research/industry-specific/Email_Exchange_MTSA_Policy_Letters_2026.md)**: CG-MCP continuity intel, Copilot gap analysis, enterprise wrapper diagrams
 - **[International Considerations](research/international-considerations/International_Considerations.md)**: IMO guidelines and international alignment
 
 ### Additional Research

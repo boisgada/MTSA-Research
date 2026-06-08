@@ -1,6 +1,8 @@
-# USCG / MTSA cybersecurity reference downloads
+# USCG / MTSA cybersecurity reference downloads (2025)
 
-Use this folder for **local mirrors** of official PDFs. Some hosts (**uscg.mil**, **cisa.gov**) often return **HTTP 403** to automated or datacenter IPs; if scripted download fails, open the URLs below in a **normal desktop browser** (or VPN) and save the files here with the suggested names.
+Use this folder for **local mirrors** of official PDFs through **March 2025** rule and **2025–2026** training/reporting guidance.
+
+**June 2026 guidance** (Policy 01-26, waiver/equivalency WI-002, DoD SAFE WI-003) is in [`../uscg-cyber-2026/`](../uscg-cyber-2026/README.md). Some hosts (**uscg.mil**, **cisa.gov**) often return **HTTP 403** to automated or datacenter IPs; if scripted download fails, open the URLs below in a **normal desktop browser** (or VPN) and save the files here with the suggested names.
 
 ## Local inventory (PDFs on disk)
 

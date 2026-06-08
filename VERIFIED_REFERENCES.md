@@ -103,6 +103,54 @@ This document provides verified references for all recommendations made in the M
 - NVIC 02-24 CH 1 + Policy 01-25 announcement: https://www.news.uscg.mil/maritime-commons/Article/4343729/publication-of-cybersecurity-training-and-incident-reporting-guidance-and-polic/
 - Example NVIC-related PDF path (verify current file on **MaritimeCyber**): https://www.uscg.mil/Portals/0/Images/cyber/BOS_SA_Cyber%20Reporting%20NVIC.pdf
 
+### 4c. CG-5PC Policy Letter 01-26 (Cybersecurity Assessment Scoping)
+
+**Source**: U.S. Coast Guard (Assistant Commandant for Prevention Policy; CG-5PC)  
+**Status**: ✅ **VERIFIED** — Official USCG policy (**June 2, 2026**)  
+**Title**: Policy Letter **01-26** — Cybersecurity Assessment initial scoping and process (implements operational detail for **33 CFR 101.650(e)(1)** and related definitions in **101.615**)  
+**Local project copy**: `documentation/reference-downloads/uscg-cyber-2026/CG-5P Policy Letter 01-26 CYBERSECURITY ASSESSMENT INITIAL SCOPING AND PROCESS.pdf`  
+**Key guidance verified**:
+- CSA as **risk-filtering** across **all networks**, then **critical IT/OT** designation using TSI potential
+- Asset categories: **Internal**, **External (dependency)**, **Interfaces**
+- Subpart F **baseline measures** apply to **all IT/OT**, not only critical IT/OT
+- Optional NIST-aligned CSA process guide (entities may use equivalent rigor)
+- CSA report is **SSI** per **49 CFR 1520**
+
+**Source URLs**:
+- Maritime Cyber resource hub: https://www.uscg.mil/MaritimeCyber/
+- Rule questions: **MTSCyberRule@uscg.mil**
+
+### 4d. MCP-WI-002 and MCP-WI-003 (Waiver/Equivalency and Secure Submission)
+
+**Source**: U.S. Coast Guard Office of Maritime Cybersecurity Policy (CG-MCP)  
+**Status**: ✅ **VERIFIED** — Official USCG work instructions (**June 3–4, 2026**)  
+**Titles**:
+- **MCP-WI-002**: Waiver and equivalency guidance for **33 CFR 101** Subpart F (**101.665**), with enclosures (Q&A, submission process, checklist, no/minimal IT/OT waiver template)
+- **MCP-WI-003**: DoD SAFE instructions for secure transmission of **Cybersecurity Plan**, **Cybersecurity Assessment**, and waiver/equivalency requests (**SSI**)
+
+**Local project copies**:
+- `documentation/reference-downloads/uscg-cyber-2026/MCP-WI-002 Waiver and Equivalency Guidance.pdf`
+- `documentation/reference-downloads/uscg-cyber-2026/CG-MCP-WI-002 Enclosures.pdf`
+- `documentation/reference-downloads/uscg-cyber-2026/MCP-WI-003 DOD SAFE Instructions-Signed.pdf`
+
+**Contacts verified in WI-003**:
+- Plan/CSA/waiver drop-off initiation: **CyberPlanReview@uscg.mil** (or local **COTP**)
+- General rule questions: **MTSCyberRule@uscg.mil**
+
+**Source URLs**:
+- Maritime Cyber resource hub: https://www.uscg.mil/MaritimeCyber/
+
+### 4e. MaritimeCyber hub resources (web; verify on site)
+
+**Source**: U.S. Coast Guard Maritime Industry Cybersecurity Resource Website  
+**Status**: ✅ **VERIFIED** — Official USCG landing page  
+**Notable listings (June 2026)**:
+- **Final Rule Frequently Asked Questions** — last updated **January 9, 2026**
+- **Cybersecurity Training Verification Job Aid**
+- Pointers to Policy Letters, NVICs, Small Entity Guides, and bulletins
+
+**Source URL**: https://www.uscg.mil/MaritimeCyber/
+
 ---
 
 ## Framework and Standard Sources
@@ -438,6 +486,7 @@ All project documents containing recommendations must:
 - **Purpose**: Provide verified references for all recommendations to support license to operate compliance
 - **2026-03-25**: Added Federal Register document **2025-00708** and eCFR Subpart F pointer; added **Policy Letter 01-25**, **NVIC 02-24 / CH 1**, Maritime Cyber hub and **MTSCyberRule@uscg.mil**; added CISA **MTS Resilience Assessment Guide** URL
 - **2026-03-25 (b)**: Corrected **NVIC 02-24 CH 1** issuance date to **Nov. 12, 2025**; **Policy 01-25** signed **Oct. 9, 2025**; local PDF paths under `documentation/reference-downloads/uscg-cyber-2025/`
+- **2026-06-08**: Added **Policy Letter 01-26**, **MCP-WI-002/003**, **CyberPlanReview@uscg.mil**, MaritimeCyber FAQ/Job Aid pointers; local PDFs under `documentation/reference-downloads/uscg-cyber-2026/`
 
 ---
 

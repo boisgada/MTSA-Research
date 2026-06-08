@@ -101,6 +101,12 @@ This guide provides industry-specific considerations and tailored guidance for d
 - Chemical Sector Coordinating Council
 - Industry-specific cybersecurity guidance
 
+### 2.6 June 2026 policy letters — enterprise implementation pattern
+
+Chemical-sector practitioners with existing site risk assessments (PRA) and corporate ISMS programs may map those artifacts to MTSA CSA/CSP via a **regulatory wrapper** (expanded ecosystem scope, critical IT/OT designation, traceability matrix) rather than restarting under Policy 01-26’s optional enclosure alone. **Equivalency** of corporate frameworks still requires clause-level crosswalk and Coast Guard approval per **MCP-WI-002**.
+
+See **`Email_Exchange_MTSA_Policy_Letters_2026.md`** for captured industry intelligence, Copilot gap analysis (with accuracy assessment), and mermaid operating-model diagrams.
+
 ---
 
 ## 3. Refining/Petrochemical Industry Considerations
@@ -391,5 +397,5 @@ This guide provides industry-specific considerations and tailored guidance for d
 *This document is part of the MTSA Cybersecurity Compliance Research Repository.*
 *For universal MTSA requirements, see the Complete Implementation Guide.*
 *For verified references, see VERIFIED_REFERENCES.md.*
-*Last Updated: December 2025*
+*Last Updated: June 2026 (§2.6 email-thread cross-reference)*
 

@@ -82,7 +82,7 @@ This document provides **essential context** for AI collaboration sessions on th
 
 ### Mandatory Deadlines
 1. **July 16, 2025**: Incident reporting to NRC becomes mandatory
-2. **January 12, 2026**: Cybersecurity training completion deadline
+2. **January 12, 2026**: Initial cybersecurity training deadline (**passed**; now **annual** plus new-hire/new-system triggers)
 3. **July 16, 2027**: 
    - CySO designation
    - Cybersecurity Assessment completion
@@ -107,6 +107,10 @@ This document provides **essential context** for AI collaboration sessions on th
 - `research/tsi-analysis/TSI_Trade_Commerce_Interpretation.md`: TSI trade/commerce interpretation
 - `research/tsi-analysis/TSI_Transportation_Disruption_Analysis.md`: TSI disruption conflict analysis
 - `research/regulatory-change/Public_Source_Refresh_and_Project_Delta_2026-03-25.md`: USCG-prioritized public source review and deltas versus repository (eCFR-aligned)
+- `research/regulatory-change/Public_Source_Refresh_and_Project_Delta_2026-06-08.md`: Policy 01-26, MCP-WI-002/003, post–Jan 2026 training status, industry intelligence (optional CSA guide; enterprise wrapper pattern)
+- `research/industry-specific/Email_Exchange_MTSA_Policy_Letters_2026.md`: June 2026 email thread capture (CG-MCP continuity intel, Copilot gap analysis, mermaid flows)
+- `documentation/reference-downloads/uscg-cyber-2026/`: Local mirrors of June 2026 USCG cyber guidance (CSA scoping, waiver/equivalency, DoD SAFE)
+- `documentation/reference-downloads/email-2026-06-08/`: Extracted email inline images (signature assets; USCG PDFs via `uscg-cyber-2026/`)
 
 ### Implementation Documents
 - `implementation/guides/MTSA_Cyber_Requirements_Complete_Implementation_Guide.md`: Complete requirements guide

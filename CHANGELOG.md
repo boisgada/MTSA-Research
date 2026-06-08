@@ -5,7 +5,7 @@
 ### Added
 
 #### AI Assistance Template Alignment
-- ✅ Aligned project structure with BASF AI Assistance Template
+- ✅ Aligned project structure with AI Assistance Template
 - ✅ Added `queue/` folder with numbered queueing system
 - ✅ Added `queue/master-queue.md` template for tracking work items
 - ✅ Added `ai-collaboration/queue-system-guide.md` with comprehensive usage guide

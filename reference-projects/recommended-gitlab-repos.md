@@ -1,16 +1,16 @@
-# Recommended GitLab Repositories for Reference
+# Recommended Reference Repositories
 
 ## Purpose
 
-This document lists internal GitLab repositories and resources that demonstrate useful patterns, techniques, and structures for AI-assisted projects.
+This document lists reference repositories and resources that demonstrate useful patterns, techniques, and structures for AI-assisted projects.
 
 ---
 
-## Current Internal Reference
+## Canonical Reference
 
-### AI-Assistance-Template
+### AI Assistance Template
 
-**Repository**: `git@gitlab.roqs.basf.net:automation-security/ai-assistance-template.git`
+**Location**: `Research/_AI-Assistance-Template/` (canonical template tree) or `reference-projects/ai-assistance-template` (pinned submodule when present)
 
 **Why it matters**:
 - It is the canonical template used to structure AI-assisted projects.
@@ -19,16 +19,15 @@ This document lists internal GitLab repositories and resources that demonstrate 
 
 ---
 
-## How to Use Internal References
+## How to Use References
 
 1. Review structure and helper documentation.
 2. Mirror patterns that fit the project.
 3. Keep project-specific context in this repo, not in the reference repo.
-4. Avoid copying sensitive or irrelevant internal content into public-facing artifacts.
+4. Avoid copying sensitive or organization-specific content into public-facing artifacts.
 
 ---
 
 ## MTSA Note
 
-This file exists to mirror the AI Assistance Template structure. Add additional internal GitLab references here as they become relevant to MTSA work.
-
+This file exists to mirror the AI Assistance Template structure. Add additional reference repositories here as they become relevant to MTSA work.

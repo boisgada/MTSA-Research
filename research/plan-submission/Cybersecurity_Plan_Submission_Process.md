@@ -91,17 +91,16 @@ This guide provides step-by-step procedures for submitting the Cybersecurity Pla
 - Obtain approvals
 - Prepare submission package
 
-**Step 2: Contact District Office**
-- Identify appropriate District Office
-- Confirm submission procedures
-- Clarify requirements
-- Schedule submission (if needed)
+**Step 2: Initiate Secure Submission**
+- Email **CyberPlanReview@uscg.mil** or contact the cognizant **COTP** to request a **DoD SAFE** drop-off (per **MCP-WI-003**, June 2026)
+- Confirm whether District/COTP has supplemental FSP amendment procedures
+- Prepare password-encrypted PDF package (**SSI** per **49 CFR 1520**)
 
-**Step 3: Submit Plan**
-- Submit via required method
-- Include all documentation
-- Maintain submission confirmation
-- Document submission date
+**Step 3: Submit Plan via DoD SAFE**
+- Receive auto-generated **Request Code** (valid **14 days**)
+- Upload encrypted PDFs as DoD SAFE **guest** (cancel PIV/CAC prompt if prompted)
+- Send encryption password in a **separate** email to the same Coast Guard contact
+- Maintain drop-off confirmation and submission date
 
 **Step 4: Monitor Review**
 - Monitor for requests
@@ -111,17 +110,18 @@ This guide provides step-by-step procedures for submitting the Cybersecurity Pla
 
 ### 3.2 Submission Methods
 
-**Submission Options:**
-- Electronic submission (if available)
-- Mail submission
-- In-person submission
-- Combination of methods
+**Primary method (USCG MCP-WI-003):**
+- **DoD SAFE** guest drop-off for **Cybersecurity Plan**, **Cybersecurity Assessment**, and related **SSI** materials
+- Initiated through **CyberPlanReview@uscg.mil** or local **COTP**
 
-**Method Selection:**
-- Check District Office preferences
-- Confirm acceptable methods
-- Use most appropriate method
-- Maintain confirmation
+**Package requirements:**
+- PDF format; **password-encrypted** files
+- Short note describing contents; optional per-file descriptions
+- Password transmitted **separately** from the upload
+
+**Waiver/equivalency packages:** Same DoD SAFE process applies when submitting **33 CFR 101.665** requests after CSA completion (**MCP-WI-002**). Waiver routing: facilities/vessels → **CG-5P**; OCS → District Commander. Equivalency routing: all entities → **CG-5P**.
+
+**Legacy/alternate methods:** Confirm with cognizant **COTP** or District if additional FSP amendment channels apply; **MCP-WI-003** is the Coast Guard’s stated process for Subpart F SSI submissions as of June 2026.
 
 ---
 
@@ -356,10 +356,11 @@ This guide provides step-by-step procedures for submitting the Cybersecurity Pla
   - Relevance: Establishes submission deadline of July 16, 2027
 
 **Coast Guard Resources:**
-- **Coast Guard District Offices**: Submission procedures and contact information
+- **MCP-WI-003** (DoD SAFE submission): local copy `documentation/reference-downloads/uscg-cyber-2026/MCP-WI-003 DOD SAFE Instructions-Signed.pdf`
+  - Contact: **CyberPlanReview@uscg.mil** or cognizant **COTP**
+- **Maritime Industry Cybersecurity Resource**: https://www.uscg.mil/MaritimeCyber/
+- **Coast Guard District Offices / COTP**: Supplemental coordination
   - Source: [USCG District Directory](https://www.uscg.mil/About/Organization/)
-  - Verification: Official Coast Guard organizational structure
-  - Relevance: Plan submission procedures vary by District
 
 ### 11.2 Related Project Documents
 
@@ -374,7 +375,9 @@ This guide provides step-by-step procedures for submitting the Cybersecurity Pla
 
 ⚠️ **Plan must be submitted by July 16, 2027 to meet mandatory deadline.**
 
-⚠️ **Submission procedures may vary by District Office - confirm with your District.**
+⚠️ **CSP and CSA are SSI — use DoD SAFE per MCP-WI-003; do not email unencrypted plans.**
+
+⚠️ **Confirm COTP/District expectations in addition to CG-MCP drop-off process.**
 
 ⚠️ **Maintain complete documentation of submission and review process.**
 
@@ -383,5 +386,5 @@ This guide provides step-by-step procedures for submitting the Cybersecurity Pla
 *This document is part of the MTSA Cybersecurity Compliance Research Repository.*
 *For Coast Guard engagement, see the Coast Guard Engagement Guide.*
 *For verified references, see VERIFIED_REFERENCES.md.*
-*Last Updated: December 2025*
+*Last Updated: June 2026*
 

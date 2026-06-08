@@ -9,7 +9,7 @@ This comprehensive guide documents **all cybersecurity requirements** under the 
 **These dates are MANDATORY and must be met. Failure to meet these deadlines may result in non-compliance.**
 
 1. **July 16, 2025** - **MANDATORY**: Maritime cybersecurity and reporting obligations under **33 CFR Part 101** Subpart F (and related reporting rules) take effect—use **NVIC 02-24, Change 1** with **33 CFR 101.305**, **101.620**, and **33 CFR Part 6 / 6.16-1** to determine **NRC**, **COTP**, **FBI**, and **CISA** notifications (not a single “NRC-only” path for all cyber events)
-2. **January 12, 2026** - **MANDATORY**: Initial cybersecurity training for all IT/OT personnel must be completed
+2. **January 12, 2026** - **MANDATORY**: Initial cybersecurity training for all IT/OT personnel (deadline **passed**; obligation is now **annual** training within 12 months plus new-hire/new-system triggers per **33 CFR 101.650(d)(4)**)
 3. **July 16, 2027** - **MANDATORY**: 
    - Cybersecurity Officer (CySO) must be designated
    - Initial Cybersecurity Assessment must be completed
@@ -55,10 +55,14 @@ The timeline in Section 12 includes **recommended start dates** for activities t
 - **NVIC 01-20**: Guidelines for Addressing Cyber Risks at MTSA-Regulated Facilities
 - **NVIC 02-24** and **NVIC 02-24, Change 1**: U.S. Coast Guard guidance on reporting breaches of security, suspicious activity, transportation security incidents, and cyber incidents (use the **current** NVIC PDF posted under the Coast Guard Maritime Cybersecurity resources)
 - **CG-5PC Policy Letter 01-25**: U.S. Coast Guard policy on cybersecurity **training** implementation (aligns with **33 CFR 101.650(d)**)
+- **CG-5PC Policy Letter 01-26**: U.S. Coast Guard policy on **Cybersecurity Assessment** scoping and process (aligns with **33 CFR 101.650(e)(1)** and **101.615**; local copy: `documentation/reference-downloads/uscg-cyber-2026/`)
+- **MCP-WI-002** / **MCP-WI-003**: Waiver and equivalency guidance (**33 CFR 101.665**) and **DoD SAFE** secure submission process for CSP/CSA/waiver packages (**SSI**)
 - **Small Entity Compliance Guide**: Detailed guidance for facilities (published by Coast Guard)
 - **NIST Cybersecurity Framework**: Recommended framework for cybersecurity measures (see NVIC 01-20)
 - **Maritime Cybersecurity resource hub**: `https://www.uscg.mil/MaritimeCyber/` (fact sheets, guides, and pointers to official PDFs)
 - **Regulatory questions**: **MTSCyberRule@uscg.mil** (contact published in U.S. Coast Guard announcements on the cyber final rule)
+- **Plan/CSA/waiver secure submission**: **CyberPlanReview@uscg.mil** or local **COTP** (per **MCP-WI-003**)
+- **Final Rule FAQ** (MaritimeCyber; last updated **01/09/2026**) and **Cybersecurity Training Verification Job Aid**
 
 ### 1.3 Scope of Application
 
@@ -179,7 +183,38 @@ The Cybersecurity Plan must include:
 - Legal/compliance review
 - Submit to Coast Guard for approval by July 16, 2027
 
-### 3.5 Best Practices
+### 3.5 Waivers, Equivalencies, and Temporary Deviations
+
+**Regulatory basis**: **33 CFR 101.665**
+
+After completing the required **Cybersecurity Assessment**, an owner or operator may request:
+
+| Mechanism | Purpose |
+|-----------|---------|
+| **Waiver** | Relief from a Subpart F requirement deemed **unnecessary** given nature or operating conditions |
+| **Equivalency** | Alternative safeguard(s) that **meet or exceed** the effectiveness of a regulatory requirement |
+| **Temporary deviation** | Short-term inability to comply while requesting permission to **continue operations** |
+
+**Prerequisite**: Completed **CSA** (evidentiary basis for all requests). **MCP-WI-002** references **Policy Letter 01-26** for CSA rigor.
+
+**Submission routing** (per **MCP-WI-002**, Enclosure 2):
+- **Waiver** — facilities and vessels → **Commandant (CG-5P)**; **OCS facilities** → cognizant **District Commander**
+- **Equivalency** — all entities → **Commandant (CG-5P)**
+
+**Coast Guard position**: No **blanket** waiver or equivalency based solely on compliance with other standards (including ISO 27001, IEC 62443, or corporate ISMS); requests must map **specific Subpart F measures** to implemented controls and require **written Coast Guard approval**.
+
+**N/A vs waiver vs equivalency** (per **MCP-WI-002**, Enclosure 1):
+- **Not Applicable (N/A)** — requirement does not apply because the system, architecture, or condition does not exist; document in the CSP with written rationale (not a waiver request).
+- **Waiver** — requirement applies but owner/operator seeks relief as unnecessary for nature/operating conditions; requires completed CSA and formal submission.
+- **Equivalency** — alternative measure meets or exceeds regulatory intent; requires comparative analysis, not framework name alone.
+
+**Equivalency discipline**: Using an existing program as the **CSA methodology** is different from requesting **blanket equivalency** for Subpart F. Framework-based equivalency (WI-002 Q17) requires clause-level crosswalk, evidence of certification or compliance, and Coast Guard determination.
+
+**Secure transmission**: CSP, CSA, and waiver/equivalency packages are **SSI** (**49 CFR 1520**). Use the **DoD SAFE** guest drop-off process in **MCP-WI-003** (initiate via **CyberPlanReview@uscg.mil** or **COTP**; **14-day** upload window; password-encrypted PDF; password in separate email).
+
+**Local references**: `documentation/reference-downloads/uscg-cyber-2026/MCP-WI-002 Waiver and Equivalency Guidance.pdf`, `CG-MCP-WI-002 Enclosures.pdf`, `MCP-WI-003 DOD SAFE Instructions-Signed.pdf`
+
+### 3.6 Best Practices
 
 1. **Use NIST Framework**: Align plan with NIST Cybersecurity Framework
 2. **Leverage Existing Plans**: Build on existing security plans and procedures
@@ -514,7 +549,38 @@ The assessment must include:
 - Update security measures
 - Plan for annual reassessment
 
-### 6.5 Best Practices
+### 6.5 U.S. Coast Guard Policy Letter 01-26 (CSA Scoping)
+
+**Source**: **CG-5PC Policy Letter 01-26** (June 2, 2026; local copy under `documentation/reference-downloads/uscg-cyber-2026/`)
+
+**Regulatory anchor**: **33 CFR 101.650(e)(1)(i)** requires analysis of **all networks** to identify vulnerabilities to **critical IT/OT** and risk per digital asset. Policy 01-26 operationalizes scoping without altering Subpart F text.
+
+**Key implementation points**:
+
+1. **Risk-filtering, not critical-only inventory** — Inventory **all** systems, dependencies, and interfaces (internal, external/vendor, and connection pathways including cloud and BYOD), then prioritize and classify **critical IT/OT**.
+2. **Baseline vs. critical scope** — Several Subpart F measures (**101.650(a–c, e–f, h–i)**) apply to **all IT/OT infrastructure**, not only assets designated critical.
+3. **Critical IT/OT classification** — For each priority asset, assess whether substantial loss of confidentiality, integrity, or availability could cause a **TSI** (**101.105**). **Yes** or **Maybe** → designate as critical IT/OT; focus KEV and compensating controls there.
+4. **CSA maturity** — Initial CSA is the **foundation** of a continuous program; the initial CSP need not remediate every finding at once—annual CSAs, plan audits, drills, and exercises drive maturity.
+5. **CySO / expertise** — Scoping and assessment require cybersecurity expertise; engage or designate a **CySO** early even though formal designation is due **July 16, 2027**.
+6. **Methodology** — Policy enclosure provides an optional **Prepare → Conduct → Communicate/Document** guide (NIST CSF–aligned); entities may use other frameworks of **equivalent or greater rigor** and must **identify the standard(s) used** in the CSA report. Prior documented methodologies (e.g., site risk assessment, systems-of-systems scoping) **need not be discarded** if they satisfy **101.650(e)(1)** rigor — the Policy Letter guide is advisory, not mandatory (Policy §5.c).
+7. **SSI** — CSA report marked, handled, stored, and transmitted as **SSI** (**49 CFR 1520**).
+
+**Waiver/equivalency link**: Entities pursuing **101.665** relief should use Policy 01-26 (or equivalent industry standard) to document CSA rigor (**MCP-WI-002**).
+
+### 6.6 Enterprise program wrapper pattern (optional)
+
+For organizations with mature site risk programs and corporate ISMS, a practical pattern:
+
+1. **Document the existing method as the CSA methodology** — cite the standard or process used; expand scope to **all networks**, **external dependencies**, and **interfaces** per Policy 01-26.
+2. **Add regulatory artifacts** — critical IT/OT designation using **TSI** criteria (**101.105**), not only safety or production impact; requirement → system → risk → control → decision traceability.
+3. **Build the CSP as a regulatory view** — applicability matrix per Subpart F measure: **Applicable / N/A / Waiver / Equivalency** with rationale.
+4. **Reserve formal 101.665 requests** for measures that cannot be closed by documentation or N/A designation; prepare clause-level equivalency packages where needed.
+
+This addresses the common gap between **technical maturity** and **regulatory defensibility** without assuming automatic Coast Guard acceptance of corporate frameworks.
+
+**Extended analysis (June 2026 email thread, mermaid diagrams):** `research/industry-specific/Email_Exchange_MTSA_Policy_Letters_2026.md`
+
+### 6.7 Best Practices
 
 1. **Use Recognized Frameworks**: Align with NIST Cybersecurity Framework
 2. **Comprehensive Coverage**: Ensure all systems are assessed
@@ -1397,7 +1463,11 @@ The Cybersecurity Plan must be **integrated with the existing Facility Security 
 
 ### 14.4 Coast Guard Resources
 
-- **Coast Guard Website**: Official Coast Guard resources
+- **Maritime Industry Cybersecurity Resource**: https://www.uscg.mil/MaritimeCyber/ (Policy Letters, NVICs, FAQ, Job Aids)
+- **CG-5PC Policy Letter 01-26** (CSA scoping): local copy `documentation/reference-downloads/uscg-cyber-2026/`
+- **MCP-WI-002 / MCP-WI-003** (waiver/equivalency; DoD SAFE submission): local copy `documentation/reference-downloads/uscg-cyber-2026/`
+- **CyberPlanReview@uscg.mil** — secure CSP/CSA/waiver drop-off initiation
+- **MTSCyberRule@uscg.mil** — rule and policy questions
 - **Maritime Commons**: Coast Guard maritime security blog
 - **National Response Center**: Incident reporting (1-800-424-8802 or 202-267-2675)
 
@@ -1420,7 +1490,7 @@ The Cybersecurity Plan must be **integrated with the existing Facility Security 
 This comprehensive guide documents all MTSA cybersecurity requirements and provides detailed recommendations for implementation. Key takeaways:
 
 1. **Eight Major Requirements**: Plan, CySO, Training, Assessment, Drills/Exercises, Incident Reporting, Technical Measures, Recordkeeping
-2. **Critical Deadlines**: July 16, 2025 (incident reporting), January 12, 2026 (training), July 16, 2027 (assessment and plan)
+2. **Critical Deadlines**: July 16, 2025 (incident reporting); January 12, 2026 (initial training—now **annual** recurrence); July 16, 2027 (CySO, assessment, and plan)
 3. **Comprehensive Approach**: Integration with existing FSP, risk-based implementation, continuous improvement
 4. **Ongoing Compliance**: Annual assessments, training, drills/exercises, recordkeeping
 

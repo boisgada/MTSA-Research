@@ -713,23 +713,38 @@ The U.S. Coast Guard is organized into **nine districts** covering different geo
 
 ---
 
-## 11. Resources and References
+## 11. Industry intelligence and early-adopter continuity (June 2026)
 
-### 11.1 Coast Guard Resources
+**Secondary source**: Chemical-sector practitioner reports (June 2026) following CG-MCP publication of Policy 01-26 and MCP-WI-002/003 indicate:
+
+- The Policy Letter **CSA scoping enclosure is optional**; regulatory CSA under **101.650(e)(1)** is not.
+- Facilities that began assessment under a **different documented methodology** may continue if rigor is **equivalent or greater** and the standard is identified in the CSA report.
+- Await **Maritime Commons** CG-MCP post for citable official narrative on continuity for early adopters.
+
+**Engagement implication**: When meeting COTP or **MTSCyberRule@uscg.mil**, be prepared to explain **which methodology** was used for the CSA, how **external/corporate dependencies** were scoped, and how **N/A vs waiver vs equivalency** was decided — not only control maturity.
+
+See `research/regulatory-change/Public_Source_Refresh_and_Project_Delta_2026-06-08.md` §4 for full treatment.
+
+---
+
+## 12. Resources and References
+
+### 12.1 Coast Guard Resources
 
 **Official Sources:**
 - **33 CFR Part 101**: MTSA Regulations
 - **Final Rule**: "Cybersecurity in the Marine Transportation System"
 - **NVIC 01-20**: Guidelines for Addressing Cyber Risks at MTSA-Regulated Facilities
-- **Coast Guard Website**: Official Coast Guard resources
-- **Maritime Commons**: Coast Guard maritime security blog
+- **Policy Letter 01-26**, **MCP-WI-002/003**: `documentation/reference-downloads/uscg-cyber-2026/`
+- **Maritime Industry Cybersecurity Resource**: https://www.uscg.mil/MaritimeCyber/
+- **Maritime Commons**: Coast Guard maritime security blog (watch for CG-MCP CSA scoping post)
 
 **District Office Contacts:**
 - District Office contact information available on USCG website
 - Identify appropriate District based on facility location
 - Use formal channels for official communications
 
-### 11.2 Additional Resources
+### 12.2 Additional Resources
 
 **Regulatory Guidance:**
 - Small Entity Compliance Guide (when published)
@@ -741,7 +756,7 @@ The U.S. Coast Guard is organized into **nine districts** covering different geo
 - ISO 27001 standards
 - CISA guidance
 
-### 11.3 Key Contacts
+### 12.3 Key Contacts
 
 **Coast Guard:**
 - District Office contacts
