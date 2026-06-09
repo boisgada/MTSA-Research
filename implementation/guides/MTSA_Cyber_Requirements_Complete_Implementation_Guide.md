@@ -755,6 +755,8 @@ The NVIC provides **non-exhaustive** criteria for cyber incidents / RCIs that mu
 
 **Not** every nuisance event is a “cyber incident”: routine **spam/phishing** handled by normal hygiene, and **accidental** minor policy violations, may fall below reporting thresholds—**NVIC** emphasizes **sophistication, volume, persistence**, and **TSI** potential. **Cyber-related** **BOS/SA** may still require **NRC** reporting when tied to security-plan systems or **TSI** potential.
 
+**PII prong — “significant number of individuals”:** The rule and **NVIC 02-24 CH 1** require reporting when **nonpublic personal information** is accessed or disclosed for a **significant number of individuals**, but **neither defines a numeric threshold**. Some organizations reference **federal-sector breach-notification analogies** (e.g., counts such as 250 or 500 individuals) as **planning placeholders only**—those figures are **not verified USCG policy** and must **not** be treated as safe harbors. Establish facility-specific criteria with **Coast Guard and/or counsel** and document the rationale in incident-response procedures.
+
 #### 8.3.2 Where to report (NVIC 02-24 CH 1, Enclosure (1) §e)
 
 | Event (examples) | Primary USCG-aligned channels |

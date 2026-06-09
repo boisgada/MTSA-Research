@@ -88,7 +88,25 @@ This document provides verified references for all recommendations made in the M
 - Maritime Cyber resource hub (verify access from your network): https://www.uscg.mil/MaritimeCyber/
 - Rule questions: **MTSCyberRule@uscg.mil** (per USCG public announcements)
 
-### 4b. NVIC 02-24 and NVIC 02-24, Change 1 (Reporting)
+### 4b. Maritime Cyber Assessment & Annex Guide (MCAAG)
+
+**Source**: U.S. Coast Guard (Office of Port & Facility Compliance)  
+**Status**: ✅ **VERIFIED** — Official USCG **voluntary** guidance (**January 2023**)  
+**Title**: **Maritime Cybersecurity Assessment and Annex Guide (MCAAG)**  
+**Purpose**: Recommended process for identifying cybersecurity vulnerabilities in the **Facility Security Assessment (FSA)** context and formatting a **Cyber Annex** for the **Facility Security Plan (FSP)**; complements **NVIC 01-20** and supports IT/OT example identification during FSA/FSP work predating Subpart F.
+
+**Key guidance verified**:
+- Voluntary—not mandatory; facilities may use equivalent methods meeting regulatory requirements
+- Provides FSA-oriented steps and **Cyber Annex** template structure
+- Includes **IT/OT system examples** useful for asset inventory and vulnerability documentation (supplementary to Subpart F **Cybersecurity Assessment** under **Policy Letter 01-26**)
+- Final FSA/FSP/Cybersecurity Plan acceptance remains with the cognizant **COTP**
+
+**Source URLs**:
+- MCAAG PDF: https://www.dco.uscg.mil/Portals/9/CG-FAC/Documents/Maritime%20Cyber%20Assessment%20%20Annex%20Guide%20(MCAAG)_released%202023JAN2023.pdf
+- Coast Guard announcement: https://www.news.uscg.mil/maritime-commons/Article/3443076/coast-guard-releases-new-maritime-cybersecurity-assessment-annex-guide/
+- Maritime Cyber hub: https://www.uscg.mil/MaritimeCyber/
+
+### 4c. NVIC 02-24 and NVIC 02-24, Change 1 (Reporting)
 
 **Source**: U.S. Coast Guard  
 **Status**: ✅ **VERIFIED** — Official USCG guidance  
@@ -103,7 +121,7 @@ This document provides verified references for all recommendations made in the M
 - NVIC 02-24 CH 1 + Policy 01-25 announcement: https://www.news.uscg.mil/maritime-commons/Article/4343729/publication-of-cybersecurity-training-and-incident-reporting-guidance-and-polic/
 - Example NVIC-related PDF path (verify current file on **MaritimeCyber**): https://www.uscg.mil/Portals/0/Images/cyber/BOS_SA_Cyber%20Reporting%20NVIC.pdf
 
-### 4c. CG-5PC Policy Letter 01-26 (Cybersecurity Assessment Scoping)
+### 4d. CG-5PC Policy Letter 01-26 (Cybersecurity Assessment Scoping)
 
 **Source**: U.S. Coast Guard (Assistant Commandant for Prevention Policy; CG-5PC)  
 **Status**: ✅ **VERIFIED** — Official USCG policy (**June 2, 2026**)  
@@ -120,7 +138,7 @@ This document provides verified references for all recommendations made in the M
 - Maritime Cyber resource hub: https://www.uscg.mil/MaritimeCyber/
 - Rule questions: **MTSCyberRule@uscg.mil**
 
-### 4d. MCP-WI-002 and MCP-WI-003 (Waiver/Equivalency and Secure Submission)
+### 4e. MCP-WI-002 and MCP-WI-003 (Waiver/Equivalency and Secure Submission)
 
 **Source**: U.S. Coast Guard Office of Maritime Cybersecurity Policy (CG-MCP)  
 **Status**: ✅ **VERIFIED** — Official USCG work instructions (**June 3–4, 2026**)  
@@ -140,7 +158,7 @@ This document provides verified references for all recommendations made in the M
 **Source URLs**:
 - Maritime Cyber resource hub: https://www.uscg.mil/MaritimeCyber/
 
-### 4e. MaritimeCyber hub resources (web; verify on site)
+### 4f. MaritimeCyber hub resources (web; verify on site)
 
 **Source**: U.S. Coast Guard Maritime Industry Cybersecurity Resource Website  
 **Status**: ✅ **VERIFIED** — Official USCG landing page  

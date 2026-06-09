@@ -23,6 +23,7 @@ This guide provides comprehensive guidance on integrating MTSA cybersecurity inc
 9. [Best Practices](#9-best-practices)
 10. [Templates and Checklists](#10-templates-and-checklists)
 11. [References and Resources](#11-references-and-resources)
+12. [Appendix: Reportable Cyber Incident Decision Examples](#appendix-reportable-cyber-incident-decision-examples)
 
 ---
 
@@ -59,6 +60,34 @@ This guide provides comprehensive guidance on integrating MTSA cybersecurity inc
 - **When in doubt, report** — the NVIC states that if criteria might apply, use **101.305**, **101.620**, and **6.16-1** as applicable.  
 - **NRC** reporting for **Part 6** cyber incidents is **strongly recommended** and, per NVIC, can **satisfy** **COTP** and **FBI** notification (**FBI** accepts **NRC**-forwarded reports to **CyWatch**). **CISA** still requires a **separate** report.  
 - **SSI** (**49 CFR Part 1520**): treat security incident information accordingly; initial reports may be **minimal**.
+
+### 1.3 Reporting scope: not fenceline vs critical-asset dual tiers
+
+**Regulatory conclusion (USCG public sources):** Verified USCG regulations and NVIC guidance do **not** establish a two-tier reporting model (“everything inside the fenceline” vs “critical IT/OT only”). Incident notification is driven by **impact and statutory thresholds** across **parallel channels**, while **critical IT/OT** designation under **33 CFR 101.615** primarily scopes **Cybersecurity Assessment**, **Cybersecurity Plan**, and related **controls**—not a separate “report only critical assets” gate.
+
+**What the sources establish:**
+
+1. **No dual-tier reporting boundary.** Neither **NVIC 02-24, Change 1** nor **Federal Register 2025-00708** (codifying Subpart F) defines reporting tiers keyed to physical fencelines or to the critical IT/OT inventory alone.
+2. **Parallel notification channels.** One event may trigger **multiple** obligations: **Part 6 / 6.16-1** (cyber incident to FBI, CISA, Coast Guard), **101.620** (reportable cyber incident to NRC when applicable), **101.305** (BOS/SA to NRC when security-plan systems/functions are involved and TSI potential exists), and **Parts 104/105/106** TSI routing per the approved security plan.
+3. **Threshold-based, not inventory-gated.** Reporting hinges on **CIA impact**, **operational disruption**, **PII exposure**, **critical-infrastructure disruption**, **TSI potential** (**101.105**), and channel-specific criteria—not on whether the affected asset appears on a critical IT/OT list.
+4. **Critical IT/OT ≠ reporting filter.** **101.615** and **Policy Letter 01-26** (CSA scoping) use critical IT/OT to narrow **assessment and plan measures**; they do **not** replace **101.305**, **101.620**, **6.16-1**, or TSI notification logic.
+5. **RCI is a subset, not “all cyber.”** **101.620** and **FR 2025-00708** define **reportable cyber incidents** with explicit threshold filters; routine nuisance events below those thresholds are **not** automatically RCIs (see **NVIC 02-24 CH 1** Enclosure (1)).
+6. **BOS/SA can apply below cyber/RCI thresholds.** **101.305** may still require NRC notification when **security-plan systems or functions** are affected and the event **may result in a TSI**, even when Part 6 or **101.620** thresholds are not met.
+7. **Duplicate RCI reporting avoided.** If the entity already reported the event under **6.16-1**, **101.620** does **not** require a second **RCI** report to NRC for the same incident (**NVIC 02-24 CH 1**).
+
+**Evidence table (selected anchors):**
+
+| Question | Conclusion | Primary sources |
+|----------|------------|-----------------|
+| Are there two USCG reporting tiers (fenceline-all vs critical-only)? | **No** — no such tiering in public USCG rules or NVIC | **NVIC 02-24 CH 1**; **FR 2025-00708** |
+| What channels can apply to one cyber-related event? | **Parallel** paths: Part **6.16-1**, **101.620** RCI, **101.305** BOS/SA, TSI (**104/105/106**) | **NVIC 02-24 CH 1** Enclosure (1); **6.16-1**; **101.305**; **101.620** |
+| Is reporting gated by critical IT/OT inventory? | **No** — thresholds are impact/TSI-based | **101.105**; **101.620**; **NVIC 02-24 CH 1** |
+| What does critical IT/OT primarily scope? | **CSA/CSP and control depth**, not NRC routing | **101.615**; **Policy Letter 01-26** |
+| Is every cyber event an RCI? | **No** — **101.620** applies threshold filters | **101.620**; **FR 2025-00708**; **NVIC 02-24 CH 1** |
+| Can BOS/SA apply without meeting cyber/RCI thresholds? | **Yes** — security-plan systems/functions + TSI potential | **101.305**; **NVIC 02-24 CH 1** |
+| Must RCI be reported if already reported under Part 6? | **No duplicate** **101.620** obligation | **101.620**; **6.16-1**; **NVIC 02-24 CH 1** |
+
+**Practical triage order (generic):** (1) assess **TSI** potential (**101.105**); (2) determine whether **security-plan systems/functions** are involved (**101.305** BOS/SA); (3) apply **Part 6 / 6.16-1** cyber-incident routing if thresholds met; (4) apply **101.620** RCI only if **not** already reported under **6.16-1** and thresholds met; (5) route per **NVIC 02-24 CH 1** (NRC, COTP, FBI, CISA). Use **counsel** and the cognizant **COTP** for facility-specific scoping—not a critical-asset spreadsheet as the reporting gate.
 
 ---
 
@@ -628,9 +657,33 @@ This guide provides comprehensive guidance on integrating MTSA cybersecurity inc
 ### 11.3 Related Project Documents
 
 **Internal References:**
-- **Complete Implementation Guide**: MTSA incident reporting requirements
+- **Concern register template**: `../../implementation/checklists/Subpart_F_Concern_Register_Template.md`
+- **NRC Incident Response Integration**: Appendix with reportable cyber incident decision examples
 - **Critical Assets Research**: Critical asset identification for incident assessment
 - **Coast Guard Engagement Guide**: Coast Guard coordination procedures
+
+---
+
+## Appendix: Reportable Cyber Incident Decision Examples
+
+Generic **illustrative** scenarios for triage workshops and playbooks. **Not** exhaustive or authoritative—apply **33 CFR 101.305**, **101.620**, **Part 6 / 6.16-1**, and **NVIC 02-24, Change 1** (Enclosure (1)) for each event. When criteria might apply, **report without delay** per the NVIC.
+
+Facilities may maintain an **internal decision framework** (organization-specific labels and workflows) to document triage rationale; any such framework is a **local compliance aid**, not a substitute for regulatory text or Coast Guard guidance.
+
+| Scenario (generic) | Typical assessment | Primary regulatory framing |
+|--------------------|-------------------|----------------------------|
+| Ransomware or malware on **OT/ICS** affecting vessel loading, cargo transfer, or safety interlocks; operations halted or at risk | **Likely meets** cyber incident / RCI criteria | Substantial **CIA** impact on covered **IT/OT**; potential **operations** disruption; possible **TSI** pathway (**101.105**) |
+| Confirmed **unauthorized access** to systems in the **approved security plan** (access control, CCTV, gate/credential systems) with evidence of persistence or control | **Likely meets**; may also trigger **BOS/SA** | **BOS/SA** when security-plan systems are affected (**101.305**); cyber incident / RCI if CIA or operational thresholds met |
+| **Business or administrative** system compromise (e.g., ERP, HR) that **disables** maritime cargo scheduling or port-facing logistics with **regional trade/commerce** impact | **Likely meets** | **NVIC**: admin/business cyber events can relate to **TSI** when **101.105** transportation-system or economic disruption is implicated—not “internal only” by default |
+| Large-scale **unauthorized disclosure** of **nonpublic personal information** (employee/customer PII) from covered systems, scope not yet quantified | **Likely meets** pending facts; **threshold for “significant number” undefined in rule** | RCI/cyber incident PII prong (**101.620** / NVIC Enclosure (1)); confirm interpretation with **Coast Guard/counsel**—do **not** treat federal-sector numeric analogies as verified USCG policy |
+| **Targeted phishing** with **confirmed credential compromise** on accounts with access to **critical IT/OT** or security-plan systems | **Likely meets** or **BOS/SA** | Assess **persistence**, **lateral movement**, and **TSI** potential per NVIC (sophistication, volume, persistence) |
+| **Spam or bulk phishing** blocked by email hygiene; **no** credential use, **no** system access, **no** operational effect | **Typically does not meet** | NVIC: routine nuisance events below cyber incident threshold when no CIA/operational/PII/TSI nexus |
+| **Single workstation** malware **contained** to one non-critical endpoint; isolated from OT and security-plan networks; **no** data exfiltration or operational impact | **Typically does not meet** | Minor isolated event without covered-system CIA impact or TSI pathway—document rationale |
+| **Accidental** policy violation (e.g., mis-sent internal email with limited non-sensitive data); quickly remediated | **Typically does not meet** | Accidental minor issues without substantial CIA, operational, PII, or TSI nexus per NVIC discussion |
+| **Distributed denial-of-service** on **public-facing** corporate website with **no** impact on maritime operations, OT, or security-plan systems | **Typically does not meet** (reassess if operations affected) | No substantial impact on covered operations unless dependency or TSI pathway emerges |
+| **Supply-chain / vendor** breach affecting a **managed service** used for **critical OT** or security functions; provider confirms attacker access to facility-relevant environments | **Likely meets** | Substantial CIA or operational impact on covered systems; coordinate **Part 6** and **RCI** routing per entity status |
+
+**Workshop tip:** Record **why** each scenario was classified, **which channels** would be notified (**NRC**, **COTP**, **FBI**, **CISA**), and **open questions** for Coast Guard or counsel—mirroring a local concern register without embedding organization-specific names in shared repository docs.
 
 ---
 

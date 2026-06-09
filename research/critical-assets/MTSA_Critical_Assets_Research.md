@@ -448,6 +448,24 @@ Unlike physical security where you can isolate shipping operations with fences a
 - Data flows may not respect physical boundaries
 - Cyber threats can propagate through network connections
 
+### FSP Boundary vs. TWIC-Only Scoping
+
+**Regulatory anchor:** **33 CFR 101.605** applies Subpart F to owners/operators of U.S.-flagged vessels, **facilities**, and **OCS facilities** already required to maintain a security plan under **Parts 104, 105, or 106**—i.e., the **MTSA-regulated entity**, not only the physically fenced “TWIC area.”
+
+**TWIC parallel (physical):** Many facilities successfully limit **physical** credentialing to personnel and zones tied to **maritime/security-plan functions**, with Coast Guard acceptance documented in the **Facility Security Plan (FSP)**. That model does **not** automatically translate to an equally narrow **cyber** footprint.
+
+**Cyber scope tension:**
+
+| Dimension | TWIC-only / physical isolation | FSP / Subpart F cyber scope |
+|-----------|--------------------------------|-----------------------------|
+| Boundary | Gates, fences, secure areas | **101.605** entity + **Cybersecurity Plan** / assessment scope |
+| Baseline measures | Physical access controls | Subpart F **baseline IT/OT measures** apply broadly per **Policy Letter 01-26** (all networks assessed; critical IT/OT designated by TSI potential) |
+| BOS/SA and reporting | Security-plan **systems and functions** | **NVIC 02-24 CH 1** ties **BOS/SA** and cyber reporting to events affecting **security-plan systems/functions** and **TSI** potential—including **business/administrative** systems when **101.105** impacts are implicated |
+
+**Practical implication:** A facility may argue **logical isolation** (segmentation, air gaps, operational independence) to **limit critical IT/OT designation**—similar in *intent* to TWIC-only physical scoping—but **cannot assume** that “non-TWIC” automatically means “non-MTSA cyber” for **training**, **assessment**, **reporting**, or **plan** obligations. For the regulatory conclusion that **reporting is threshold-based across parallel channels**—not a fenceline vs critical-asset dual tier—see [NRC Incident Response Integration](../incident-response/NRC_Incident_Response_Integration.md#13-reporting-scope-not-fenceline-vs-critical-asset-dual-tiers) (§1.3). The **FSP** (and approved **Cybersecurity Plan**) defines which **systems and functions** support maritime security; cyber events touching those assets—or causing trade/commerce-relevant disruption—may be in scope even outside the TWIC-controlled zone.
+
+⚠️ **Requires Coast Guard and/or counsel confirmation:** Whether a given facility’s **TWIC boundary**, **FSP system inventory**, and **proposed cyber segmentation** align for Subpart F compliance is **facility-specific**. Engage the cognizant **COTP** early; document scoping rationale in the FSP/Cybersecurity Plan and concern register.
+
 ### Key Principle: Demonstrate No TSI Pathway
 
 Similar to physical isolation, you can limit cyber scope by **demonstrating that non-shipping systems cannot contribute to a Transportation Security Incident**. The key is proving logical isolation and lack of operational dependency.
