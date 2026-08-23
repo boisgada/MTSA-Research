@@ -27,6 +27,17 @@ When the user ends a session (for example: “close session,” “session close
 - Use MCP servers per **`ai-collaboration/mcp-integration.md`**: prefer targeted retrieval, read tool schemas before calling tools, and avoid dumping large files into chat when a tool can subset or summarize.
 - For **files in the canonical AI Assistance Template tree** (alignment, governed docs, “what ships?”), follow **mcp-integration.md**: use the **filesystem** MCP mounted at that path, or **editor `Read`** on the known absolute path — not the standards server’s **`list_directory`** unless you have verified its root behavior.
 - Short prompts such as “prepare for today’s session” mean **standard startup only** (context, rules, optional queue, MCP policy)—not choosing the session’s substantive goal unless the user states one.
+
+## Agent skills, identity, and patrol (default)
+
+- **Progressive disclosure:** At session start, read only the YAML `name` / `description` in each `skills/*/SKILL.md`. Load the full skill body only when the current task matches that description.
+- **Identity vs procedure:** Optional `ai-collaboration/SOUL.md` is tone and boundaries for this repo. Keep operating procedure in this file and in `rules-of-engagement.md`.
+- **Heartbeat:** If `ai-collaboration/heartbeat.md` exists, run that short patrol during standard session startup. It is a checklist, not a background daemon.
+- **High-risk actions:** If `ai-collaboration/high-risk-actions.md` exists, follow it before deploys, privileged commands, or live-system changes. If it is absent, ask before those classes of action.
+- **Durable memory:** At closeout, promote lasting facts into `project-context.md` or `memory-bank/` rather than leaving them only in chat or dated session notes. If the same procedure was needed three or more times, propose a new `skills/<name>/SKILL.md` instead of growing always-on rules.
+- **Out of scope for this template:** messaging-gateway personal assistants, always-on host agents, and unattended cron. Those are optional separate runtimes, not default project layout.
+
+See `skills/README.md` and `ai-collaboration/agent-runtime-patterns.md`.
 <!-- TEMPLATE-SECTION:END name=agents-template-baseline -->
 
 ## Project-specific agent rules (customize)

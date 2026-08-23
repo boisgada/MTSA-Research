@@ -62,6 +62,8 @@ If there were significant decisions or changes:
 
 - [ ] Update `project-context.md` (decisions, status, key findings)
 - [ ] If using memory-bank, update `activeContext.md`, `progress.md`, or other relevant files
+- [ ] **Promote durable memory:** lasting facts, constraints, and “how we work here” must land in `project-context.md` or `memory-bank/` — not only in chat or dated session notes (see `skills/promote-durable-memory/SKILL.md`)
+- [ ] **Optional skill distill:** if the same procedure was needed three or more times, propose `skills/<name>/SKILL.md` instead of growing always-on rules
 
 ---
 

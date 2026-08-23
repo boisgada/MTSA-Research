@@ -23,6 +23,8 @@ Before starting a session:
 - [ ] Review relevant workflow documents if needed
 - [ ] Check queue system for pending items (if using) - see enhanced process below
 - [ ] Review memory-bank files if using granular context structure
+- [ ] If present, skim `ai-collaboration/SOUL.md` (identity) and `ai-collaboration/heartbeat.md` (startup patrol)
+- [ ] Scan `skills/*/SKILL.md` **descriptions** only; load a full skill when the task matches
 
 **Time**: 5-10 minutes
 
@@ -135,6 +137,7 @@ The AI assistant should:
    - Read `project-context.md`
    - Review `rules-of-engagement.md`
    - Read `ai-collaboration/mcp-integration.md` and follow it for MCP usage when MCP servers are enabled (including continuity via memory and lightweight token stats when useful)
+   - Apply root `AGENTS.md` (optional `SOUL.md`, `heartbeat.md`, skill descriptions)
    - Check relevant workflow documents if applicable
 
 2. **Acknowledge Understanding**
@@ -231,6 +234,10 @@ If using:
 - [ ] Review `rules-of-engagement.md`
 - [ ] Read and apply `ai-collaboration/mcp-integration.md` (MCP selection, token discipline, session bootstrap when the user only asks for standard prep)
 - [ ] Read root `AGENTS.md` when present (Cursor/Windsurf; may restate startup pointers—still load for project-specific agent rules)
+- [ ] If present, read `ai-collaboration/SOUL.md` (tone/boundaries only)
+- [ ] If present, run `ai-collaboration/heartbeat.md` (short patrol, not a daemon)
+- [ ] Scan `skills/*/SKILL.md` YAML descriptions; load matching skill bodies only
+- [ ] If present, treat `ai-collaboration/high-risk-actions.md` as the approval policy for deploys and privileged commands
 - [ ] Check relevant workflow documents if applicable
 - [ ] **Check Queue Status** (if using queue system):
   - [ ] Check "Currently Pending Items" section in `queue/master-queue.md`

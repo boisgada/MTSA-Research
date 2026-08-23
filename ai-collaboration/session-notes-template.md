@@ -187,6 +187,11 @@ Example (session blocks):
   - [ ] [Dependency description] - [Action needed]
   - [ ] If no dependencies, explicitly state: "No dependencies"
 
+### Durable memory and skills
+
+- [ ] Lasting decisions promoted to `project-context.md` / `memory-bank/` (or explicitly none)
+- [ ] New or updated `skills/<name>/SKILL.md` proposed if a procedure repeated (or explicitly none)
+
 ### Recommended Focus for Next Session
 
 - [ ] Primary focus: [Main objective for next session]
