@@ -13,6 +13,9 @@ RED='\033[0;31m'
 NC='\033[0m' # No Color
 
 echo -e "${BLUE}=== AI Assistance Template Project Setup ===${NC}\n"
+echo -e "${YELLOW}Prerequisite:${NC} This directory should already be a ${YELLOW}full${NC} copy of the template (see QUICK_START.md)."
+echo -e "${YELLOW}This script${NC} configures chat history, .gitignore, and template-feedback skeletons—it does ${YELLOW}not${NC} create missing top-level template folders."
+echo ""
 
 # Check if we're in a git repository
 if ! git rev-parse --git-dir > /dev/null 2>&1; then

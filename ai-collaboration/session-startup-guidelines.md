@@ -23,7 +23,7 @@ Before starting a session:
 - [ ] Review relevant workflow documents if needed
 - [ ] Check queue system for pending items (if using) - see enhanced process below
 - [ ] Review memory-bank files if using granular context structure
-- [ ] If present, skim `ai-collaboration/SOUL.md` (identity) and `ai-collaboration/heartbeat.md` (startup patrol)
+- [ ] Read `ai-collaboration/SOUL.md` (identity; default Chase Hughes-inspired voice) and, if present, `ai-collaboration/heartbeat.md` (startup patrol)
 - [ ] Scan `skills/*/SKILL.md` **descriptions** only; load a full skill when the task matches
 
 **Time**: 5-10 minutes
@@ -48,17 +48,15 @@ Prepare relevant information:
 - [ ] Check if dependencies need updates
 - [ ] Check submodule status (if using submodules): `git submodule status`
 - [ ] Refresh submodules only when needed (for example after template/reference updates)
-- [ ] **Check Git Status** (enhanced):
-  - [ ] Run `git status` to check repository state
-  - [ ] **Explicitly check for untracked files** - these may need to be committed or added
-  - [ ] Note any uncommitted changes that might affect work
-  - [ ] Identify files that should be committed before starting new work
-- [ ] **Remote parity** (optional — use when you maintain **more than one clone** of this repository, or before work that must match **`origin`**):
-  - [ ] Run **`git fetch`** for the default remote before comparing to **`origin/<branch>`**.
-  - [ ] Compare **`HEAD`** to the remote tracking branch (for example **`git branch -vv`**, **`git status -sb`**, or **`git log -1`** vs **`origin/...`**).
-  - [ ] If **submodules** are in play and the session depends on their commits: confirm **`git submodule status`** matches expectations (see submodule bullets above).
+- [ ] **Repo status (when this folder is a git work tree):**
+  - [ ] Confirm the git root (`git rev-parse --show-toplevel`) is the repo the user intends (sibling folders may be other remotes).
+  - [ ] Run `git status -sb` **including untracked files**. Summarize dirty paths; do not dump a huge listing into chat.
+  - [ ] If a remote exists: **`git fetch`** the default remote (not `git pull`, not `git fetch --all` unless the project documents extra remotes). Then report **ahead / behind / diverged** vs the upstream branch (`git status -sb` or `git rev-list --left-right --count HEAD...@{upstream}`).
+  - [ ] If fetch fails or there is no upstream: say so (offline, auth, or no tracking branch). Compare only to last-known remote-tracking refs and label that as stale.
+  - [ ] **Do not** `git commit`, `git pull`, `git push`, `git stash`, or rebase unless the user asked. Awareness only.
+  - [ ] If **submodules** exist: `git submodule status` (report pinned SHA drift). Do not update submodules unless the session needs it.
 
-**Repository parity principle:** **`origin`** is the shared checkpoint between machines; avoid long-lived unpushed commits that exist only on one host unless that is deliberate.
+**Repository parity principle:** **`origin`** is the shared checkpoint between machines. Tell the user when this clone is ahead, behind, or dirty. Unpushed commits and uncommitted work can be deliberate — flag them, do not “fix” them.
 
 ---
 
@@ -137,7 +135,7 @@ The AI assistant should:
    - Read `project-context.md`
    - Review `rules-of-engagement.md`
    - Read `ai-collaboration/mcp-integration.md` and follow it for MCP usage when MCP servers are enabled (including continuity via memory and lightweight token stats when useful)
-   - Apply root `AGENTS.md` (optional `SOUL.md`, `heartbeat.md`, skill descriptions)
+   - Apply root `AGENTS.md` (`SOUL.md` voice, `heartbeat.md`, skill descriptions)
    - Check relevant workflow documents if applicable
 
 2. **Acknowledge Understanding**
@@ -234,24 +232,22 @@ If using:
 - [ ] Review `rules-of-engagement.md`
 - [ ] Read and apply `ai-collaboration/mcp-integration.md` (MCP selection, token discipline, session bootstrap when the user only asks for standard prep)
 - [ ] Read root `AGENTS.md` when present (Cursor/Windsurf; may restate startup pointers—still load for project-specific agent rules)
-- [ ] If present, read `ai-collaboration/SOUL.md` (tone/boundaries only)
+- [ ] Read `ai-collaboration/SOUL.md` (identity / default voice)
 - [ ] If present, run `ai-collaboration/heartbeat.md` (short patrol, not a daemon)
 - [ ] Scan `skills/*/SKILL.md` YAML descriptions; load matching skill bodies only
 - [ ] If present, treat `ai-collaboration/high-risk-actions.md` as the approval policy for deploys and privileged commands
+- [ ] If `canvases/` exists and live boards are missing after clone, restore (`./canvases/restore-to-cursor.sh`)
 - [ ] Check relevant workflow documents if applicable
 - [ ] **Check Queue Status** (if using queue system):
   - [ ] Check "Currently Pending Items" section in `queue/master-queue.md`
   - [ ] Verify queue statistics match actual pending items
   - [ ] List ALL pending items (High/Medium/Low priority)
   - [ ] Note any discrepancies found
-- [ ] **Check Git Status**:
-  - [ ] Run `git status` to check repository state
-  - [ ] **Explicitly check for untracked files**
-  - [ ] Note any uncommitted changes
-  - [ ] Identify files that may need attention
-- [ ] **Submodule Status Check** (if using submodules):
-  - [ ] Run `git submodule status`
-  - [ ] Refresh only if updates are required for the current session
+- [ ] **Repo status** (skip if this folder is not a git work tree):
+  - [ ] Git root, `git status -sb` (untracked included)
+  - [ ] Fetch default remote if one exists; report ahead/behind/diverged vs upstream
+  - [ ] Do **not** commit, pull, or push unless asked
+  - [ ] Submodules: `git submodule status` only; do not update unless needed
 - [ ] Acknowledge understanding of context
 - [ ] Confirm session objectives
 - [ ] Ask clarifying questions if needed
@@ -259,7 +255,7 @@ If using:
 - [ ] **Provide Comprehensive Summary**:
   - [ ] Include all pending items found
   - [ ] Note any discrepancies or issues discovered
-  - [ ] Mention untracked files or uncommitted changes
+  - [ ] Mention untracked files, uncommitted changes, and ahead/behind vs upstream
   - [ ] Note any blockers or dependencies
 
 ---
@@ -484,7 +480,7 @@ AI assistants should follow this pattern at session start:
    Summary of current state:
    - Pending queue items: [list all pending items]
    - Queue statistics: [verify accuracy]
-   - Git status: [untracked files, uncommitted changes]
+   - Git status: [untracked files, uncommitted changes, ahead/behind vs upstream]
    - Discrepancies found: [any issues discovered]
    ```
 
